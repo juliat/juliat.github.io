@@ -1,0 +1,18 @@
+---
+title: Home
+---
+
+<h1>Hi, I'm Julia!</h1>
+
+<% @item.children.each do |item| %>
+	<article>
+		<header>
+			<h3><a href="<%= item.identifier %>"><%= item.attributes[:tags] %></a></h3>
+		</header>
+		<p><%= 'item.attributes[:byline]' %></p>
+		<hr />
+	</article>
+
+<% end %>  
+
+</div>

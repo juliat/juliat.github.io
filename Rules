@@ -13,8 +13,17 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/stylesheet/' do
+
+compile '/assets/*/' do
   # don’t filter or layout
+end
+
+route '/assets/css/*/' do
+   item.identifier.chop + '.less'
+end
+
+route '/assets/js/*/' do
+  item.identifier.chop + '.js'
 end
 
 compile '*' do
@@ -23,12 +32,10 @@ compile '*' do
   else
     filter :erb
     layout 'default'
+    filter :relativize_paths, :type => :html
   end
 end
 
-route '/stylesheet/' do
-  '/style.css'
-end
 
 route '*' do
   if item.binary?

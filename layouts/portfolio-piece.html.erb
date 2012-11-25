@@ -1,0 +1,11 @@
+<%= render 'head' %>
+<%= render 'top' %>
+
+<h1><%= item.attributes[:title] %></h1>
+<img src="<%= item.attributes[:image]%>"/>
+
+<% images = item.attributes[:images] %>
+
+<%= yield %>
+
+<%= render 'bottom' %>

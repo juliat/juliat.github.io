@@ -1,30 +1,18 @@
-<body>
-
-<header id="header" class="container clearfix">
-
-	<a href="index.html" id="logo">
-		<img src="{{ASSET_PATH}}/img/logo.png" alt="Julia Teitelbaum Logo">
-	</a>
-
-	<nav id="main-nav">
-		
-		<ul>
-			<li {% if page.url == "/index.html" %} class="current" {% endif %}>
-				<a href="/index.html">Portfolio</a>
-			</li>
-			<li {% if page.url == "/resume.html" %} class="current" {% endif %}>
-				<a href="/resume.html">Resume</a>
-			</li>
-			<li {% if page.url == "/about.html" %} class="current" {% endif %}>
-				<a href="/about.html">About</a>
-			</li>
-			<li>
-				<a href="mailto:juliat@cmu.edu?Subject=GitHub Pages Website Response">Contact</a>
-			</li>
-		</ul>
-
-	</nav><!-- end #main-nav -->
-	
-</header><!-- end #header -->
-
-<section id="content" class="container clearfix">
+  <body>
+  	<a href="#main" id="skip-nav">Skip Navigation</a>
+  	<div id="page-header">
+		<% nav_items = ["home", "about", "resume", "contact", "other work"] %>
+		<div id="nav">
+			<% for item in nav_items %>
+				<% 
+				itemhref = 'portfolio/'
+				unless (item == "home")
+					itemhref = item + '/'
+				end
+				%>
+				<li><a href="/<%= itemhref.gsub(/ /,'-') %>"><%= item.capitalize %></a></li>
+			<% end %>
+		</div>
+		<div id="logo"><img src="/assets/images/logo.png" alt="My Logo" id="logo-img"/></div>
+	</div>
+	<a name="main"></a>

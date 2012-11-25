@@ -1,38 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title><%= @item[:title] %> | Julia Teitelbaum</title>
-    <link rel="stylesheet/less" type="text/css" href="/assets/css/styles.less">
-	<script src="/assets/js/less.js" type="text/javascript"></script>
-	<script src="/assets/js/app.js" type="text/javascript"></script>
-    <!-- you don't need to keep this, but it's cool for stats! -->
-    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
-  </head>
-  <body>
-  	<a href="#main" id="skip-nav">Skip Navigation</a>
-  	<div id="page-header">
-		<% nav_items = ["home", "about", "resume", "contact"] %>
-		<div id="nav">
-			<% for item in nav_items %>
-				<% 
-				itemhref = 'portfolio/'
-				unless (item == "home")
-					itemhref = item + '/'
-				end
-				%>
-				<li><a href="/<%= itemhref %>"><%= item.capitalize %></a></li>
-			<% end %>
-		</div>
-		<div id="logo"><img src="/assets/images/logo.png" alt="My Logo" id="logo-img"/></div>
-	</div>
-	<a name="main"></a>
+<%= render 'head' %>
+<%= render 'top' %>
+
     <div id="main">
       <%= yield %>
     </div>
-	<div id="footer">
-		<p>Hi</p>
-	</div>
-  </body>
-</html>
 
+<%= render 'bottom' %>

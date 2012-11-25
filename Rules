@@ -19,7 +19,7 @@ compile '/assets/*/' do
 end
 
 route '/assets/css/*/' do
-   item.identifier.chop + '.less'
+   item.identifier.chop + '.css'
 end
 
 route '/assets/js/*/' do

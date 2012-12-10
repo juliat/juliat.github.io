@@ -6,7 +6,7 @@ title: Home
 
 <h2>Here's some of my best work:</h2>
 <% @item.children.each do |item| %>
-	<article>
+	<article class="homepage-portfolio-item">
 		<header>
 			<h3><a href="<%= item.identifier %>"><%= item.attributes[:title] %></a></h3>
 		</header>

@@ -1,8 +1,10 @@
   <body>
   	<a href="#main" id="skip-nav">Skip Navigation</a>
   	<div id="page-header">
-		<% nav_items = ["home", "about", "resume", "contact", "archive"] %>
+		<a href="/portfolio/" id="logo"><img src="/assets/images/logo.png" alt="My Logo" id="logo-img"/></a>
+		<% nav_items = ["portfolio", "about", "resume", "other work"] %>
 		<div id="nav">
+			<ul>
 			<% for item in nav_items %>
 				<% 
 				itemhref = 'portfolio/'
@@ -12,7 +14,8 @@
 				%>
 				<li><a href="/<%= itemhref.gsub(/ /,'-') %>"><%= item.capitalize %></a></li>
 			<% end %>
+		</ul>
 		</div>
-		<div id="logo"><img src="/assets/images/logo.png" alt="My Logo" id="logo-img"/></div>
 	</div>
 	<a name="main"></a>
+	<div id='maincontent'>

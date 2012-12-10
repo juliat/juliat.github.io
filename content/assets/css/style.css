@@ -1,3 +1,39 @@
+#skip-nav {
+	visibility: hidden;
+	height: 0;
+}
+
 body img {
 	max-width: 100%;
+}
+
+body > div, body > article {
+	width: 940px;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logo, #nav {
+	display: inline-block;
+}
+
+#logo {
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+#main-content {
+	clear:both;
+}
+
+.homepage-portfolio-item {
+	margin: 2em 0;
 }

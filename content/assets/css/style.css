@@ -13,22 +13,20 @@ body > div, body > article {
 }
 
 body {
-	font-size: 1em;
-	line-height: 1.4;
+	font-size: 1.05em;
+	line-height: 1.7;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url('/assets/images/debut_light.png');
+	background-color: #f8f8f8;
 }
 
 #page-header {
 	height: 5em;
+	border-bottom: 1px solid #EFEFEF;
 }
 
 #page-wrapper {
 	background-color: #ffffff;
 	width: 76%;
-	box-shadow: 0px 0px 5px #CDCDCD;
-	-webkit-box-shadow: 0px 0px 5px #CDCDCD;
-	-moz-box-shadow: 0px 0px 5px #CDCDCD;
 	margin-top: 0.5em;
 	padding: 4% 7%;
 }
@@ -52,8 +50,14 @@ body {
 
 #main-content {
 	clear:both;
+	padding-top: 2em;
 }
 
 .homepage-portfolio-item {
 	margin: 2em 0;
+}
+
+article{
+	max-width: 41em;
+	margin: 0 auto;
 }

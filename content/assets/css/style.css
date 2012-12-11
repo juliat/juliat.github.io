@@ -1,6 +1,7 @@
 #skip-nav {
 	visibility: hidden;
-	height: 0;
+	height: 0px;
+	position: absolute;
 }
 
 body img {
@@ -8,7 +9,6 @@ body img {
 }
 
 body > div, body > article {
-	width: 940px;
 	margin: 0 auto;
 }
 
@@ -16,6 +16,21 @@ body {
 	font-size: 1em;
 	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif;
+	background-image: url('/assets/images/debut_light.png');
+}
+
+#page-header {
+	height: 5em;
+}
+
+#page-wrapper {
+	background-color: #ffffff;
+	width: 76%;
+	box-shadow: 0px 0px 5px #CDCDCD;
+	-webkit-box-shadow: 0px 0px 5px #CDCDCD;
+	-moz-box-shadow: 0px 0px 5px #CDCDCD;
+	margin-top: 0.5em;
+	padding: 4% 7%;
 }
 
 #logo, #nav {
@@ -28,6 +43,11 @@ body {
 
 #nav {
 	float: right;
+}
+
+#nav li {
+	display:inline;
+	margin-left: 1em;
 }
 
 #main-content {

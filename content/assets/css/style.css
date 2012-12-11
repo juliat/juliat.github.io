@@ -61,3 +61,10 @@ article{
 	max-width: 41em;
 	margin: 0 auto;
 }
+
+.bulleted {
+	list-style-type: circle;
+	margin-left: 3em;
+	font-size: 0.9em;
+	max-width: 40em;
+}

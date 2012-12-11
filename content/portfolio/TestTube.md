@@ -8,13 +8,13 @@ tools : [HTML & CSS]
 image : /assets/images/testtube/final-prototype.png
 images : [/assets/images/testtube/final-prototype.png, /assets/images/testtube/brainstorming.jpg, /assets/images/testtube/storyboard.jpg, /assets/images/testtube/paper-prototype.jpg]
 kind: article
+description: Working with two other students, I designed and prototyped a web application which allows researchers to make their research more accessible to the general public.
+teammates: ['Abhinav Gupta', 'Anuj Kumar']
 ---
 
 <article>
 	<section id="intro">
 		<h3>Overview</h3>
-		<p class="description">
-Working in a team with two other students in Human-Computer Interaction, I designed and prototyped a web application which allows researchers to make their research more accessible to the general public.</p>
 		<ol>
 			<li>needfinding: interviews and online research to find out about transparence and research</li>
 			<li>ideation: required 100s of ideas, worked with teammates, affinity diagrammed</li>
@@ -25,16 +25,27 @@ Working in a team with two other students in Human-Computer Interaction, I desig
 	<p><a class="button large" href="../assets/pdf/TestTubeFinalPresentation.pdf">Final Presentation</a></p>
 	</section>
 	<section>
-		<h3>Ideation</h3>
+		<h3>Ideation: Thoroughly Exploring the Solution Space</h3>
 		<h4>The Starting Point</h4>
-		<p>Based on stakeholder interviews and social media research, my team generated five opportunity statements to spark design ideas. Our final design idea was based off these two opportunity statements:
-		<ul>
+		<p>My team generated five opportunity statements to spark design ideas based on stakeholder interviews and social media researchOur final design idea was based off these two opportunity statements:
+		<ul class="bulleted">
 			<li>How can we help tax payers <strong>trust</strong> that their tax money is being spent right?</li>
 			<li>How can we <strong>convey meaningful information</strong> to the tax payer about how their money is being spent, on issues that matter to them?</li>
 		</ul>
 		<h4><em>Hundreds</em> of ideas</h4>
-		<p>Since this project was part of a course on the Creative Process, idea generation was a focus. My team was required to generate at least one hundred ideas. Research shows that generating ideas individually before having a group brainstorming session can increase the quantity and variety of ideas produced. So, each group member came up with fifty ideas (ten per problem statement).</p>
-		<img src="/assets/images/testtube/brainstorming.jpg" alt="Affinity diagram of team ideas"/>
-		<p>Once we had those ideas, we met, explained them to one another while writing them on sticky notes, then created an affinity diagram of the ideas</p>
+		<img src="/assets/images/testtube/stickies.jpg" alt="Ideas on Sticky Notes on Whiteboard"/>
+		<p>The team needed to generate at least one hundred ideas. Research shows that generating ideas individually prior to a group brainstorming session can increase the quantity and variety of ideas produced. Each of us came up with fifty ideas (ten per problem statement) on our own.</p>
+		<h5>CrowdSourcing</h4>
+		<p>Additionally, we created a survey on Amazon's Mechanical Turk to crowdsource extra ideas. Once we gathered responses on from Mechanical Turk workers, we filtered and rated submissions. Then we met, shared ideas, and put them up on the wall.</p>
+		<img src="/assets/images/testtube/brainstorming.jpg" alt = "Affinity Diagram of Sticky Notes"/>
+		<p>Next, we created an affinity diagram to group similar ideas and uncover larger themes.</p>
 
+		<h3>Idea Selection</h3>
+		<h4>Impact versus Difficulty to Implement</h4>
+		<img src="/assets/images/testtube/impact-implementation.jpg" alt="Impact vs. Implementation Matrix"/>
+		<h4>Ideo-Style Voting</h4>
+		<h4>Storyboards</h4>
+		<h4>'Speed Dating' with Mindswarms</h4>
+		
 
+.

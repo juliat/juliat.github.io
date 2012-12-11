@@ -2,6 +2,7 @@
 <%= render 'top' %>
 
 <h1><%= item.attributes[:title] %></h1>
+<h2 class="subtitle"><%= item.attributes[:description] %></h2>
 <img src="<%= item.attributes[:image]%>"/>
 
 <% images = item.attributes[:images] %>

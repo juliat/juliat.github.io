@@ -8,7 +8,7 @@ tools : [PHP, HTML, CSS]
 image : /assets/images/nightnight/3.jpg
 images : [/assets/images/nightnight/1.jpg, /assets/images/nightnight/2.jpg, /assets/images/nightnight/3.jpg]
 kind: article
-description: I designed and developed mobile-friendly bedtime calculator website.
+description: Bedtime calculators tell you the best time to wake up at, based on the average length of human sleep cycles. I designed and developed mobile-friendly bedtime calculator website.
 ---
 
 <p class="description">

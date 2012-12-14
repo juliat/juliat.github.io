@@ -11,7 +11,9 @@ layout: default
 		</header>
 			<p><%= item.attributes[:description] %> </p>
 		</div>
-		<img src="<%= item.attributes[:image] %>"/>
+		<a href="<%= item.identifier %>">
+			<img src="<%= item.attributes[:image] %>"/>
+		</a>
 	</article>
 
 <% end %>  

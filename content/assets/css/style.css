@@ -41,6 +41,7 @@ body {
 
 #nav {
 	float: right;
+	margin-top: 1.6em;
 }
 
 #nav li {
@@ -104,4 +105,34 @@ article{
 	margin-left: 3em;
 	font-size: 0.9em;
 	max-width: 40em;
+}
+
+/* make responsive transitions smooth with css animations */
+#page-wrapper, img { 
+    transition:all .6s linear; 
+    -o-transition:all .6s linear; 
+    -moz-transition:all .6s linear; 
+    -webkit-transition:all .6s linear;
+}
+
+
+@media screen and (max-width: 1193px
+) 
+{
+	#page-wrapper {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 850px) 
+{
+	#page-wrapper {
+		width: 98%;
+	}
+}
+
+@media screen and (max-width: 759px) {
+	#nav {
+		display: block;
+	}
 }

@@ -27,7 +27,6 @@ body {
 #page-wrapper {
 	background-color: #ffffff;
 	width: 76%;
-	margin-top: 0.5em;
 	padding: 4% 7%;
 }
 
@@ -46,7 +45,7 @@ body {
 
 #nav li {
 	display:inline;
-	margin-left: 1em;
+	margin-left: 1.5em;
 }
 
 #main-content {
@@ -89,10 +88,12 @@ body {
 
 a {
     text-decoration: none;
+    color: #F15A23;
 }
 
 a:hover {
     background-color: #efefef;
+    color: #F15A23;
 }
 
 article{

@@ -131,8 +131,39 @@ article{
 	}
 }
 
+
 @media screen and (max-width: 789px) {
 	#nav {
 		display: block;
+	    width: 100%
 	}
+	.item-description {
+		font-size: 0.9em;
+	}
+	.homepage-portfolio-item img {
+	    width: 40%
+    }
+    .item-description {
+        width: 60%
+    }
+}
+
+@media screen and (max-width: 700px) {
+	.homepage-portfolio-item img {
+		width: 100%;
+	}
+	.item-description {
+		width: 100%;
+	
+		padding-left: 0;
+}
+	.item-description p {
+        margin-bottom: 1em;
+ }
+ #nav ul li{
+     margin: 0;
+     padding: 0 0 0 0.75em;
+     font-size: 0.9em;
+
+ }
 }

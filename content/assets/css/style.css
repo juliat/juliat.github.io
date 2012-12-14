@@ -36,6 +36,7 @@ body {
 
 #logo {
 	float: left;
+	border-bottom: none;
 }
 
 #nav {
@@ -88,12 +89,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #F15A23;
+    border-bottom: 1px solid #F15A23;
 }
 
 a:hover {
     background-color: #efefef;
-    color: #F15A23;
+    color: #1023A4;
+    border-bottom: 2px solid #F15A23;
 }
 
 article{

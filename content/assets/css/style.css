@@ -89,13 +89,10 @@ body {
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid #F15A23;
 }
 
 a:hover {
     background-color: #efefef;
-    color: #1023A4;
-    border-bottom: 2px solid #F15A23;
 }
 
 article{
@@ -127,14 +124,14 @@ article{
 	}
 }
 
-@media screen and (max-width: 850px) 
+@media screen and (max-width: 913px) 
 {
 	#page-wrapper {
 		width: 98%;
 	}
 }
 
-@media screen and (max-width: 759px) {
+@media screen and (max-width: 789px) {
 	#nav {
 		display: block;
 	}

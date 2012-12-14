@@ -8,6 +8,7 @@ tools : [HTML & CSS, Wordpress]
 image : /assets/images/is-website/homepage.jpg
 images : [/assets/images/is-website/homepage.jpg, /assets/images/is-website/ia-stickies.jpg, /assets/images/is-website/nav.jpg, /assets/images/is-website/projects.jpg, /assets/images/is-website/project-detail.jpg, /assets/images/is-website/project.jpg, /assets/images/is-website/team.jpg, /assets/images/is-website/events-detail.jpg]
 kind: article
+description: My team and I redesigned Carnegie Mellon's Information Systems Department website, and implemented the new design in a Wordpress theme.
 ---
 
 <p class="description">

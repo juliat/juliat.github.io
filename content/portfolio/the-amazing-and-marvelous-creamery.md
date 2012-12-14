@@ -11,10 +11,11 @@ images : [/assets/images/creamery/admindash.png, /assets/images/creamery/employe
 /assets/images/creamery/sketch5.png,
 /assets/images/creamery/sketch6.png]
 kind: article
+description: I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores. 
 ---
 
 <p class="description">
-As a project for my course Application Design and Development, I developed a management system for a fictional chain of ice cream stores: the Amazing and Marvelous Creamery. 
+I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores. 
 </p>
 <p class="description">
 I designed the database and wrote the back-end code in Ruby on Rails. I also designed the UX for the front end, including dashboards for each type of user: Administrator, Manager, and Employee.

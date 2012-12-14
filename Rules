@@ -26,7 +26,7 @@ route '/assets/js/*/' do
   item.identifier.chop + '.js'
 end
 
-compile '/portfolio/*' do
+compile '/portfolio/*/' do
   filter :erb
   layout 'portfolio-piece'
   filter :relativize_paths, :type => :html

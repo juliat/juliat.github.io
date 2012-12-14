@@ -7,6 +7,7 @@ tags : [User Research/Contextual Inquiry, Prototyping, UI Design, Ruby on Rails 
 image : /assets/images/mybinder/curric.png
 images : [/assets/images/mybinder/curric.png, /assets/images/mybinder/topic.png, /assets/images/mybinder/unit.png]
 kind: article
+description: myBinder is a curriculum sharing and management app. I worked with administrators and teachers at Pittsburgh Public Schools to understand how putting the high school physics curriculum online might better support teachers' and administrators' work.
 ---
 
 <p class="description">

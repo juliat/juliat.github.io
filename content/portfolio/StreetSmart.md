@@ -4,10 +4,11 @@ created_at: 2012-06-15
 layout: post
 category : [UX Design, Mobile App Design]
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
-image : /assets/images/streetsmart/cover.png
+image : /assets/images/streetsmart/welcome-slide.png
 images : [/assets/images/streetsmart/cover.png, /assets/images/streetsmart/street-exp.png, /assets/images/streetsmart/welcome.png, 
 /assets/images/streetsmart/location.png]
 kind: article
+description: StreetSmart is an app that helps you know what streets are safe to walk on at different times of day. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
 ---
 <p class="description">
 StreetSmart is an mobile app that uses crime data to show you what streets nearby are safe to walk on. I pitched the idea for the app to my teammates because I had recently moved to New York City and worried about which places were safe to walk. 

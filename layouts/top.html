@@ -12,8 +12,9 @@
 				unless (item == "home")
 					itemhref = item + '/'
 				end
+				capitalized_item = item.split(" ").each{|word| word.capitalize!}.join(" ");
 				%>
-				<li><a href="/<%= itemhref.gsub(/ /,'-') %>"><%= item.capitalize %></a></li>
+				<li><a href="/<%= itemhref.gsub(/ /,'-') %>"><%= capitalized_item %></a></li>
 			<% end %>
 		</ul>
 		</div>

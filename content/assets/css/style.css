@@ -14,7 +14,7 @@ body > div, body > article {
 
 body {
 	font-size: 1.05em;
-	line-height: 1.7;
+	line-height: 1.6;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f8f8f8;
 	background-image: url('../images/45degreee_fabric.png');
@@ -53,6 +53,12 @@ body {
 #main-content {
 	clear:both;
 	padding-top: 2em;
+}
+
+.case-study {
+	padding: 1em 10%;
+	border-top: 1px solid #efefef;
+	margin-top: 2em;
 }
 
 .homepage-portfolio-item {
@@ -124,12 +130,18 @@ article{
 	#page-wrapper {
 		width: 90%;
 	}
+	.case-study {
+		padding: 1em 8%;
+	}
 }
 
 @media screen and (max-width: 913px) 
 {
 	#page-wrapper {
 		width: 98%;
+	}
+	.case-study {
+		padding: 1em 3%;
 	}
 }
 
@@ -170,5 +182,8 @@ article{
  }
  #main-content {
  	font-size: 0.9em;
+ }
+ .case-study {
+ 	padding: 1em 0;
  }
 }

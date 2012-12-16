@@ -123,6 +123,13 @@ article{
     -webkit-transition:all .6s linear;
 }
 
+h2 + h3 {
+	margin-top: 0.5em;
+}
+
+h3 {
+	padding-bottom: 0.25em;
+}
 
 @media screen and (max-width: 1193px
 ) 
@@ -160,6 +167,12 @@ article{
     }
     .item-description {
         width: 60%
+    }
+    h2 {
+    	font-size: 1.8em;
+    }
+    h3 {
+    	font-size: 1.33em;
     }
 }
 

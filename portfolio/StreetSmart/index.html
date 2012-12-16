@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>StreetSmart | Julia Teitelbaum</title>
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,600,300,800,700,400italic%7CPT+Serif:400,400italic">
+<link rel="stylesheet" type="text/css" href="../../assets/css/base.css">
+<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+<!--<script src="/assets/js/less.js" type="text/javascript"></script> --><script src="../../assets/js/app.js" type="text/javascript"></script><!-- you don't need to keep this, but it's cool for stats! --><meta name="generator" content="nanoc 3.4.2">
+</head>
+<body>
+  	<a href="#main" id="skip-nav">Skip Navigation</a>
+  	<div id="page-wrapper">
+  	<div id="page-header">
+		<a href="../" id="logo"><img src="../../assets/images/logo.png" alt="My Logo" id="logo-img"></a>
+		
+		<div id="nav">
+			<ul>
+<li><a href="../">Portfolio</a></li>
+			
+				
+				<li><a href="../../about/">About</a></li>
+			
+				
+				<li><a href="../../resume/">Resume</a></li>
+			
+				
+				<li><a href="../../other-work/">Other Work</a></li>
+			
+		</ul>
+</div>
+	</div>
+	<a name="main"></a>
+	<div id="main-content">
+
+<h1>StreetSmart</h1>
+<h2 class="subtitle">StreetSmart is an app that helps you know what streets are safe to walk on at different times of day. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.</h2>
+<img src="../../assets/images/streetsmart/welcome-slide.png"><div class="case-study">
+<h2 id="introducing-team-dont-get-mugged">Introducing Team ‘Don’t Get Mugged’</h2>
+
+<p>In June 2012, I competed in the Hack ‘n Jill hackathon (my first hackathon). I worked with Angel Fleinhardt Martinez, <a href="http://marc-howard.net/">Marc Howard</a>, <a href="http://www.miriammelnick.com/home.shtml">Miriam Melnick</a> and <a href="http://zerply.com/missykayko/">Missy Kayko</a> at AppNexus. Our app, StreetSmart, won first place.</p>
+
+<p><img src="../../assets/images/streetsmart/team.jpg" alt="My team. From left to right, Missy, Angel, Me (Julia), Miriam, and Marc"></p>
+
+<h2 id="what-should-we-build">What Should We Build?</h2>
+
+<p>The first challenge of the hackathon was deciding what to build. After forming our team at the hackathon kickoff event, we took a team trip to Shake Shack and talked about ideas. </p>
+
+<p>We had four main criteria as we were picking ideas:</p>
+
+<ul>
+<li>
+<strong>Value</strong>: How useful and cool would this be?</li>
+  <li>
+<strong>Scope</strong>: Can we do this in the amount of time we have (basically 12 hours)?</li>
+  <li>
+<strong>Skills</strong>: What skills do we have? Do we know enough to have a chance at doing this?</li>
+  <li>
+<strong>Learning</strong>: The team agreed we were mostly in this for fun and to learn. So, we also considered whether a project would let each of us learn interesting new things.</li>
+</ul>
+<p>Sticky notes that sync across computers, extensions for google calendar—we considered many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I was always worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that’s where the idea for the app “Don’t Get Mugged” (later renamed to StreetSmart), began.</p>
+
+<p>StreetSmart won out over our other ideas because we thought it would be the most valuable, in scope, and a good fit for the team’s skills and interests.</p>
+
+<h2 id="whats-essential-and-whats-extra">What’s Essential and What’s Extra?</h2>
+
+<p>At the beginning of the day and throughout, the team thought of great ideas to extend the app. It could have walking directions, or show you safe places to stop, etc. To keep things doable, we made a quick list of essentials vs. extras. </p>
+
+<p>Essentials were basic:</p>
+
+<ul>
+<li>Crime data on a map</li>
+  <li>Geolocation (a map of what’s near me)</li>
+</ul>
+<p>Extras were cool, but probably not getting done during our day-long hackathon:</p>
+
+<ul>
+<li>Walking directions</li>
+  <li>User-submitted crime data</li>
+  <li>Location of police officers</li>
+  <li>Locations of safe places to stop</li>
+  <li>Better street-safety algorithms including things like lighting</li>
+</ul>
+<p>Paring down the app to the bare minimum but holding onto our cool ideas for later allowed us to focus on getting the bare minimum working.</p>
+
+<h2 id="user-experience-and-user-interface">User Experience and User Interface</h2>
+
+<p>StreetSmart’s UX is to the point. The app geolocates users or asks them for their location (if it can’t retrieve it automatically), then displays a map of nearby streets, which are color coded for their safety based on crime data from <a href="http://www.spotcrime.com">SpotCrime</a>. </p>
+
+<p>To design how StreetSmart’s would work at the interface level, Missy and I, sketched out each screen of the app on a whiteboard, and drew arrows and notes to show how they went together.</p>
+
+<p><img src="../../assets/images/streetsmart/ux-whiteboard-sketch-2.jpg" alt="UX Sketches on Whiteboard"></p>
+
+<p>Because the core purpose of our app is to provide information about what streets are safe to walk on, the most important decision about our user interface was how to present crime data on a map. To decide how our app should display crime data, we looked at how other apps displayed data on streetmaps (like traffic apps) and considered how we thought people would be using our app.</p>
+
+<p>We decided to present crime data by color coding the relative safety of streets as follows (based on data about nearby, recent crimes):</p>
+
+<ul>
+<li>red: dangerous/risky</li>
+  <li>yellow: probably OK</li>
+  <li>green: pretty safe</li>
+</ul>
+<p>We decided to present the data by overlaying the streets primarily because we believed that it would be the most useful and usable way to present the data. Color coding streets as red/yellow/green works with people’s existing association for those colors (from stoplights) and makes the map more skimmable (versus, for example, showing each recent crime incident as a point on the map.)</p>
+
+<p><img src="../../assets/images/streetsmart/mocks.jpg" alt="Higher fidelity mockups"></p>
+
+<p>We also decided to make higher fidelity mockups since we had so few screens. The digital mockups helped the whole team get a more accurate idea of what our app would look like. They also made it easier for everyone to contribute to the front-end code.</p>
+
+<h2 id="design">Design</h2>
+
+<h3 id="name">Name</h3>
+
+<p>We started out calling our app “Don’t Get Mugged”. Though memorable, the name had a few problems, including its length. To come up with a new name, we had a quick group brainstorming break, thinking of words that had to do with streets and roads and making better decisions. We ended up with StreetSmart (after a quick google search to make sure the name wasn’t taken.) We kept “Don’t Get Mugged” as our tagline.</p>
+
+<h3 id="branding-and-ui-visuals">Branding and UI Visuals</h3>
+
+<p><img src="../../assets/images/streetsmart/cover.png" alt="'Cover' slide for StreetSmart"></p>
+
+<p>One goal for the visual design was to give stylistic hints about the function of the app. We (the designers on the team) picked Kabel Heavy for our logotype because the shape of the characters was similar to the way roads look on a map (for example, the shapes of the ‘s’ looks like a curvey road, and the ‘e’ could be a traffic circle with some imagination.)</p>
+
+<p>The visual design for our app interface was minimal and functional. We used a serif font and relatively muted colors to make our app more serious (as it provides important safety information). </p>
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<p>The architecture for our app had several main components:</p>
+
+<ul>
+<li>
+<strong>Data Source</strong>: We researched various sources of crime data and ended up using the <a href="http://spotcrime.com/about.php">SpotCrime</a> API to get data about crimes within a given radius of a location.</li>
+  <li>
+<strong>Server</strong>: When the server receives a user’s coordinates, it queries the SpotCrime database, then processes the crime data to compute safety ratings for each street. Miriam wrote a python web service to coordinate communication between the server and client.</li>
+  <li>
+<strong>Front-End</strong>: We implemented the front end of our application using responsive HTML &amp; CSS. We used <a href="http://hpneo.github.com/gmaps/">gmaps.js</a> to display our map and data.</li>
+</ul>
+<p><img src="../../assets/images/streetsmart/to-do-list.jpg" alt="Implementation To-Do List"></p>
+
+<h3 id="challenges">Challenges</h3>
+<p>We ran into many technical challenges while implementing the app.</p>
+
+<p>The biggest challenge for our team was trying to learn and use the <a href="http://www.appcelerator.com/platform/titanium-sdk/">Titanium SDK</a>. The SDK simplifies the process of creating cross-platform apps. We tried to use it for a few hours, but after running into several stubborn problems, and given our very limited time (&lt;12 hours), we scrapped it and made a mobile website instead.</p>
+
+<p>The other challenge we dealt with was integrating all the components of our application. Our app included the SpotCrime API, our own server, a webservice, our website, Temboo’s geolocation API, and the Google Maps API. We spent hours trying to get all the pieces to work together properly. Since Miriam and I had the most experience working with both backend and front-end web code, we worked together to debug interactions between our app’s components.</p>
+
+</div>
+	</div> <!-- end maincontent div -->
+</div>
+<!-- end page-wrapper div -->
+	<div id="footer">
+		<p>Look a footer.</p>
+	</div>
+  </body>
+</html>

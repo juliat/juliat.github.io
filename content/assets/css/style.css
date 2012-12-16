@@ -47,7 +47,7 @@ body {
 
 #nav li {
 	display:inline;
-	margin-left: 1.5em;
+	margin-right: 1.5em;
 }
 
 #main-content {
@@ -101,11 +101,12 @@ article{
 	margin: 0 auto;
 }
 
-.bulleted {
+#main-content ul, .bulleted {
 	list-style-type: circle;
 	margin-left: 3em;
 	font-size: 0.9em;
 	max-width: 40em;
+	margin-bottom: 1em;
 }
 
 /* make responsive transitions smooth with css animations */
@@ -136,7 +137,8 @@ article{
 @media screen and (max-width: 789px) {
 	#nav {
 		display: block;
-	    width: 100%
+	    width: 100%;
+	    margin-bottom: 1px solid #efefef;
 	}
 	.item-description {
 		font-size: 0.9em;

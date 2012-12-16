@@ -1,23 +1,82 @@
 ---
 title: StreetSmart
 created_at: 2012-06-15
-layout: post
 category : [UX Design, Mobile App Design]
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/streetsmart/welcome-slide.png
 images : [/assets/images/streetsmart/cover.png, /assets/images/streetsmart/street-exp.png, /assets/images/streetsmart/welcome.png, 
 /assets/images/streetsmart/location.png]
-kind: article
 description: StreetSmart is an app that helps you know what streets are safe to walk on at different times of day. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
 ---
-<p class="description">
-StreetSmart is an mobile app that uses crime data to show you what streets nearby are safe to walk on. I pitched the idea for the app to my teammates because I had recently moved to New York City and worried about which places were safe to walk. 
-</p>
-<p class="description">
-The app geolocates users or asks them for their location, then displays a map of nearby streets, which are color coded for their safety based on crime data from <a href="http://www.spotcrime.com">SpotCrime</a>.
-</p>
-<p class="description">
-At the <a href="http://hacknjill.com/">Hack'n Jill Hackathon</a> in June 2012, I worked with four other designers and developers to design and prototype the app StreetSmart in a day.
-</p>
 
-<p><a class = "button large" href="/assets/pdf/StreeetSmart-Presentation.pdf">Our Presentation Slides</a></p>
+## Context
+
+In June 2012, I competed in the Hack 'n Jill hackathon (my first hackathon). I worked with Angel Fleinhardt Martinez, [Marc Howard](http://marc-howard.net/), [Miriam Melnick](http://www.miriammelnick.com/home.shtml) and [Missy Kayko](http://zerply.com/missykayko/) at AppNexus.
+
+![My team. From left to right, Missy, Angel, Me (Julia), Miriam, and Marc](/assets/images/streetsmart/team.jpg)
+
+## What Should We Build?
+
+The first challenge of the hackathon was deciding what to build. After forming our team at the hackathon kickoff event, we took a team trip to Shake Shack and talked about ideas. 
+
+We had four main criteria as we were picking ideas:
+
+- **Value**: How useful and cool would this be?
+- **Scope**: Can we do this in the amount of time we have (basically 12 hours)?
+- **Skills**: What skills do we have? Do we know enough to have a chance at doing this?
+- **Learning**: The team agreed we were mostly in this for fun and to learn. So, we also considered whether a project would let each of us learn interesting new things.
+
+Sticky notes that sync across computers, extensions for google calendar&mdash;we considered around many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I was always worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that's where the idea for the app "Don't Get Mugged" (later renamed to StreetSmart), began.
+
+StreetSmart won out over our other ideas because we thought it would be the most valuable, in scope, and a good fit for the team's skills and interests.
+
+## What's Essential and What's Extra?
+
+At the beginning of the day and throughout, the team thought of great ideas to extend the app. It could have walking directions, or show you safe places to stop, etc. To keep things doable, we made a quick list of essentials vs. extras. 
+
+Essentials were basic:
+
+- Crime data on a map
+- Geolocation (a map of what's near me)
+
+Extras were cool, but probably not getting done during our day-long hackathon:
+
+- Walking directions
+- User-submitted crime data
+- Location of police officers
+- Locations of safe places to stop
+- Better street-safety algorithms including things like lighting
+
+Paring down the app to the bare minimum but holding onto our cool ideas for later allowed us to focus on getting the bare minimum working.
+
+## User Experience and UI
+
+We knew we wanted to build an app that would help you know what streets were safe to walk on. To design how it would work at a lower level, we ended up going low-tech. I and Missy (the other designer), sketched out each screen of the app on a whiteboard, and drew arrows and notes to show how they went together. Since StreetSmart is such a small app, we really were only sketching the geolocation screen and map display screen.
+
+Because the core purpose of our app is to provide information about what streets are safe to walk on, the most important decision about our user interface was how to present crime data on a map. To decide how our app should display crime data, we looked at how other apps displayed data on streetmaps (like traffic apps) and considered how we thought people would be using our app.
+
+
+
+Our 'user experience' design was, well, rapid. But on a tight schedule, whiteboard drawings were enough to go on. 
+
+![Higher fidelity mockups](/assets/images/streetsmart/mocks.jpg)
+
+We also decided to make higher fidelity mockups since we had so few screens. The digital mockups helped the whole team get a more accurate idea of what our app would look like. They also made it easier for everyone to contribute to the front-end code.
+
+## Branding
+
+### Name
+
+We started out calling our app "Don't Get Mugged". Though memorable, the name had a few problems, including its length. To come up with a new name, we had a quick group brainstorming break, thinking of words that had to do with streets and roads and making better decisions. We ended up with StreetSmart (after a quick google search to make sure the name wasn't taken.) We kept "Don't Get Mugged" as our tagline.
+
+### Visual Design
+
+!['Cover' slide for StreetSmart](/assets/images/streetsmart/cover.png)
+
+One goals for the visual design was to give stylistic hints about the function of the app. We picked Kabel Heavy for our logo type because the shape of the characters was similar to the way roads look from a bird's eye view.
+
+
+
+
+
+

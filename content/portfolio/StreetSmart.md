@@ -24,7 +24,7 @@ We had four main criteria as we were picking ideas:
 - **Skills**: What skills do we have? Do we know enough to have a chance at doing this?
 - **Learning**: The team agreed we were mostly in this for fun and to learn. So, we also considered whether a project would let each of us learn interesting new things.
 
-Sticky notes that sync across computers, extensions for google calendar&mdash;we considered many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I was always worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that's where the idea for the app "Don't Get Mugged" (later renamed to StreetSmart), began.
+Sticky notes that sync across computers, extensions for Google Calendar&mdash;we considered many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I was always worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that's where the idea for the app "Don't Get Mugged" (later renamed to StreetSmart), began.
 
 StreetSmart won out over our other ideas because we thought it would be the most valuable, in scope, and a good fit for the team's skills and interests.
 
@@ -67,7 +67,7 @@ We decided to present the data by overlaying the streets primarily because we be
 
 ![Higher fidelity mockups](/assets/images/streetsmart/mocks.jpg)
 
-We also decided to make higher fidelity mockups since we had so few screens. The digital mockups helped the whole team get a more accurate idea of what our app would look like. They also made it easier for everyone to contribute to the front-end code.
+We also decided to make higher fidelity mockups since we had so few screens. The digital mockups helped the whole team get a more accurate idea of what our app would look like. They also made it easier for different people to tag-team working on the front-end code.
 
 ## Design
 
@@ -94,7 +94,6 @@ The architecture for our app had several main components:
 ![Implementation To-Do List](/assets/images/streetsmart/to-do-list.jpg)
 
 ### Challenges
-We ran into many technical challenges while implementing the app.
 
 The biggest challenge for our team was trying to learn and use the [Titanium SDK](http://www.appcelerator.com/platform/titanium-sdk/). The SDK simplifies the process of creating cross-platform apps. We tried to use it for a few hours, but after running into several stubborn problems, and given our very limited time (<12 hours), we scrapped it and made a mobile website instead.
 

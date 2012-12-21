@@ -1,5 +1,5 @@
 ---
-title: Night Night Bedtime Calculator
+title: night night Bedtime Calculator
 created_at: 2011-09-01
 layout: post
 category : [UX Design]
@@ -29,8 +29,9 @@ As I looked at the code, I was disappointed to see that it also used inline styl
 
 ### Making nightnight accessible and responsive
 
-I implemented nightnight using HTML, CSS, and PHP. Following the principle of progressive enhancement, I wanted to make the site work without javascript first, then found that javascript really wouldn't enhance the site much.
+I implemented night night using HTML, CSS, and PHP. Following the principle of progressive enhancement, I did not initally incorporate javascript into the site. I later used it to detect users' timezones to adjust calculations for wakeup times.
 
+You can see [the code behind night night on github](https://github.com/juliat/nightnight).
 
 ## So Bright! It Burns!
 
@@ -40,5 +41,5 @@ The last problem I had with sleepyti.me had to do with its visual design. It has
 
 ![The screen in nightnight that tells you when to wake up.](/assets/images/nightnight/wakeuptimes.jpg)
 
-So, when I designed nightnight, I made the background a dark blue/black, with off white text. It makes the site easy to look at in the dark (not too bright), and recalls the night sky. I chose 'Nunito' as the font for nightnight because its rounded and bold strokes made it legible on a dark background and gentle-feeling. Similarly, I used the handwritten typeface 'Annie Use Your Telescope' for the logotype to add to the app's soothing feeling.
+So, when I designed night night, I made the background a dark blue/black, with off white text. It makes the site easy to look at in the dark (not too bright), and recalls the night sky. I chose 'Nunito' as the font for nightnight because its rounded and bold strokes made it legible on a dark background and gentle-feeling. Similarly, I used the handwritten typeface 'Annie Use Your Telescope' for the logotype to add to the app's soothing feeling.
 

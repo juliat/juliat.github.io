@@ -6,6 +6,8 @@
 
 body img {
 	max-width: 100%;
+	border: 1px solid #efefef;
+	padding: 0.75em;
 }
 
 body > div, body > article {
@@ -96,10 +98,11 @@ body {
 
 a {
     text-decoration: none;
+    background-color: #efefef;
 }
 
 a:hover {
-    background-color: #efefef;
+    background-color: #eee;
 }
 
 article{

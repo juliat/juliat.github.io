@@ -30,7 +30,7 @@ body {
 #page-wrapper {
 	background-color: #ffffff;
 	width: 76%;
-	padding: 4% 7%;
+	padding: 4% 10%;
 }
 
 #logo, #nav {
@@ -40,6 +40,11 @@ body {
 #logo {
 	float: left;
 	border-bottom: none;
+	background-color: transparent;
+}
+
+#logo img {
+	border: none;
 }
 
 #nav {
@@ -52,15 +57,18 @@ body {
 	margin-right: 1.5em;
 }
 
+#nav li a, .item-description h3 a {
+	background-color: transparent;
+}
+
 #main-content {
 	clear:both;
 	padding-top: 2em;
 }
 
 .case-study {
-	padding: 1em 10%;
-	border-top: 1px solid #efefef;
-	margin-top: 2em;
+	padding: 1em 18%;
+	border-top: 0.5em solid black;
 }
 
 .homepage-portfolio-item {
@@ -82,6 +90,8 @@ body {
     float: left;
     width: 43%;
     height: auto;
+    padding: 0;
+    border: none;
 }
     
 
@@ -132,6 +142,14 @@ h2 + h3 {
 
 h3 {
 	padding-bottom: 0.25em;
+	color: #aaa;
+}
+
+h1.more-proj {
+	margin-top: 2em;
+	font-size: 1em;
+	text-align: right;
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 1193px
@@ -141,7 +159,7 @@ h3 {
 		width: 90%;
 	}
 	.case-study {
-		padding: 1em 8%;
+		padding: 1em 20%;
 	}
 }
 
@@ -149,7 +167,9 @@ h3 {
 {
 	#page-wrapper {
 		width: 98%;
-	}
+	
+		padding: 4% 16%;
+}
 	.case-study {
 		padding: 1em 3%;
 	}
@@ -202,4 +222,13 @@ h3 {
  .case-study {
  	padding: 1em 0;
  }
+ #page-wrapper {
+ 	padding: 4% 13%;
+ }
+}
+
+@media screen and (max-width: 500px) {
+	#page-wrapper {
+		padding: 4% 8%;
+	}
 }

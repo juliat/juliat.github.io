@@ -4,9 +4,8 @@ created_at: 2012-06-15
 category : [UX Design, Mobile App Design]
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/streetsmart/welcome-slide.png
-description: StreetSmart is an app that helps you know what streets are safe to walk on at different times of day. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
+description: StreetSmart is an app that helps you know what streets are safe to travel. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
 ---
-
 ## Introducing Team 'Don't Get Mugged'
 
 In June 2012, I competed in the Hack 'n Jill hackathon (my first hackathon). I worked with Angel Fleinhardt Martinez, [Marc Howard](http://marc-howard.net/), [Miriam Melnick](http://www.miriammelnick.com/home.shtml) and [Missy Kayko](http://zerply.com/missykayko/) at AppNexus. Our app, StreetSmart, won first place.
@@ -24,15 +23,15 @@ We had four main criteria as we were picking ideas:
 - **Skills**: What skills do we have? Do we know enough to have a chance at doing this?
 - **Learning**: The team agreed we were mostly in this for fun and to learn. So, we also considered whether a project would let each of us learn interesting new things.
 
-Sticky notes that sync across computers, extensions for Google Calendar&mdash;we considered many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I was always worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that's where the idea for the app "Don't Get Mugged" (later renamed to StreetSmart), began.
+Sticky notes that sync across computers, extensions for Google Calendar&mdash;we considered many ideas. StreetSmart came up when I explained how, having just moved to Manhattan for the summer, I worried about what streets were safe to walk on (especially at night), and how I wished there were an app that could tell me that. And that's where the idea for our app began.
 
-StreetSmart won out over our other ideas because we thought it would be the most valuable, in scope, and a good fit for the team's skills and interests.
+We chose StreetSmart over our other ideas because we thought it would be the most valuable, in scope, and a good fit for the team's skills and interests.
 
 ## What's Essential and What's Extra?
 
 At the beginning of the day and throughout, the team thought of great ideas to extend the app. It could have walking directions, or show you safe places to stop, etc. To keep things doable, we made a quick list of essentials vs. extras. 
 
-Essentials were basic:
+Essentials:
 
 - Crime data on a map
 - Geolocation (a map of what's near me)
@@ -69,13 +68,13 @@ We decided to present the data by overlaying the streets primarily because we be
 
 We also decided to make higher fidelity mockups since we had so few screens. The digital mockups helped the whole team get a more accurate idea of what our app would look like. They also made it easier for different people to tag-team working on the front-end code.
 
-## Design
+## Branding and Design
 
 ### Name
 
-We started out calling our app "Don't Get Mugged". Though memorable, the name had a few problems, including its length. To come up with a new name, we had a quick group brainstorming break, thinking of words that had to do with streets and roads and making better decisions. We ended up with StreetSmart (after a quick google search to make sure the name wasn't taken.) We kept "Don't Get Mugged" as our tagline.
+We started out calling our app "Don't Get Mugged". Though memorable, the name had a few problems, including its length. To come up with a new name, we had a quick group brainstorming break, thinking of words that had to do with streets and roads and making better decisions. We ended up with StreetSmart (after a quick google search to make sure the name wasn't taken.) We kept "Don't Get Mugged" as our (still memorable) tagline.
 
-### Branding and UI Visuals
+### Visuals
 
 !['Cover' slide for StreetSmart](/assets/images/streetsmart/cover.png)
 

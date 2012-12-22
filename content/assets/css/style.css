@@ -182,6 +182,11 @@ h1.more-proj {
 	    width: 100%;
 	    margin-bottom: 1px solid #efefef;
 	}
+	#logo {
+		margin: 0 auto;
+		float: none;
+		display: inline-block;
+	}
 	.item-description {
 		font-size: 0.9em;
 	}
@@ -207,24 +212,24 @@ h1.more-proj {
 		width: 100%;
 	
 		padding-left: 0;
-}
+	}
 	.item-description p {
         margin-bottom: 1em;
- }
- #nav ul li{
-     margin: 0;
-     padding: 0 0 0 0.75em;
-     font-size: 0.9em;
- }
- #main-content {
- 	font-size: 0.9em;
- }
- .case-study {
- 	padding: 1em 0;
- }
- #page-wrapper {
- 	padding: 4% 13%;
- }
+	 }
+	 #nav ul li{
+	     margin: 0;
+	     padding: 0 0 0 0.75em;
+	     font-size: 0.9em;
+	 }
+	 #main-content {
+	 	font-size: 0.9em;
+	 }
+	 .case-study {
+	 	padding: 1em 0;
+	 }
+	 #page-wrapper {
+	 	padding: 4% 13%;
+	 }
 }
 
 @media screen and (max-width: 500px) {

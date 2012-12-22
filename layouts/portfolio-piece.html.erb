@@ -2,12 +2,15 @@
 <%= render 'top' %>
 
 <h1><%= item.attributes[:title] %></h1>
-<h2 class="subtitle"><%= item.attributes[:description] %></h2>
+<p class="subtitle"><%= item.attributes[:description] %></p>
 <img src="<%= item.attributes[:image]%>"/>
 
 <% images = item.attributes[:images] %>
 <h1 class="more-proj">More About This Project</h1>
-<div class="case-study">
-<%= yield %>
+<div id="more-proj-content" class="group">
+	<div id="toc"></div>
+	<div class="case-study">
+	<%= yield %>
+	</div>
 </div>
 <%= render 'bottom' %>

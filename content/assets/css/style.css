@@ -66,9 +66,10 @@ body {
 	padding-top: 2em;
 }
 
-.case-study {
-	padding: 1em 18%;
+#more-proj-content {
+	padding: 1em 0%;
 	border-top: 0.5em solid black;
+	position: relative;
 }
 
 .homepage-portfolio-item {
@@ -151,6 +152,22 @@ h1.more-proj {
 	text-align: right;
 	text-transform: uppercase;
 }
+#toc {
+	width: 27%;
+	margin-right: 3%;
+	display: inline-block;
+	float: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 1em;
+  width: 27%;
+}
+.case-study {
+    width: 69.5%;
+    float: right;
+}
 
 @media screen and (max-width: 1193px
 ) 
@@ -158,7 +175,7 @@ h1.more-proj {
 	#page-wrapper {
 		width: 90%;
 	}
-	.case-study {
+	#more-proj-content {
 		padding: 1em 20%;
 	}
 }
@@ -170,7 +187,7 @@ h1.more-proj {
 	
 		padding: 4% 16%;
 }
-	.case-study {
+	#more-proj-content {
 		padding: 1em 3%;
 	}
 }
@@ -224,7 +241,7 @@ h1.more-proj {
 	 #main-content {
 	 	font-size: 0.9em;
 	 }
-	 .case-study {
+	 #more-proj-content {
 	 	padding: 1em 0;
 	 }
 	 #page-wrapper {

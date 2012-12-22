@@ -1,6 +1,7 @@
 ---
 title: StreetSmart
 created_at: 2012-06-15
+number: 1
 category : [UX Design, Mobile App Design]
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/streetsmart/welcome-slide.png

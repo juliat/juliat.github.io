@@ -2,8 +2,11 @@
 title: Portfolio
 layout: default
 ---
-
-<% @item.children.each do |item| %>
+<% children = @item.children  
+   children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
+%>
+   
+<% children.each do |item| %>
 	<article class="homepage-portfolio-item group">
 		<div class="item-description">
 			<header>

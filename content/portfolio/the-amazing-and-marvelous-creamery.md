@@ -1,5 +1,6 @@
 ---
 title: The Amazing and Marvelous Creamery
+number : 5
 created_at: 2012-05-01
 category : [UX Design, Web App Development]
 tags : [UX Design, Database Design, Web App Development, Visual Design]

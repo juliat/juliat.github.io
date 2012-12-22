@@ -1,14 +1,13 @@
 ---
 title: ChemCollective Website
+number : 2
 created_at: 2012-03-18
-layout: post
 category : [UX Design]
 tags : [UX Design,  Information Architecture, Web Design, Front-End Web Development, Back-End Web Development]
 tools : [HTML & CSS]
 image : /assets/images/chemcoll-site/2.jpg
-images : [/assets/images/chemcoll-site/1.jpg, /assets/images/chemcoll-site/2.jpg, /assets/images/chemcoll-site/3.jpg, /assets/images/chemcoll-site/4.jpg]
-kind: article
 description: I redesigned the ChemCollective's logo and website, and reengineered the backend of the site to use an MVC web framework.
+link: http://chemcollective.org
 ---
 
 I created new information

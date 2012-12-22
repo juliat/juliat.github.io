@@ -1,14 +1,13 @@
 ---
 title: ScottyLabs
+number : 6
 created_at: 2012-08-01
-layout: post
 category : [Web Design, Logo Design]
 tags : [Logo Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/scottylabs/big-homepage.png
-images : [/assets/images/scottylabs/big-homepage.png, /assets/images/scottylabs/projects-page.png, /assets/images/scottylabs/events-smaller.png, 
-/assets/images/scottylabs/responsive-partners.png, /assets/images/scottylabs/scottylabs-logo.png]
-kind: article
 description: I designed and developed the website for ScottyLabs,  technical resource group for students that promotes innovation in practical ways.
+link : http://www.scottylabs.org
+code : https://github.com/ScottyLabs/ScottyLabs-Website
 ---
 
 <p class="description">

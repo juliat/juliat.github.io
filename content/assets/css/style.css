@@ -20,6 +20,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f8f8f8;
 	background-image: url('../images/45degreee_fabric.png');
+	background-attachment: fixed;
 }
 
 #page-header {
@@ -153,16 +154,30 @@ h1.more-proj {
 	text-transform: uppercase;
 }
 #toc {
-	width: 27%;
+	width: 24%;
 	margin-right: 3%;
 	display: inline-block;
 	float: left;
+	margin-top: 2.5em;
+	border-right: 1px solid #444;
+	padding: 1em;
+}
+
+#toc ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+#toc ul li a {
+    background-color: #fefefe;
+    color: #111;
+    font-size: 0.9em;
 }
 
 .sticky {
   position: fixed;
-  top: 1em;
-  width: 27%;
+  top: 0;
+  max-width: 11.5em;
 }
 .case-study {
     width: 69.5%;

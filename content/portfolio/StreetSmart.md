@@ -5,7 +5,7 @@ number: 1
 category : [UX Design, Mobile App Design]
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/streetsmart/welcome-slide.png
-description: StreetSmart is an app that helps you know what streets are safe to travel. My team and I designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
+description: StreetSmart is an app that helps you know what streets are safe to travel. My team designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.
 ---
 ## Introducing Team 'Don't Get Mugged'
 
@@ -98,3 +98,7 @@ The architecture for our app had several main components:
 The biggest challenge for our team was trying to learn and use the [Titanium SDK](http://www.appcelerator.com/platform/titanium-sdk/). The SDK simplifies the process of creating cross-platform apps. We tried to use it for a few hours, but after running into several stubborn problems, and given our very limited time (<12 hours), we scrapped it and made a mobile website instead.
 
 The other challenge we dealt with was integrating all the components of our application. Our app included the SpotCrime API, our own server, a webservice, our website, Temboo's geolocation API, and the Google Maps API. We spent hours trying to get all the pieces to work together properly. Since Miriam and I had the most experience working with both backend and front-end web code, we worked together to debug interactions between our app's components.
+
+### Ongoing Development
+
+

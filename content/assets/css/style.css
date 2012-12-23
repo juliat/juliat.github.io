@@ -31,7 +31,7 @@ body {
 #page-wrapper {
 	background-color: #ffffff;
 	width: 76%;
-	padding: 4% 10%;
+	padding: 4% 7%;
 }
 
 #logo, #nav {
@@ -154,13 +154,13 @@ h1.more-proj {
 	text-transform: uppercase;
 }
 #toc {
-	width: 24%;
+	width: 13em;
 	margin-right: 3%;
 	display: inline-block;
 	float: left;
 	margin-top: 2.5em;
-	border-right: 1px solid #444;
-	padding: 1em;
+	border-right: 1px solid #8D8D8D;
+	padding: 0;
 }
 
 #toc ul {
@@ -168,43 +168,68 @@ h1.more-proj {
     margin-left: 0;
 }
 
+#toc > ul > li {
+	padding: 0.25em 1.25em;
+}
+
+#toc .sub-header li {
+	padding: 0 1.5em;
+}
+
 #toc ul li a {
-    background-color: #fefefe;
+    background-color: transparent;
     color: #111;
     font-size: 0.9em;
+}
+
+#toc .item.active {
+	background-color: #efefef;
+	font-weight: bold;
+	border-right: 4px solid #8D8D8D;
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  max-width: 11.5em;
+  max-width: 12.75em;
+  margin-right: 1em;
 }
 .case-study {
-    width: 69.5%;
+    width: 69%;
     float: right;
 }
 
-@media screen and (max-width: 1193px
+@media screen and (max-width: 1350px
 ) 
 {
 	#page-wrapper {
 		width: 90%;
 	}
 	#more-proj-content {
-		padding: 1em 20%;
+		padding: 1em 2%;
 	}
 }
 
-@media screen and (max-width: 913px) 
+@media screen and (max-width: 1200px) 
 {
 	#page-wrapper {
 		width: 98%;
 	
-		padding: 4% 16%;
+		padding: 4% 7%;
 }
 	#more-proj-content {
-		padding: 1em 3%;
+		padding: 1em 0;
 	}
+}
+
+@media screen and (max-width: 960px) {
+    #toc {
+        width: 9em;
+    }
+    .sticky {
+        max-width: 9em;
+    }
+
 }
 
 
@@ -250,9 +275,11 @@ h1.more-proj {
 	 }
 	 #nav ul li{
 	     margin: 0;
-	     padding: 0 0 0 0.75em;
+	     padding: 0 1.56em 0 0;
 	     font-size: 0.9em;
-	 }
+	 
+	     margin-right: 0;
+}
 	 #main-content {
 	 	font-size: 0.9em;
 	 }
@@ -260,12 +287,22 @@ h1.more-proj {
 	 	padding: 1em 0;
 	 }
 	 #page-wrapper {
-	 	padding: 4% 13%;
+	 	padding: 4% 5%;
 	 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
 	#page-wrapper {
-		padding: 4% 8%;
+		padding: 4% 6%;
+	}
+	#toc {
+		display: none;
+		visibility: hidden;
+	}
+	.case-study {
+		width: 100%;
+	}
+	#more-proj-content {
+		padding: 0 2%;
 	}
 }

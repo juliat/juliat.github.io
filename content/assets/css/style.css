@@ -8,6 +8,7 @@ body img {
 	max-width: 100%;
 	border: 1px solid #efefef;
 	padding: 0.75em;
+	width: 100%;
 }
 
 body > div, body > article {
@@ -65,6 +66,11 @@ body {
 #main-content {
 	clear:both;
 	padding-top: 2em;
+}
+
+#main-content ol {
+	list-style-type: decimal;
+	margin-left: 3em;
 }
 
 #more-proj-content {

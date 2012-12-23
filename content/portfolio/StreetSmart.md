@@ -101,4 +101,4 @@ The other challenge we dealt with was integrating all the components of our appl
 
 ### Ongoing Development
 
-
+Since the hackathon, the team has not had much time to work on further development of StreetSmart. However, another developer, Anshul Goyal, is currently (as of Winter 2012) developing StreetSmart, ported to the Android platform (with the permission of the original "Don't Get Mugged" team.)

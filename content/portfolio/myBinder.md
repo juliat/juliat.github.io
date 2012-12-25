@@ -4,7 +4,7 @@ number : 4
 created_at: 2012-05-01
 category : [UX Design]
 tags : [User Research/Contextual Inquiry, Prototyping, UI Design, Ruby on Rails Development, Database Design]
-image : /assets/images/mybinder/mybinder-unit.png
+image : /assets/images/mybinder/cover.png
 description: myBinder is a curriculum sharing and management app I created for/with administrators and teachers at Pittsburgh Public Schools. 
 link : http://mybinder.herokuapp.com/courses/1
 code : https://github.com/juliat/mybinder

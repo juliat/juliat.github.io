@@ -6,7 +6,7 @@ category : [UX Design]
 tags : [UX Design, Information Architecture, Web Design, Front-End Web Development]
 tools : [HTML & CSS, Wordpress]
 image : /assets/images/is-website/homepage.png
-description: My team and I redesigned Carnegie Mellon's Information Systems Department website, and implemented the new design in a Wordpress theme.
+description: My team redesigned Carnegie Mellon's Information Systems Department website, and implemented the new design in a Wordpress theme.
 ---
 
 ## Summary
@@ -17,12 +17,20 @@ I also created a new visual identity for the site to create a more modern and pr
 
 ## Designs
 
+### Featuring Student Projects
 ![Gallery of Student Projects](/assets/images/is-website/project-gallery.png)
-![IS Student Profile Page](/assets/images/is-website/student-profile-mockup.png)
 ![Student Project Page](/assets/images/is-website/project-page.png)
+
+### Other Pages
+![IS Student Profile Page](/assets/images/is-website/student-profile-mockup.png)
 ![Events Page](/assets/images/is-website/events-page-mockup.png)
-![Homepage on Mobile](/assets/images/is-website/mobile-site-homepage-mockup.png)
+
+### Navigation
+
 ![Navigation](/assets/images/is-website/nav.jpg)
+
+### Mobile Site
+![Homepage on Mobile](/assets/images/is-website/mobile-site-homepage-mockup.png)
 
 ## Process
 
@@ -31,8 +39,8 @@ I also created a new visual identity for the site to create a more modern and pr
 
 ### What should the site have?
 
-![Messy whiteboard with list of different content/functions](/assets/images/is-website/functional-requirements.jpg)
+![Messy whiteboard with list of different content/functions](/assets/images/is-website/functional-design.jpg)
 
 ### Affinity Diagramming for a New Information Architecture
 
-!(Stickies on a whiteboard, sorted into differents sections for the new site.)[/assets/images/is-website/ia-stickies.jpg]
+![Stickies on a whiteboard, sorted into differents sections for the new site.](/assets/images/is-website/ia-stickies.jpg)

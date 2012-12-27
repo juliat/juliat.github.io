@@ -29,7 +29,7 @@ After contextual interviews with the curriculum specialist and teachers througho
 ![Summary notes on other systems I reviewed.](/assets/images/mybinder/competitive-analysis.png)
 
 
-## Interaction Design & UI Design
+## Interaction & UI Design
 
 ### Participatory Design
 

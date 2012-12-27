@@ -1,9 +1,25 @@
 <%= render 'head' %>
 <%= render 'top' %>
 
-<h1><%= item.attributes[:title] %></h1>
-<p class="subtitle"><%= item.attributes[:description] %></p>
-<img src="<%= item.attributes[:image]%>"/>
+<div class="lead">
+	<div class="item-meta">
+		<h1><%= item.attributes[:title] %></h1>
+		<p class="subtitle"><%= item.attributes[:description] %></p>
+		<% if (item.attributes[:code] || item.attributes[:link]) %>
+			<div class="project-links">
+				<% if (item.attributes[:link]) %>
+					<a href="<%= item.attributes[:link] %>">See It Live</a>
+				<% end %>
+				<% if (item.attributes[:code]) %>
+					<a href="<%= item.attributes[:code] %>">Read the Code</a>
+				<% end %>
+			</div>
+		<% end %>
+	</div>
+	<div class="image">
+		<img src="<%= item.attributes[:image]%>"/>
+	</div>
+</div>
 
 <% images = item.attributes[:images] %>
 <h1 class="more-proj">More About This Project</h1>

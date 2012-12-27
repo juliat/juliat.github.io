@@ -47,7 +47,7 @@ Extras were cool, but probably not getting done during our day-long hackathon:
 
 Paring down the app to the bare minimum but holding onto our cool ideas for later allowed us to focus on getting the bare minimum working.
 
-## Interaction Design & UI Design
+## Interaction & UI Design
 
 StreetSmart is to the point. The app geolocates users or asks them for their location (if it can't retrieve it automatically), then displays a map of nearby streets, which are color coded for their safety based on crime data from <a href="http://www.spotcrime.com">SpotCrime</a>. 
 

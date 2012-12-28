@@ -14,27 +14,20 @@ code : https://github.com/juliat/creameryapp
 
 ### Different Usage Flows for Different Roles
 
-Initial Notes on Workflows for Each User Type:
 ![Initial Notes on Workflows for Each User Type](/assets/images/creamery/initial-notes-on-workflows.jpg)
 
-Detailed notes about an Administrator's most important tasks within the app:
-![More Notes on Administrator Workflow](/assets/images/creamery/3-admin-use-case-flow.png)
+![Notes about an administrator's most important tasks within the app.](/assets/images/creamery/3-admin-use-case-flow.png)
 
-Administrator Workflow to Add a Store:
 ![Administrator Workflow to Add a Store](/assets/images/creamery/3-admin-add-employee-flow.png)
 
 ### Wireframe Sketches
 
-This was a wireframe for the Administrator Dashboard. Different ideas for how to display employees at a glance are below the main wireframe.
-![Wireframe for Administrator Dashboard. Different ideas for how to display employees at a glance are below the main wireframe.](/assets/images/creamery/admin-dash-with-employee-alts.png)
+![Wireframe for Administrator Dashboard. Different ideas for how to display employees are below the main wireframe.](/assets/images/creamery/admin-dash-with-employee-alts.png)
 
-Wireframe for Store Manager Dashboard:
-![Wireframe for Store Manager Dashboard](/assets/images/creamery/manager-dash.png)
+![Wireframe for Store Manager Dashboard, including list of store employees and calendar of shifts for the day. The red box includes the lists of shifts to update (basically approving the records).](/assets/images/creamery/manager-dash.png)
 
-Wireframe for Employee Dashboard:
 ![Wireframe for Employee Dashboard](/assets/images/creamery/employee-dash.png)
 
-Wireframes of Additional App Screens:
 ![Wireframes of Additional App Screens](/assets/images/creamery/3-additional-admin-screens.png)
 
 ### Complete Designs
@@ -43,31 +36,24 @@ You can see [the finished application live on heroku](http://aandmcreamery.herok
 
 Below are a few selected screenshots of the application:
 
-Finalized Administrator Dashboard:
 ![Finalized Administrator Dashboard](/assets/images/creamery/admindash.png)
 
-Store Details Page:
 ![Store Details Page](/assets/images/creamery/storedetails.png)
 
-Employee Details Page:
 ![Employee Details Page](/assets/images/creamery/employeedetails.png)
 
 ## Specification and Implementation
 
 ### Going From Case Narrative to Database Design
 
-Annotated Case Narrative for the Creamery:
 ![Annotated Case Narrative for the Creamery](/assets/images/creamery/1-case-narrative-to-entities.png)
 
-First Draft of Database Design:
 ![ERD First Draft](/assets/images/creamery/1-case-entities-draft.png)
 
 ### More Formal Specifications
 
-Final Version of Database Design:
 ![Final Version of Database Design](/assets/images/creamery/p1-erd.png)
 
-Snippet of Use Cases Document:
 ![Snippet of Use Cases Document](/assets/images/creamery/p1-use-cases-snipped.png)
 
 ### Code

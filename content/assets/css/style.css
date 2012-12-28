@@ -15,14 +15,6 @@ body > div, body > article {
 	margin: 0 auto;
 }
 
-body, html {
-    height: 100%;
-}
-
-#page-wrapper {
-    height: 100%
-}
-
 body {
 	font-size: 1.0em;
 	line-height: 1.6;
@@ -30,7 +22,6 @@ body {
 	background-color: #f8f8f8;
 	background-image: url('../images/45degreee_fabric.png');
 	background-attachment: fixed;
-
 }
 
 #page-header {
@@ -42,7 +33,6 @@ body {
 	background-color: #ffffff;
 	width: 80%;
 	padding: 4% 8%;
-	min-height: 100%;
 }
 
 #logo, #nav {

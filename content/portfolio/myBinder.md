@@ -18,9 +18,9 @@ For this project, I worked with the Science Curriculum Specialist and high schoo
 
 to understand how putting the high school physics curriculum online might better support teachers' and administrators' work.
 
-![](/assets/images/mybinder/focus-questions.png)
-![](/assets/images/mybinder/Pps-interview-notes_Page_2.png)
-![Some notes on paper copy of part of curriculum.](annot-old-curric-doc.JPG)
+![Focus Questions](/assets/images/mybinder/focus-questions.png)
+
+![Some notes on paper copy of part of curriculum.](/assets/images/mybinder/annot-old-curric-doc.jpg)
 
 After contextual interviews with the curriculum specialist and teachers throughout the district, I helped clarify the goals for the curriculum website, like making the curriculum more navigable for teachers and allowing teachers to share their materials remotely and asynchronously.
 
@@ -35,7 +35,7 @@ After contextual interviews with the curriculum specialist and teachers througho
 
 ![Drawing co-created with a teacher.](/assets/images/mybinder/collab-sketch-with-allan-finch.png)
 
-[Annotated Intermediate PDF Mockup](/assets/pdf/mybinder-annotated-intermediate-pdf-mockup.pdf)
+![Annotated Intermediate PDF Mockup](/assets/pdf/mybinder-annotated-intermediate-pdf-mockup.pdf)
 
 ![Annotated Mockups from Dr. Carver](/assets/images/mybinder/an-mu-3.JPG)
 

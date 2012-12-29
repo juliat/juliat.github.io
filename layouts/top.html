@@ -3,7 +3,12 @@
   	<div id="page-wrapper">
   	<div id="page-header">
 		<a href="/portfolio/" id="logo"><img src="/assets/images/logo.png" alt="My Logo" id="logo-img"/></a>
-		<% nav_items = ["portfolio", "about", "resume", "other work"] %>
+		<% nav_items = ["portfolio",  
+						"resume", 
+						"biography"
+						#{ }"other work"
+						] 
+		%>
 		<div id="nav">
 			<ul>
 			<% for item in nav_items %>

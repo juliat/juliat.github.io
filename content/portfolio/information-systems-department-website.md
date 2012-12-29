@@ -23,7 +23,7 @@ I also created a new visual identity for the site to create a more modern and pr
 
 ### Other Pages
 ![IS Student Profile Page](/assets/images/is-website/student-profile-mockup.png)
-![Events Page](/assets/images/is-website/events-page-mockup.png)
+![Department Events Page](/assets/images/is-website/events-page-mockup.png)
 
 ### Navigation
 
@@ -36,8 +36,9 @@ I also created a new visual identity for the site to create a more modern and pr
 
 ![Diagram of our process.](/assets/images/is-website/process.jpg)
 
+The diagram above captures my team's overall process. To begin, we
 
-### What should the site have?
+### Specifying Content and Functionality
 
 ![Messy whiteboard with list of different content/functions](/assets/images/is-website/functional-design.jpg)
 

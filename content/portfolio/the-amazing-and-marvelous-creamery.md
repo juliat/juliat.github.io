@@ -48,7 +48,7 @@ Below are a few selected screenshots of the application:
 
 ![Annotated Case Narrative for the Creamery](/assets/images/creamery/1-case-narrative-to-entities.png)
 
-![ERD First Draft](/assets/images/creamery/1-case-entities-draft.png)
+![First Verstion of Database Design](/assets/images/creamery/1-case-entities-draft.png)
 
 ### More Formal Specifications
 

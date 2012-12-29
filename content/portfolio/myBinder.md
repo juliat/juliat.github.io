@@ -16,43 +16,50 @@ For this project, I worked with the Science Curriculum Specialist and high schoo
 
 ### User Research
 
-to understand how putting the high school physics curriculum online might better support teachers' and administrators' work.
+I conducted contextual interviews with the administrators and teachers for Pittsburgh Public Schools high school physics to understand how putting the high school physics curriculum online might better support teachers' and administrators' work.
 
 ![Focus Questions](/assets/images/mybinder/focus-questions.png)
 
 ![Some notes on paper copy of part of curriculum.](/assets/images/mybinder/annot-old-curric-doc.jpg)
 
-After contextual interviews with the curriculum specialist and teachers throughout the district, I helped clarify the goals for the curriculum website, like making the curriculum more navigable for teachers and allowing teachers to share their materials remotely and asynchronously.
+My research clarified the goals for the curriculum website, including:
+
+- making the curriculum more navigable for teachers 
+- allowing teachers to share their materials remotely and asynchronously
+- allowing administrators to better monitor and support teachers' progress
+- making it possible for non-teachers to create curriculum-aligned activities
 
 ### Buy or Build?
 
-![Summary notes on other systems I reviewed.](/assets/images/mybinder/competitive-analysis.png)
+I and my partners at Pittsburgh Public schools seriously considered using an existing system to publish the curriculum online. The main reason we chose to build a custom app, in the end, was lack of support for sharing a *curriculum* among teachers (rather than lessons).
 
+![Summary notes on other systems I reviewed.](/assets/images/mybinder/competitive-analysis.png)
 
 ## Interaction & UI Design
 
-### Participatory Design
+To design how the app would work, I had a hybrid approach. I sketched how the app might look and function together with teachers (participatory design). Aside from that, I used insights from the user research stage to create mockups based on each user type's priorities.
+
+### Participatory Design Sketch
 
 ![Drawing co-created with a teacher.](/assets/images/mybinder/collab-sketch-with-allan-finch.png)
 
-![Annotated Intermediate PDF Mockup](/assets/pdf/mybinder-annotated-intermediate-pdf-mockup.pdf)
+### Intermediate Mockups
 
-![Annotated Mockups from Dr. Carver](/assets/images/mybinder/an-mu-3.JPG)
+<p>You can see complete, intermediate-stage mockups for the myBinder app with sticky-note annotations if you <a href="/assets/pdf/mybinder-annotated-intermediate-pdf-mockup.pdf" class="button">download this file</a>.</p>
+
+![Annotated Paper Mockups](/assets/images/mybinder/an-mu-3.JPG)
 
 ### From Use Case to Interface
 
-![](/assets/images/mybinder/notes-and-sketch-for-teacher-dash.png)
-![](/assets/images/mybinder/notes-on-admin-dash.png)
-![Notes about how curriculum was in past (on paper).](/assets/images/mybinder/snippet-of-notes-from-interview-with-allan-finch.png)
+![Notes on Administrator Priorities](/assets/images/mybinder/notes-on-admin-dash.png)
+
+![Notes on Teacher Priorities and UI Implications](/assets/images/mybinder/notes-and-sketch-for-teacher-dash.png)
+
+![Notes about past curriculum structure changes (from an interview with a teacher).](/assets/images/mybinder/snippet-of-notes-from-interview-with-allan-finch.png)
 
 
 ## Implementation
 
-![](/assets/images/mybinder/initial-erd-sketch.png)
+![An Initial Sketch of the Database Design for this App](/assets/images/mybinder/initial-erd-sketch.png)
 
-### Parsing Old Curriculum
-
-The focus for this product was the UX design and back-end development, rather than the visual design (which is based on the Twitter Bootstrap framework).
-
-## Current Status
-
+You can read [the code behind the myBinder application on Github](https://github.com/juliat/mybinder).

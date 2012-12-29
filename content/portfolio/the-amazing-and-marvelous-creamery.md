@@ -30,7 +30,7 @@ code : https://github.com/juliat/creameryapp
 
 ![Wireframes of Additional App Screens](/assets/images/creamery/3-additional-admin-screens.png)
 
-### Complete Designs
+## Complete Designs
 
 You can see [the finished application live on heroku](http://aandmcreamery.herokuapp.com/). To see the application as an administrator, login as **alex@example.com**. To see the application as a store manager, login as **rachel@example.com**. To see the application as an employee, login as **dusty@example.com**. The password for all users is **creamery**.
 
@@ -42,7 +42,7 @@ Below are a few selected screenshots of the application:
 
 ![Employee Details Page](/assets/images/creamery/employeedetails.png)
 
-## Specification and Implementation
+## Specification
 
 ### Going From Case Narrative to Database Design
 
@@ -56,6 +56,6 @@ Below are a few selected screenshots of the application:
 
 ![Snippet of Use Cases Document](/assets/images/creamery/p1-use-cases-snipped.png)
 
-### Code
+## Implementation
 
 I implemented this application (as well as tests for it) using Ruby on Rails. You can see [the code behind the A&M Creamery Application on github](https://github.com/juliat/creameryapp).

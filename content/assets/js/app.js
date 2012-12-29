@@ -12,7 +12,7 @@ $(function() {
     }
   });
 
-  $('#main-content img').jcaption({
+  $('.case-study img').jcaption({
 		//Element to wrap the image and caption in
 		wrapperElement: 'div',
 

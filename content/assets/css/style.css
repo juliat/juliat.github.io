@@ -11,6 +11,11 @@ body img {
 	width: 100%;
 }
 
+img + img {
+   margin-top: 1em;
+}
+
+
 body > div, body > article {
 	margin: 0 auto;
 }
@@ -20,19 +25,24 @@ body {
 	line-height: 1.6;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f8f8f8;
-	background-image: url('../images/45degreee_fabric.png');
+	background-image: url('../images/retina_wood.png');
 	background-attachment: fixed;
 }
 
+#page-wrapper, #page-header {
+    width: 80%;
+}
+
 #page-header {
-	height: 5em;
-	border-bottom: 1px solid #EFEFEF;
+	border-bottom: 1px solid #E5e5e5;
+	padding: 0 1em 0 1.2em;
+	background-color: #FAFAFA;
 }
 
 #page-wrapper {
 	background-color: #ffffff;
-	width: 80%;
-	padding: 4% 8%;
+
+	padding: 4% 8% 4% 8%;
 }
 
 #logo, #nav {
@@ -43,6 +53,8 @@ body {
 	float: left;
 	border-bottom: none;
 	background-color: transparent;
+	margin-top: 0.75em;
+	height: auto;
 }
 
 #logo img {
@@ -51,16 +63,22 @@ body {
 
 #nav {
 	float: right;
-	margin-top: 1.6em;
+	text-transform: uppercase;
 }
 
 #nav li {
-	display:inline;
+	display: inline-block;
 	margin-right: 1.5em;
+	padding-top: 3.66em;
+	border-left: 1px solid #E5E5E5;
+	padding-left: 1em;
+	padding-bottom: 0.45em;
 }
 
 #nav li a, .item-description h3 a {
 	background-color: transparent;
+	color: #a1a1a1;
+	font-weight: bold;
 }
 
 .item-description h3 a:hover {
@@ -163,7 +181,7 @@ article{
 }
 
 /* make responsive transitions smooth with css animations */
-#page-wrapper, img { 
+#page-header, #page-wrapper, #nav li, img { 
     transition:all .6s linear; 
     -o-transition:all .6s linear; 
     -moz-transition:all .6s linear; 
@@ -288,7 +306,7 @@ div.caption img {
 @media screen and (max-width: 1350px
 ) 
 {
-	#page-wrapper {
+	#page-wrapper, #page-header {
 		width: 90%;
 	}
 	#more-proj-content {
@@ -298,11 +316,12 @@ div.caption img {
 
 @media screen and (max-width: 1200px) 
 {
-	#page-wrapper {
+	#page-wrapper, #page-header {
 		width: 98%;
-	
+	}
+	#page-wrapper {
 		padding: 4% 7%;
-}
+	}
 	#more-proj-content {
 		padding: 1em 0;
 	}
@@ -320,13 +339,38 @@ div.caption img {
 
 
 @media screen and (max-width: 789px) {
-	#nav {
-		display: block;
-	    width: 100%;
+	#page-header {
+
 	    margin-bottom: 1px solid #efefef;
-	}
+	    padding-left:0;
+	    
+
+	    padding-right: 0;
+
+}
+    #logo {
+        float:none;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    #nav {
+        display: block; 
+        width: 100%;
+
+    
+}
+#nav ul {
+    border-top: 1px solid #E5E5E5;
+    }
+    #nav li {
+        padding-top: 1.75em;
+
+    
+        padding-right: 5em;
+        margin-right: 0;
+}
 	#logo {
-		margin: 0 auto;
+		margin: 1em 35% 0 35%;
 		float: none;
 		display: inline-block;
 	}
@@ -359,22 +403,22 @@ div.caption img {
 	.item-description p {
         margin-bottom: 1em;
 	 }
-	 #nav ul li{
-	     margin: 0;
-	     padding: 0 1.56em 0 0;
-	     font-size: 0.9em;
-	 
-	     margin-right: 0;
-}
-	 #main-content {
-	 	font-size: 0.9em;
-	 }
 	 #more-proj-content {
 	 	padding: 1em 0;
 	 }
 	 #page-wrapper {
 	 	padding: 4% 5%;
 	 }
+	 #nav li {
+	     padding-right: 2em;
+	 
+	     padding-top: 1.5em;
+	     font-size: 0.95em;
+}
+	 #logo {
+        margin: 0.5em 26% 0 26%;
+        padding-bottom: 0
+     }
 }
 
 @media screen and (max-width: 570px) {
@@ -391,4 +435,11 @@ div.caption img {
 	#more-proj-content {
 		padding: 0 2%;
 	}
+	#nav li {
+	    padding-right: 0.65em;
+    
+	    width: auto;
+	    padding-left: 0.5em;
+	    padding-top: 1.25em;
+}
 }

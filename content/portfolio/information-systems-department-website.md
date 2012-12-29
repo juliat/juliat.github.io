@@ -15,14 +15,18 @@ As a project in the course “The Information Systems Milieux”, I led a team o
 
 I also created a new visual identity for the site to create a more modern and professional impression. My team created a beta version of the site using Wordpress, and I implemented the design as a Wordpress theme. The entire project was completed in about a month.
 
-## Designs
+## Design Snapshots
 
 ### Featuring Student Projects
+
 ![Gallery of Student Projects](/assets/images/is-website/project-gallery.png)
+
 ![Student Project Page](/assets/images/is-website/project-page.png)
 
 ### Other Pages
+
 ![IS Student Profile Page](/assets/images/is-website/student-profile-mockup.png)
+
 ![Department Events Page](/assets/images/is-website/events-page-mockup.png)
 
 ### Navigation
@@ -30,17 +34,18 @@ I also created a new visual identity for the site to create a more modern and pr
 ![Navigation](/assets/images/is-website/nav.jpg)
 
 ### Mobile Site
+
 ![Homepage on Mobile](/assets/images/is-website/mobile-site-homepage-mockup.png)
 
-## Process
+## Process Photos
 
-![Diagram of our process.](/assets/images/is-website/process.jpg)
+![Diagram of our process](/assets/images/is-website/process.jpg)
 
 The diagram above captures my team's overall process. To begin, we
 
 ### Specifying Content and Functionality
 
-![Messy whiteboard with list of different content/functions](/assets/images/is-website/functional-design.jpg)
+![Messy whiteboard with list of different content and functionality.](/assets/images/is-website/functional-design.jpg)
 
 ### Affinity Diagramming for a New Information Architecture
 

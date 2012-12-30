@@ -106,32 +106,34 @@ body {
 }
 
 .other-work-links {
-    width: 60%;
-    float: right;
+	width: 50%;
+	float: right;
 }
 
 .other-work-links ul {
 	float: right;
-	min-width: 80%;
+	min-width: 90%;
+	padding-left: 10%;
 }
 
 .other-work-links li {
-    margin-right: 10%; 
-    padding-left: 0.75em;
-    padding-top: 0.66em;
-    display: block;
-    max-width: 10em;
-    float: left;
-    border-left: 1px solid #E5E5E5;
-    height: 5.5em;
+	margin-right: 3%;
+	padding-left: 0.75em;
+	padding-top: 0.66em;
+	display: block;
+	max-width: 10em;
+	float: left;
+	border-left: 1px solid 
+	#E5E5E5;
+	height: 5.5em;
 }
 .other-work-links li:last-child {
     margin-right: 0;
 }
 
 .network-links {
-   float: right;
-   width: 39%;
+	float: right;
+	width: 49%;
 }
 
 .network-links h3 {
@@ -514,9 +516,15 @@ div.caption img {
 	    border-top: 1px solid #E5E5E5;
     }
     #nav li {
-        padding-top: 1.75em;
-        padding-right: 5em;
-        margin-right: 0;
+		padding-top: 1.75em;
+		padding-right: 5em;
+		margin-right: 0;
+		margin-top: 0em;
+		margin-bottom: 0.4em;
+	}
+	#nav li a {
+		padding-top: 1.75em;
+		padding-bottom: 0.5em;
 	}
 	#logo {
 		margin: 1em 35% 0 35%;
@@ -562,6 +570,8 @@ div.caption img {
 		padding-top: 1.5em;
 		font-size: 0.95em;
 	}
+	#nav li a {
+	}
 	 #logo {
         margin: 0.5em 26% 0 26%;
         padding-bottom: 0
@@ -583,9 +593,14 @@ div.caption img {
 		padding: 0 2%;
 	}
 	#nav li {
-	    padding-right: 0.65em;
-	    width: auto;
-	    padding-left: 0.5em;
-	    padding-top: 1.25em;
+		padding-right: 0.65em;
+		width: auto;
+		padding-left: 0;
+		padding-top: 1.25em;
+		margin-left: 0;
+	}
+	#nav li a {
+		margin-left: 0;
+		padding-top: 1.5em;
 	}
 }

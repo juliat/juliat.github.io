@@ -26,7 +26,19 @@ route '/assets/js/*/' do
   item.identifier.chop + '.js'
 end
 
+route '/assets/font/*' do
+end
+
 compile '/portfolio/*/' do
+  filter :erb
+  if (item[:extension] == 'md')
+    filter :kramdown
+  end
+  layout 'portfolio-piece'
+  filter :relativize_paths, :type => :html
+end
+
+compile '/other-work/*/' do
   filter :erb
   if (item[:extension] == 'md')
     filter :kramdown

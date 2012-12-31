@@ -1,8 +1,8 @@
 ---
 title: ChemCollective
 number : 2
-created_at: 2012-03-18
-category : [UX Design]
+category : UX Design
+date: Summer 2011
 tags : [UX Design,  Information Architecture, Web Design, Front-End Web Development, Back-End Web Development]
 tools : [HTML & CSS]
 image : /assets/images/chemcoll/chemcollective-homepage-no-msg.png

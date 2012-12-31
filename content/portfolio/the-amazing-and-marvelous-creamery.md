@@ -1,9 +1,9 @@
 ---
 title: A&M Creamery
 number : 5
-created_at: 2012-05-01
-category : [UX Design, Web App Development]
-tags : [UX Design, Database Design, Web App Development, Visual Design]
+date: Spring 2012
+category : UX Design
+tags : [UX Design, Database Design, Web App Development, Graphic Design]
 image : /assets/images/creamery/admindash.png
 description: I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores. 
 link : http://aandmcreamery.herokuapp.com/

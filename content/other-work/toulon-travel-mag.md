@@ -2,6 +2,8 @@
 title: Travel Magazine Article
 image: /assets/images/toulon/det.jpg
 description: I created four magazine spreads for a feature on the French city of Toulon for an assignment in the class Communication Design Fundamentals. 
+category: print-design
+date: Spring 2011
 ---
 
 ## Spreads

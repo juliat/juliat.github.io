@@ -1,8 +1,7 @@
 ---
 title: night night Bedtime Calculator
 number : 3
-created_at: 2011-09-01
-category : [UX Design]
+category : UX Design
 tags : [UX Design, Web Design, Responsive Web Development]
 tools : [PHP, HTML, CSS]
 image : /assets/images/nightnight/3.jpg

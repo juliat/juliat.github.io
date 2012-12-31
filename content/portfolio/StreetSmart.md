@@ -1,8 +1,8 @@
 ---
 title: StreetSmart
-created_at: 2012-06-15
+date: June 2012
 number: 1
-category : [UX Design, Mobile App Design]
+category : UX Design
 tags : [Ideation, Logo Design, UX Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/streetsmart/welcome-slide.png
 description: StreetSmart is an app that helps you know what streets are safe to travel. My team designed and prototyped StreetSmart in a day at the Hack 'n Jill hackathon.

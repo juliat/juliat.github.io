@@ -1,8 +1,8 @@
 ---
 title: Information Systems Department Website
 number : 8
-created_at: 2011-11-01
-category : [UX Design]
+date: Fall 2011
+category : UX Design
 tags : [UX Design, Information Architecture, Web Design, Front-End Web Development]
 tools : [HTML & CSS, Wordpress]
 image : /assets/images/is-website/homepage.png

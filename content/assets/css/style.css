@@ -218,8 +218,13 @@ body {
 	font-weight: bold;
 }
 
+.item-description h3 a {
+    text-transform:none;
+}
+
 .item-description h3 a:hover {
     text-decoration: underline;
+    color: #333;
 }
 
 #main-content {
@@ -446,6 +451,11 @@ div.caption img {
 	padding: 0.5em 0.5em 2.25em 0.5em;
 }
 
+.about-1, .about-2 {
+	max-width: 42em;
+	margin-left: 2%;
+}
+
 
 @media screen and (max-width: 1350px
 ) 
@@ -579,6 +589,9 @@ div.caption img {
 }
 
 @media screen and (max-width: 570px) {
+	body {
+		font-size: 0.9em;
+	}
 	#page-wrapper {
 		padding: 4% 6%;
 	}
@@ -593,7 +606,7 @@ div.caption img {
 		padding: 0 2%;
 	}
 	#nav li {
-		padding-right: 0.65em;
+		padding-right: 0.5em;
 		width: auto;
 		padding-left: 0;
 		padding-top: 1.25em;
@@ -602,5 +615,6 @@ div.caption img {
 	#nav li a {
 		margin-left: 0;
 		padding-top: 1.5em;
+		padding-right: 0;
 	}
 }

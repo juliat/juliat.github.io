@@ -3,6 +3,7 @@ title: Beatles Posters
 image: /assets/images/beatles/all.png
 description: I created a series of posters for three Beatles' songs that were thematically related by hope.
 date: March 2011
+category: print-design
 ---
 
 ## Posters

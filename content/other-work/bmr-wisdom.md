@@ -2,6 +2,8 @@
 title: BMR Wisdom
 image: /assets/images/bmr/bmr-book-cover-crop.png
 description: I designed a paperback book for an anthology of poems and other traditional readings from Blue Mountain Ranch Youth camp.
+category: print-design
+date: Summer 2011
 ---
 
 ## The Book

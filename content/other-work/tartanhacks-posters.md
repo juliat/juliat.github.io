@@ -2,6 +2,8 @@
 title: TartanHacks Posters
 image: /assets/images/tartanhacks-posters/build-it-iphone.png
 description: I created a poster series to promote Carnegie Mellon University's first student-organized hackathon. The posters were particularly aimed at people who had not previously participated in hackathons.
+category: print-design
+date: Spring 2012
 ---
 
 ## All Posters

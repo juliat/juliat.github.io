@@ -1,8 +1,8 @@
 ---
 title: ScottyLabs
 number : 6
-created_at: 2012-08-01
-category : [Web Design, Logo Design]
+date: Fall 2012
+category : UX Design
 tags : [Logo Design, Responsive Web Design, Front-End Web Development]
 image : /assets/images/scottylabs/big-homepage.png
 description: I designed and developed the website for ScottyLabs,  technical resource group for students that promotes innovation in practical ways.

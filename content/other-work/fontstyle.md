@@ -3,6 +3,8 @@ title: FontStyle
 image: http://24.media.tumblr.com/tumblr_ma9r57gyd71rgyeuuo1_1280.jpg
 description: What would Helvetica wear? I created a blog to help people understand fonts' personalities through clothing.
 link: http://fontstyle.tumblr.com/
+category: other
+date: Fall 2012
 ---
 
 ## The Story

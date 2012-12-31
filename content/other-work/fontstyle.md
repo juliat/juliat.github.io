@@ -11,7 +11,7 @@ I was trying to explain the 'personalities' of typefaces to a non-designer frien
 
 ## A Few Examples
 
-![Helvetica](image: http://24.media.tumblr.com/tumblr_ma9r57gyd71rgyeuuo1_1280.jpg)
+![Helvetica](http://24.media.tumblr.com/tumblr_ma9r57gyd71rgyeuuo1_1280.jpg)
 ![Bodoni](http://25.media.tumblr.com/tumblr_mbuzbfJivd1rgyeuuo1_1280.jpg)
 ![Comic Sans](http://25.media.tumblr.com/tumblr_mb4zpv95yU1rgyeuuo1_r1_1280.jpg)
 

@@ -208,7 +208,7 @@ body {
 
 }
 
-#nav li a:hover, #footer li a:hover {
+#nav li a:hover, #nav .selected, #footer li a:hover {
     color: #333;
 }
 

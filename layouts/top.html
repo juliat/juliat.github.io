@@ -10,15 +10,22 @@
 		%>
 		<div id="nav">
 			<ul>
-			<% for item in nav_items %>
+			<% for nav_item in nav_items %>
 				<% 
 				itemhref = 'portfolio/'
-				unless (item == "home")
-					itemhref = item + '/'
+				unless (nav_item == "home")
+					itemhref = nav_item + '/'
 				end
-				capitalized_item = item.split(" ").each{|word| word.capitalize!}.join(" ");
+				capitalized_item = nav_item.split(" ").each{|word| word.capitalize!}.join(" ");
 				%>
-				<li><a href="/<%= itemhref.gsub(/ /,'-') %>"><%= capitalized_item %></a></li>
+				<li><a href="/<%= itemhref.gsub(/ /,'-') %>" 
+					<% if @item.identifier.downcase == '/' + nav_item + '/' %>
+						class = "selected"
+					<% elsif (@item.identifier == '' && (nav_item == 'portfolio')) %>
+						class = "selected"
+					<% end %>
+				>
+				<%= capitalized_item %></a></li>
 			<% end %>
 		</ul>
 		</div>

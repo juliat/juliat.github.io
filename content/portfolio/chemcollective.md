@@ -249,6 +249,8 @@ The most important changes to the interface in the new design included:
 - removing the top menu bar and tabs to reduce UI clutter (that did not provide access to important functionality)
 - suggesting somewhat more realistic graphics to provide better affordances
 
+![A sketch of a new design for the main work area for the Virtual Lab.](/assets/images/chemcoll/20-vlab-sketch-2.png)
+
 The main work area for the Virtual Lab (shown above) was the focus of my redesign. However, I also created a concept for a new entry sequence and lab selection interface. 
 
 The Virtual Lab has two modes of use. Students will either use it to conduct a lab (programmed into the Virtual Lab) or to manipulate chemicals in an open-ended way. The new entry screen for the Virtual Lab clearly delineates those two usages, and funnels students looking for a lab into the screen which lists all the available labs. (In the current virtual lab, the modes are merged into one, and students find labs through direct links or through multiple menus and modals.)

@@ -106,6 +106,19 @@ Problems solved:
 
 --------------------------------------------
 
+## Projects not included, deliberately
+
+### 371 Restaurant Information System
+
+Basically an exercise in formal documentation of requirements based on a case description.
+
+### HEiD essays
+
+- about the game spent, because I don't think it's that great
+- **Maybe** critique of blackboard's design. (would need to be proofread, but I feel like this is more my voice/would be interesting to read)
+
+--------------------------------------------
+
 ## Projects not yet documented
 
 ### TFA
@@ -140,3 +153,62 @@ Problems solved:
 - research on proportional reasoning
 - game design: looking at cooking games, considering real world
 - implementation: oop, trying to create intelligent feedback
+
+### Sunrise Lamp
+Problems solved:
+
+- learning basic ECE
+- wiring up electric imp
+
+### Green Bean
+Problems solved:
+
+- grocery shopping
+- strategy
+
+### Cardboard Chair
+Problems solved:
+
+- limited materials
+
+### Tea light
+Problems solved:
+
+- matching fuseproject
+
+### iPhone headphone control redesign
+Problems solved:
+
+- industrial design
+
+### Pedal Plan
+Interaction Design Studio
+Problems solved:
+
+- contextual computing
+
+### Coffee Cup
+Interaction Design Studio
+
+- contextual computing
+- unobtrusive
+- enhance coffee shop experience
+
+### Weekviz
+Mapping and Diagramming
+
+- working with APIs
+- online and offline interactions
+
+### Map from home to school
+Mapping and Diagramming
+
+### Exit sign
+Mapping and Diagramming
+
+
+### Project smile signs
+
+### Research - PLEA
+
+

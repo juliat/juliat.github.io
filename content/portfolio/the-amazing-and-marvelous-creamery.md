@@ -6,7 +6,6 @@ category : UX Design
 tags : [UX Design, Database Design, Web App Development, Graphic Design]
 image : /assets/images/creamery/admindash.png
 description: I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores. 
-link : http://aandmcreamery.herokuapp.com/
 code : https://github.com/juliat/creameryapp
 ---
 

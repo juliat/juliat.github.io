@@ -1,5 +1,6 @@
 ---
 title: Weekviz
+number: 9
 image: /assets/images/weekviz/weekviz-print.png
 description: For a Mapping and Diagramming project to document some aspect of a week of my life, I wanted to visualize my online and offline interactions and how they connected. Within two weeks, I developed an application to log my offline interactions, and integrated a few APIs with the Raphael.js library to create a vector-based visualization, which I then tweaked in Adobe Illustrator.
 date: March 2013

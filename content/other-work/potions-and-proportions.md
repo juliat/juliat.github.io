@@ -7,7 +7,6 @@ date: December 2011
 category: game-design
 ---
 
-## Researching Proportional Reasoning
-## Game Design Inspiration
-## Implementation
-### Intelligent Feedback
+## Video Demo
+
+<iframe width="500" height="300" src="//www.youtube.com/embed/QyTT-3MJDwM" frameborder="0" allowfullscreen></iframe>

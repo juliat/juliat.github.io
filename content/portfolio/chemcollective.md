@@ -1,6 +1,6 @@
 ---
 title: ChemCollective
-number : 2
+number : 1
 category : UX Design
 date: Summer 2011
 tags : [UX Design,  Information Architecture, Web Design, Front-End Web Development, Back-End Web Development]

@@ -104,37 +104,6 @@ Problems solved:
 - memorable
 - balancing difference/similarity
 
---------------------------------------------
-
-## Projects not included, deliberately
-
-### 371 Restaurant Information System
-
-Basically an exercise in formal documentation of requirements based on a case description.
-
-### HEiD essays
-
-- about the game spent, because I don't think it's that great
-- **Maybe** critique of blackboard's design. (would need to be proofread, but I feel like this is more my voice/would be interesting to read)
-
---------------------------------------------
-
-## Projects not yet documented
-
-### TFA
-Problems solved:
-
-- online UX research
-- TFAnet
-- some competitive analysis
-
-### Noodle
-Problems solved:
-
-- college visit mobile app: context, what's important, competitive analysis, wireframes, visual design
-- signup process: competitive analysis, wireframing/sketches, prototype
-- ux at noodle: recommended practices
-
 ### Searching Sidebar (from UCRE)
 Problems solved:
 
@@ -160,33 +129,6 @@ Problems solved:
 - learning basic ECE
 - wiring up electric imp
 
-### Green Bean
-Problems solved:
-
-- grocery shopping
-- strategy
-
-### Cardboard Chair
-Problems solved:
-
-- limited materials
-
-### Tea light
-Problems solved:
-
-- matching fuseproject
-
-### iPhone headphone control redesign
-Problems solved:
-
-- industrial design
-
-### Pedal Plan
-Interaction Design Studio
-Problems solved:
-
-- contextual computing
-
 ### Coffee Cup
 Interaction Design Studio
 
@@ -200,6 +142,71 @@ Mapping and Diagramming
 - working with APIs
 - online and offline interactions
 
+
+### Research - PLEA
+
+- beating paper
+
+### Cardboard Chair
+Problems solved:
+
+- limited materials
+
+### Pedal Plan
+Interaction Design Studio
+Problems solved:
+
+- contextual computing
+
+--------------------------------------------
+
+## Projects not included, deliberately
+
+### 371 Restaurant Information System
+
+Basically an exercise in formal documentation of requirements based on a case description.
+
+### HEiD essays
+
+- about the game spent, because I don't think it's that great
+- **Maybe** critique of blackboard's design. (would need to be proofread, but I feel like this is more my voice/would be interesting to read)
+
+--------------------------------------------
+
+## Projects not yet documented
+
+### Crazy for Ewe Logo
+
+### TFA
+Problems solved:
+
+- online UX research
+- TFAnet
+- some competitive analysis
+
+### Noodle
+Problems solved:
+
+- college visit mobile app: context, what's important, competitive analysis, wireframes, visual design
+- signup process: competitive analysis, wireframing/sketches, prototype
+- ux at noodle: recommended practices
+
+### Green Bean
+Problems solved:
+
+- grocery shopping
+- strategy
+
+### Tea light
+Problems solved:
+
+- matching fuseproject
+
+### iPhone headphone control redesign
+Problems solved:
+
+- industrial design
+
 ### Map from home to school
 Mapping and Diagramming
 
@@ -209,6 +216,5 @@ Mapping and Diagramming
 
 ### Project smile signs
 
-### Research - PLEA
 
 

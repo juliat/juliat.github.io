@@ -2,7 +2,7 @@
 title: Other Work
 ---
 <% children = @item.children  
-   children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
+   children = children.sort { |a,b| a.attributes[:title] <=> b.attributes[:title]  }
 %>
    
 <% children.each do |item| %>

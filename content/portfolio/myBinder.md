@@ -1,6 +1,6 @@
 ---
 title: myBinder
-number : 4
+number : 2
 Date: Spring 2012
 category : UX Design
 tags : [User Research/Contextual Inquiry, Prototyping, UI Design, Ruby on Rails Development, Database Design]

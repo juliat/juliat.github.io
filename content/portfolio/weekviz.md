@@ -1,13 +1,23 @@
 ---
-title: Weekviz
-number: 9
+title: Visualizing Cross Media Communications
+number: 3
 image: /assets/images/weekviz/weekviz-print.png
-description: For a Mapping and Diagramming project to document some aspect of a week of my life, I wanted to visualize my online and offline interactions and how they connected. Within two weeks, I developed an application to log my offline interactions, and integrated a few APIs with the Raphael.js library to create a vector-based visualization, which I then tweaked in Adobe Illustrator.
+description: As part of a project to visualize my online and offline interactions, I generated a visualization of email and facebook messages which I sent and recieved over a week.
 date: March 2013
 code: https://github.com/juliat/raphael-weekviz
 category: information-design
 ---
 
-Two week project.
+## Concept
 
-Code for app I built to document in person interactions (built in a night—not beautiful code) https://github.com/juliat/weekviz
+Technology is often criticized for making people less engaged with one another. And to some degree that accusation is accurate; I've been out to dinner with people constantly checking their phones or text messages. Still, technology also gives people the power to connect with one another, and in my own life, I know many of my in-person interactions are enabled or influenced by ones that happen online beforehand. So, for a project to document one week of my life, I wanted to visualize the flow of my interactions with my friends across media: texts, emails, Facebook messages, and in-person encounters.
+
+### Sketches
+
+Forthcoming (need to be scanned.)
+
+## Technical Side
+
+In two weeks, I developed a very basic application to log my offline interactions, and integrated a few APIs with the Raphael.js library to create a vector-based visualization, which I then tweaked in Adobe Illustrator.
+
+Code for app I built to document in person interactions (built in a night&mdash;not beautiful code) https://github.com/juliat/weekviz

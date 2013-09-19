@@ -14,7 +14,9 @@ Technology is often criticized for making people less engaged with one another. 
 
 ### Sketches
 
-Forthcoming (need to be scanned.)
+![Sketches of different diagrams for the data, with notes about pros and cons of each format.](/assets/images/weekviz/sketches1.jpg)
+
+![Sketches to consider different ways to create marks for communications between me and another person.](/assets/images/weekviz/sketches2.jpg)
 
 ## Technical Side
 

@@ -18,6 +18,10 @@ Technology is often criticized for making people less engaged with one another. 
 
 ![Sketches to consider different ways to create marks for communications between me and another person.](/assets/images/weekviz/sketches2.jpg)
 
+After some initial sketches, I focused on two main visual concepts. The first is the one shown in the final above: a plot of communications over time sorted by type. This concept communicates more about how messages sent in one media overlap with or might lead to messages in another.
+
+The second concept focuses on how communications vary for individual relationships, and similarities and differences between how I communicate with different individuals. It shows me and a friend as two nodes, with lines between the two nodes showing each communication (color-coded.)
+
 ## Technical Side
 
 In two weeks, I developed a very basic application to log my offline interactions, and integrated a few APIs with the Raphael.js library to create a vector-based visualization, which I then tweaked in Adobe Illustrator.

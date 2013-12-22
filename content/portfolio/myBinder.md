@@ -5,9 +5,10 @@ Date: Spring 2012
 category : UX Design
 tags : [User Research/Contextual Inquiry, Prototyping, UI Design, Ruby on Rails Development, Database Design]
 image : /assets/images/mybinder/cover.png
-description: myBinder is a curriculum sharing and management app I created for/with administrators and teachers at Pittsburgh Public Schools. 
+description: myBinder is a curriculum sharing and management app I created for/with administrators and teachers at Pittsburgh Public Schools.
 link : http://mybinder.herokuapp.com/courses/1
 code : https://github.com/juliat/mybinder
+kind: portfolio
 ---
 
 ## Clarifying Goals
@@ -24,7 +25,7 @@ I conducted contextual interviews with the administrators and teachers for Pitts
 
 My research clarified the goals for the curriculum website, including:
 
-- making the curriculum more navigable for teachers 
+- making the curriculum more navigable for teachers
 - allowing teachers to share their materials remotely and asynchronously
 - allowing administrators to better monitor and support teachers' progress
 - making it possible for non-teachers to create curriculum-aligned activities

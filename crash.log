@@ -1,84 +1,79 @@
-Crashlog created at 2013-09-11 17:40:36 -0400
+Crashlog created at 2013-12-22 02:33:00 -0700
 
 ===== MESSAGE:
 
-ArgumentError: comparison of Nanoc::Item with Nanoc::Item failed
+NoMethodError: undefined method `+' for nil:NilClass
 
 ===== COMPILATION STACK:
 
-  (empty)
+  - [item]   /other-work/animate/ (rep default)
 
 ===== STACK TRACE:
 
-  0. item /portfolio/ (rep default):2:in `sort'
-  1. item /portfolio/ (rep default):2:in `get_binding'
+  0. lib/helpers/next_previous.rb:17:in `previous_link'
+  1. layout /portfolio-piece/:32:in `get_binding'
   2. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `eval'
   3. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/erb.rb:849:in `result'
-  4. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/filters/erb.rb:34:in `run'
-  5. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
-  6. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
-  7. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
-  8. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
-  9. ./Rules:51:in `block in load'
-  10. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  11. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  12. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  13. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  14. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  15. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  16. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  17. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  18. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:65:in `block in recompile'
-  19. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `chdir'
-  20. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:63:in `recompile'
-  21. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-nanoc-1.0.1/lib/guard/nanoc.rb:28:in `run_on_changes'
-  22. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:99:in `block in run_supervised_task'
-  23. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:97:in `catch'
-  24. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:97:in `run_supervised_task'
-  25. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:144:in `block in run_first_task_found'
-  26. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:142:in `each'
-  27. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:142:in `run_first_task_found'
-  28. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:79:in `block in run_on_changes'
-  29. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:175:in `block (3 levels) in scoped_guards'
-  30. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:173:in `each'
-  31. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:173:in `block (2 levels) in scoped_guards'
-  32. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:172:in `catch'
-  33. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:172:in `block in scoped_guards'
-  34. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:170:in `each'
-  35. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:170:in `scoped_guards'
-  36. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard/runner.rb:72:in `run_on_changes'
-  37. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard.rb:123:in `block (2 levels) in setup_listener'
-  38. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard.rb:387:in `block in within_preserved_state'
-  39. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard.rb:384:in `synchronize'
-  40. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard.rb:384:in `within_preserved_state'
-  41. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib/guard.rb:122:in `block in setup_listener'
-  42. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/listener.rb:252:in `call'
-  43. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/listener.rb:252:in `on_change'
-  44. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/listener.rb:290:in `block in initialize_adapter'
-  45. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `call'
-  46. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/adapter.rb:252:in `report_changes'
-  47. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib/listen/adapter.rb:321:in `poll_changed_directories'
-  ... 50 more lines omitted. See full crash log for details.
+  4. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/filters/erb.rb:34:in `run'
+  5. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:122:in `setup_and_run'
+  6. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/result_data/item_rep.rb:409:in `layout'
+  7. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/item_rep_proxy.rb:69:in `layout'
+  8. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule_context.rb:68:in `layout'
+  9. ./Rules:43:in `block in load'
+  10. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  11. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  12. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
+  13. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
+  14. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
+  15. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
+  16. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  17. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  18. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:395:in `block in run'
+  19. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:436:in `run_listeners_while'
+  20. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:394:in `run'
+  21. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  22. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  23. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  24. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:13:in `call'
+  25. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  26. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  27. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  28. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  29. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  30. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:296:in `call'
+  31. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:296:in `run_this'
+  32. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib/cri/command.rb:249:in `run'
+  33. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli.rb:59:in `block in run'
+  34. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  35. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  36. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/cli.rb:57:in `run'
+  37. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/bin/nanoc:19:in `<top (required)>'
+  38. /Users/julia/.rvm/gems/ruby-2.0.0-p247/bin/nanoc:23:in `load'
+  39. /Users/julia/.rvm/gems/ruby-2.0.0-p247/bin/nanoc:23:in `<main>'
+  40. /Users/julia/.rvm/gems/ruby-2.0.0-p247/bin/ruby_noexec_wrapper:14:in `eval'
+  ... 43 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
-nanoc 3.6.4 © 2007-2013 Denis Defreyne.
+nanoc 3.6.7 © 2007-2013 Denis Defreyne.
 Running ruby 2.0.0 (2013-06-27) on x86_64-darwin12.3.0 with RubyGems 2.0.6.
 
 ===== SYSTEM INFORMATION:
 
-Darwin Julias-MacBook-Air.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 17:57:12 PDT 2013; root:xnu-2050.24.15~1/RELEASE_X86_64 x86_64
+Darwin Julias-MacBook-Air.local 12.5.0 Darwin Kernel Version 12.5.0: Mon Jul 29 16:33:49 PDT 2013; root:xnu-2050.48.11~1/RELEASE_X86_64 x86_64
 
 ===== INSTALLED GEMS:
 
-  actionmailer 3.2.11
+  actionmailer 3.2.11, 4.0.0
   actionpack 3.2.11, 4.0.0
-  activemodel 3.2.11
-  activerecord 3.2.11
+  activemodel 3.2.11, 4.0.0
+  activerecord 3.2.11, 4.0.0
+  activerecord-deprecated_finders 1.0.3
   activeresource 3.2.11
   activesupport 3.2.11, 4.0.0
   addressable 2.3.5
-  arel 3.0.2
+  adsf 1.1.1
+  arel 3.0.2, 4.0.0
   atomic 1.1.14
   bcrypt-ruby 3.0.1, 3.1.2
   builder 3.0.4, 3.1.4
@@ -86,13 +81,19 @@ Darwin Julias-MacBook-Air.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 
   bundler-unload 1.0.1
   cancan 1.6.10
   capybara 2.1.0
+  celluloid 0.15.2
   chronic 0.10.1
+  chunky_png 1.2.9
+  classifier 1.3.3
   coderay 1.0.9
-  coffee-rails 3.2.2
+  coffee-rails 3.2.2, 4.0.0
   coffee-script 2.2.0
   coffee-script-source 1.6.3
+  colorator 0.1
   colored 1.2
+  commander 4.1.5
   commonjs 0.2.7
+  compass 0.12.2
   cri 2.4.0
   cucumber 1.3.6
   cucumber-rails 1.4.0
@@ -102,63 +103,83 @@ Darwin Julias-MacBook-Air.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 
   email_spec 1.5.0
   erubis 2.7.0
   eventmachine 1.0.3
-  execjs 2.0.1
+  execjs 1.4.0, 2.0.1
   factory_girl 4.2.0
   factory_girl_rails 4.2.1
   faker 1.2.0
+  fast-stemmer 1.0.2
   ffi 1.9.0
   formatador 0.2.4
+  fssm 0.2.10
   geokit 1.6.5
   gherkin 2.12.1
   gmaps4rails 1.5.6
   guard 1.8.2
-  guard-nanoc 1.0.1
+  guard-nanoc 1.0.1, 1.0.2
+  haml 4.0.4
+  highline 1.6.20
   hike 1.2.3
   hirb 0.7.1
   i18n 0.6.5
+  jbuilder 1.5.1
+  jekyll 1.3.0
   journey 1.0.4
   jquery-rails 3.0.4
   jquery-ui-rails 4.0.4
   json 1.8.0
+  kgio 2.8.1
   kramdown 1.2.0
   launchy 2.3.0
   less 2.4.0
   less-rails 2.4.0
   libv8 3.11.8.17
-  listen 1.3.1
+  liquid 2.5.3
+  listen 1.3.1, 2.4.0
   lumberjack 1.0.4
-  mail 2.4.4
+  mail 2.4.4, 2.5.4
+  maruku 0.6.1
   metaclass 0.0.1
   method_source 0.8.2
+  middleman-core 3.2.1
+  middleman-sprockets 3.2.0
   mime-types 1.25
   mini_portile 0.5.1
   minitest 2.11.4, 4.7.5
   mocha 0.14.0
-  multi_json 1.7.9
+  multi_json 1.7.9, 1.8.0
   multi_test 0.0.2
-  nanoc 3.6.4
+  nanoc 3.6.4, 3.6.7
   nifty-generators 0.4.6
   nokogiri 1.6.0
-  pg 0.16.0
+  pg 0.16.0, 0.17.0
   polyglot 0.3.3
   populator3 0.2.7
+  posix-spawn 0.3.6
   pry 0.9.12.2
+  pygments.rb 0.5.4
   rack 1.4.5, 1.5.2
   rack-cache 1.2
   rack-ssl 1.3.3
   rack-test 0.6.2
-  rails 3.2.11
-  railties 3.2.11
+  rails 3.2.11, 4.0.0
+  rails_12factor 0.0.2
+  rails_serve_static_assets 0.0.1
+  rails_stdout_logging 0.0.2
+  railties 3.2.11, 4.0.0
+  raindrops 0.12.0
   rake 10.1.0
   rb-fsevent 0.9.3
   rb-inotify 0.9.1
   rb-kqueue 0.2.0
   rdoc 3.12.2
+  redcarpet 2.3.0
   ref 1.0.5
   rubygems-bundler 1.2.2
   rvm 1.11.3.8
+  safe_yaml 0.9.7
   sass 3.2.10
-  sass-rails 3.2.6
+  sass-rails 3.2.6, 4.0.0
+  sdoc 0.3.20
   shoulda 3.5.0
   shoulda-context 1.1.5
   shoulda-matchers 2.3.0
@@ -166,7 +187,12 @@ Darwin Julias-MacBook-Air.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 
   simplecov 0.7.1
   simplecov-html 0.7.1
   slop 3.4.6
-  sprockets 2.2.2
+  sprockets 2.2.2, 2.10.0
+  sprockets-helpers 1.0.1
+  sprockets-rails 2.0.0
+  sprockets-sass 1.0.2
+  sqlite3 1.3.8
+  syntax 1.0.0
   tconsole 1.1.1
   term-ansicolor 1.0.7
   therubyracer 0.11.4
@@ -175,45 +201,48 @@ Darwin Julias-MacBook-Air.local 12.4.0 Darwin Kernel Version 12.4.0: Wed May  1 
   thread_safe 0.1.3
   tilt 1.4.1
   timeliness 0.3.7
+  timers 1.1.0
   treetop 1.4.15
   twitter-bootstrap-rails 2.2.8
   tzinfo 0.3.37
-  uglifier 2.2.1
+  uglifier 2.1.2, 2.2.1
+  unicorn 4.6.3
   validates_timeliness 3.0.14
   will_paginate 3.0.4
   wirble 0.1.3
   xpath 2.0.0
+  yajl-ruby 1.1.0
 
 ===== ENVIRONMENT:
 
-Apple_PubSub_Socket_Render => "/tmp/launch-IdEsJa/Render"
-Apple_Ubiquity_Message => "/tmp/launch-DEPdEp/Apple_Ubiquity_Message"
-COLUMNS => "77"
+Apple_PubSub_Socket_Render => "/tmp/launch-AitJIC/Render"
+Apple_Ubiquity_Message => "/tmp/launch-3NIYAl/Apple_Ubiquity_Message"
 COMMAND_MODE => "unix2003"
 GEM_HOME => "/Users/julia/.rvm/gems/ruby-2.0.0-p247"
 GEM_PATH => "/Users/julia/.rvm/gems/ruby-2.0.0-p247:/Users/julia/.rvm/gems/ruby-2.0.0-p247@global"
-GUARD_NOTIFICATIONS => "---\n- :name: :terminal_title\n  :options: {}\n"
-GUARD_NOTIFY => "true"
 HOME => "/Users/julia"
 IRBRC => "/Users/julia/.rvm/rubies/ruby-2.0.0-p247/.irbrc"
 LANG => "en_US.UTF-8"
-LINES => "27"
 LOGNAME => "julia"
 MY_RUBY_HOME => "/Users/julia/.rvm/rubies/ruby-2.0.0-p247"
+NODE_PATH => "/usr/local/lib/node_modules"
 OLDPWD => "/Users/julia"
-PATH => "/usr/local/heroku/bin:/Users/julia/.rvm/gems/ruby-2.0.0-p247/bin:/Users/julia/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/julia/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/julia/.rvm/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/julia/.rvm/bin"
+PATH => "/Users/julia/.rvm/gems/ruby-2.0.0-p247/bin:/Users/julia/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/julia/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/julia/.rvm/bin:/usr/local/share/npm/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"
 PWD => "/Users/julia/Dropbox/portfolio-site"
 RUBY_VERSION => "ruby-2.0.0-p247"
 SHELL => "/bin/zsh"
 SHLVL => "1"
-SSH_AUTH_SOCK => "/tmp/launch-z7yPA3/Listeners"
+SSH_AUTH_SOCK => "/tmp/launch-L446XX/Listeners"
 TERM => "xterm-256color"
 TERM_PROGRAM => "Apple_Terminal"
 TERM_PROGRAM_VERSION => "309"
-TERM_SESSION_ID => "B9BFD1CF-BD31-4C7C-832A-4DC254323F94"
+TERM_SESSION_ID => "D3D57200-D089-49CA-BA22-2774AA06942A"
 TMPDIR => "/var/folders/_v/vm265dk54g3cz6t318tvss6r0000gn/T/"
 USER => "julia"
-_ => "/Users/julia/.rvm/gems/ruby-2.0.0-p247/bin/guard"
+VIRTUALENVWRAPPER_HOOK_DIR => "/Users/julia/.virtualenvs"
+VIRTUALENVWRAPPER_PROJECT_FILENAME => ".project"
+WORKON_HOME => "/Users/julia/.virtualenvs"
+_ => "/Users/julia/.rvm/gems/ruby-2.0.0-p247/bin/nanoc"
 _ORIGINAL_GEM_PATH => "/Users/julia/.rvm/gems/ruby-2.0.0-p247:/Users/julia/.rvm/gems/ruby-2.0.0-p247@global"
 __CF_USER_TEXT_ENCODING => "0x1F5:0:0"
 _system_arch => "x86_64"
@@ -238,40 +267,27 @@ rvm_ruby_mode => ""
 rvm_script_name => ""
 rvm_sdk => ""
 rvm_silent_flag => ""
-rvm_version => "1.22.4 (stable)"
+rvm_version => "1.23.4 (stable)"
 rvm_wrapper_name => ""
 
 ===== LOAD PATHS:
 
-  0. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-unload-1.0.1/lib
-  1. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/rubygems-bundler-1.2.2/lib
-  2. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.3.5/lib
-  3. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/thor-0.18.1/lib
-  4. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/rb-fsevent-0.9.3/lib
-  5. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/ffi-1.9.0/lib
-  6. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/ffi-1.9.0/ext/ffi_c
-  7. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/rb-inotify-0.9.1/lib
-  8. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/rb-kqueue-0.2.0/lib
-  9. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/listen-1.3.1/lib
+  0. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib
+  1. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-unload-1.0.1/lib
+  2. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/rubygems-bundler-1.2.2/lib
+  3. /Users/julia/.rvm/gems/ruby-2.0.0-p247@global/gems/bundler-1.3.5/lib
+  4. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/colored-1.2/lib
+  5. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib
+  6. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib
+  7. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/mini_portile-0.5.1/lib
+  8. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nokogiri-1.6.0/lib
+  9. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/kramdown-1.2.0/lib
   10. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/coderay-1.0.9/lib
-  11. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/slop-3.4.6/lib
-  12. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/method_source-0.8.2/lib
-  13. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/pry-0.9.12.2/lib
-  14. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/lumberjack-1.0.4/lib
-  15. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/formatador-0.2.4/lib
-  16. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-1.8.2/lib
-  17. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/colored-1.2/lib
-  18. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/cri-2.4.0/lib
-  19. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.4/lib
-  20. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/guard-nanoc-1.0.1/lib
-  21. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/kramdown-1.2.0/lib
-  22. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/mini_portile-0.5.1/lib
-  23. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nokogiri-1.6.0/lib
-  24. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0
-  25. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/x86_64-darwin12.3.0
-  26. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby
-  27. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby/2.0.0
-  28. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin12.3.0
-  29. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby
-  30. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0
-  31. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/x86_64-darwin12.3.0
+  11. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0
+  12. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby/2.0.0/x86_64-darwin12.3.0
+  13. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/site_ruby
+  14. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby/2.0.0
+  15. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin12.3.0
+  16. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/vendor_ruby
+  17. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0
+  18. /Users/julia/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/x86_64-darwin12.3.0

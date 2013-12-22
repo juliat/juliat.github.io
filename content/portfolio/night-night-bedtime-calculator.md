@@ -1,6 +1,6 @@
 ---
 title: night night Bedtime Calculator
-number : 6
+number : 5
 category : UX Design
 tags : [UX Design, Web Design, Responsive Web Development]
 tools : [PHP, HTML, CSS]
@@ -8,6 +8,7 @@ image : /assets/images/nightnight/3.jpg
 description: Bedtime calculators tell you the best time to wake up at, based on the average length of human sleep cycles. I designed and developed mobile-friendly bedtime calculator website.
 code : https://github.com/juliat/nightnight
 link : http://www.contrib.andrew.cmu.edu/~jteitelb/nightnight/index.php
+kind: portfolio
 ---
 
 ## Mobile-Friendly

@@ -4,6 +4,7 @@ number: 4
 image: /assets/images/mosaic-cards/outside-hires.png
 description: I created wallet-sized cards with information about emergency services to be distributed at the Mosaic Gender conference.
 date: September 2013
+kind: portfolio
 ---
 
 ## The Brief
@@ -27,7 +28,7 @@ I came up with these additional constraints for my design:
 
 ![The outside of the card. (This folds in half with the patterned side as the front.)](/assets/images/mosaic-cards/outside-hires.png)
 
-The outside of the card is decorative and includes less sensitive emergency info.The services on the outside are the most general ones: the numbers for campus police, the shuttle, and yellow cab. 
+The outside of the card is decorative and includes less sensitive emergency info.The services on the outside are the most general ones: the numbers for campus police, the shuttle, and yellow cab.
 
 The card is meant to get a person to a service they need as soon as possible, so I included information about hours when services were available, and transit information where appropriate.
 

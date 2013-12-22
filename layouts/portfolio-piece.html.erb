@@ -29,4 +29,9 @@
 	</div>
 </div>
 
+<% if item.attributes[:kind] == 'portfolio' %>
+	<%= previous_link %>
+	<%= next_link %>
+<% end %>
+
 <%= render 'bottom' %>

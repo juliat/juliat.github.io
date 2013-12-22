@@ -6,6 +6,7 @@ description: As part of a project to visualize my online and offline interaction
 date: March 2013
 code: https://github.com/juliat/raphael-weekviz
 category: information-design
+kind: portfolio
 ---
 
 ## Concept

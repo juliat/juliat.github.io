@@ -8,6 +8,7 @@ tools : [HTML & CSS]
 image : /assets/images/chemcoll/chemcollective-homepage-no-msg.png
 description: The ChemCollective provides free online resources for chemistry teachers and students. I redesigned the ChemCollective's logo and website, reengineered the backend of the site to use an MVC web framework, and consulted on the interface for their Virtual Lab.
 link: http://chemcollective.org
+kind: portfolio
 ---
 ## Creating a User-Centered Information Architecture
 
@@ -19,7 +20,7 @@ The ChemCollective was founded in 2000 as the IrYdium project. The ChemCollectiv
 
 ![My initial evaluation of the homepage (an annotated screenshot)](/assets/images/chemcoll/1-initial-homepage-eval.png)
 
-Before the redesign project began, I looked at the ChemCollective's homepage to generate initial ideas on how to improve the site. Two of the biggest issues I noted were the poor visual hierarchy of the page, and its failure to quickly communicate what the site was about. 
+Before the redesign project began, I looked at the ChemCollective's homepage to generate initial ideas on how to improve the site. Two of the biggest issues I noted were the poor visual hierarchy of the page, and its failure to quickly communicate what the site was about.
 
 ### Understanding The Audience
 
@@ -73,10 +74,10 @@ The final sketch of the homepage better defined the content areas and their hier
 Here are some examples of how the new design supports the goals developed for the new homepage:
 
 ##### Goal: Better communicating what the site offers to new visitors
-The headline 'Resources to Teach and Learn Chemistry' practically shouts the site's purpose. 
+The headline 'Resources to Teach and Learn Chemistry' practically shouts the site's purpose.
 
 ##### Goal: Providing quick and prominent access to activities and resources
-The left navigation provides instant access to the site's resources (removing the intermediate 'Find Activities Page'.) 
+The left navigation provides instant access to the site's resources (removing the intermediate 'Find Activities Page'.)
 Quick links give veteran users quick access to popular resources.
 
 ##### Goal: Creating a better visual hierarchy&mdash;making it skimmable
@@ -90,10 +91,10 @@ One primary goal for the redesign of the ChemCollective site was to make the res
 On the old ChemCollective website, the 'Find Activities' page linked to static lists of different resource types.
 ![Screenshot of the old 'Find Activities' Page](/assets/images/chemcoll/old-find-activities-page.png)
 
-The design of the old 'Find Activities' page had several flaws. 
+The design of the old 'Find Activities' page had several flaws.
 
 - The amount of text on the page was overwhelming.
-- It did not provide any way to look at all the resources that the ChemCollective offered for a given topic&mdash;the only way to browse resources was by type. 
+- It did not provide any way to look at all the resources that the ChemCollective offered for a given topic&mdash;the only way to browse resources was by type.
 - The groups on the page (Virtual Lab Problems, Tutorials etc., Scenarios, and Simulations) were inadequate. As the ChemCollective created new types of resources, they tried to fit them into one of the existing categories. Fitting in new resources meant that each category label became less meaningful.
 
 Similarly, on the old site, lists of resources of a given type, like Virtual Lab problems, were organized by topic in one long page.
@@ -113,14 +114,14 @@ One major decision at this stage was to separate out 'meta' pages about the Chem
 
 #### Topics and Types
 
-After further research, I learned that teachers who used ChemCollective usually looked for resources in one of two ways. While planning a lesson or unit of instruction for their class, teachers would look for some sort of digital supplement. For example, Mr. Jones might be starting a week on thermochemisty, and look to see what he could find online to use with his class. 
+After further research, I learned that teachers who used ChemCollective usually looked for resources in one of two ways. While planning a lesson or unit of instruction for their class, teachers would look for some sort of digital supplement. For example, Mr. Jones might be starting a week on thermochemisty, and look to see what he could find online to use with his class.
 
-Alternatively, a teacher already familiar with the ChemCollective's resources might be planning a lesson and want to see if the ChemCollective had a specific type of resource for that. In that case, Mr. Jones might think, 
+Alternatively, a teacher already familiar with the ChemCollective's resources might be planning a lesson and want to see if the ChemCollective had a specific type of resource for that. In that case, Mr. Jones might think,
 'I'm teaching thermochemistry. A simulation might help the class understand it better. Maybe the ChemCollective will have a simulation of that.'
 
 ![Quick notes on different topics and types of resources.](/assets/images/chemcoll/7-chem-topics-types.png)
 
-New teachers using the ChemCollective website would tend to look for resources by topic, while experienced users would more often look for resources by type. This was a major trade-off because we wanted the way the site was organized to encourage exploration, but also to provide easy access to existing resources. 
+New teachers using the ChemCollective website would tend to look for resources by topic, while experienced users would more often look for resources by type. This was a major trade-off because we wanted the way the site was organized to encourage exploration, but also to provide easy access to existing resources.
 
 ![The final navigation scheme for the resources on the site, which allows users to browse resources either by topic or by type.](/assets/images/chemcoll/topic-type-fin-ia.png)
 
@@ -128,7 +129,7 @@ In the end, I decided that having two parallel navigation mechanisms (a potentia
 
 ![Example of collapsible navigation within a topic or type of resources.](/assets/images/chemcoll/expanded-autograded-listing.png)
 
-The number of resources for each topic or type varied drastically. In some cases, there would be around 30 resources for a given topic or of a given type. In other cases, that number would be closer to four. 
+The number of resources for each topic or type varied drastically. In some cases, there would be around 30 resources for a given topic or of a given type. In other cases, that number would be closer to four.
 
 To make listing pages navigable, each topic or type page had secondary, collapsible navigation. On listing pages with few resources (less than about 6), the collapsible navigation is expanded by default. The collapsible secondary navigation allowed the resource listings to be discoverable without being overwhelming.
 
@@ -168,7 +169,7 @@ The new site design followed from the design of the new logo; the new design was
 
 ![The color scheme for the ChemCollective website.](/assets/images/chemcoll/color-scheme.png)
 
-The color scheme of the website reinforces the main impressions we wanted the site to give. The cool, predominantly blue color palette gives the site a scientific and academic air. The bright hues of the blues and greens in the palette soften the overall feel, making the site more friendly and modern feeling. 
+The color scheme of the website reinforces the main impressions we wanted the site to give. The cool, predominantly blue color palette gives the site a scientific and academic air. The bright hues of the blues and greens in the palette soften the overall feel, making the site more friendly and modern feeling.
 
 #### Typography
 
@@ -232,7 +233,7 @@ As part of my work as an intern at the ChemCollective, I informally reviewed the
 
 ![Late Night Labs' (a ChemCollective competitor) Virtual Lab Interface](/assets/images/chemcoll/late-night-labs.png)
 
-I also researched how competitors' interfaces compared to that of the Virtual Lab. Late Night Labs is the main alternative to ChemCollective's Virtual Lab. Its interface was more intuitive overall for two main reasons. First, the realistic graphics provided better affordances for using tools in the interface. Second, their lab interface split up some tasks (like selecting chemicals for an experiment) into separate screens, reducing the clutter in the main workspace. 
+I also researched how competitors' interfaces compared to that of the Virtual Lab. Late Night Labs is the main alternative to ChemCollective's Virtual Lab. Its interface was more intuitive overall for two main reasons. First, the realistic graphics provided better affordances for using tools in the interface. Second, their lab interface split up some tasks (like selecting chemicals for an experiment) into separate screens, reducing the clutter in the main workspace.
 
 Aside from Late Night Labs, I reviewed other chemistry teaching applets and the interfaces for cooking games. Though the Virtual Lab is not a game, reviewing the interfaces for cooking games was helpful to see more intuitive interaction techniques for measuring, pouring, and otherwise manipulating virtual ingredients.
 
@@ -251,7 +252,7 @@ The most important changes to the interface in the new design included:
 
 ![A sketch of a new design for the main work area for the Virtual Lab.](/assets/images/chemcoll/20-vlab-sketch-2.png)
 
-The main work area for the Virtual Lab (shown above) was the focus of my redesign. However, I also created a concept for a new entry sequence and lab selection interface. 
+The main work area for the Virtual Lab (shown above) was the focus of my redesign. However, I also created a concept for a new entry sequence and lab selection interface.
 
 The Virtual Lab has two modes of use. Students will either use it to conduct a lab (programmed into the Virtual Lab) or to manipulate chemicals in an open-ended way. The new entry screen for the Virtual Lab clearly delineates those two usages, and funnels students looking for a lab into the screen which lists all the available labs. (In the current virtual lab, the modes are merged into one, and students find labs through direct links or through multiple menus and modals.)
 

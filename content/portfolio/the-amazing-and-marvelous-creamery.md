@@ -5,9 +5,10 @@ date: Spring 2012
 category : UX Design
 tags : [UX Design, Database Design, Web App Development, Graphic Design]
 image : /assets/images/creamery/admindash.png
-description: I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores. 
+description: I designed and developed (end-to-end) a management system for a fictional chain of ice cream stores.
 code : https://github.com/juliat/creameryapp
 link : http://aandmcreamery.herokuapp.com/login
+kind: portfolio
 ---
 
 ## UX Design Process Photos

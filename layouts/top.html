@@ -1,35 +1,39 @@
   <body>
   	<a href="#main" id="skip-nav">Skip Navigation</a>
-  	<div id="page-header" class="group">
-		<a href="/portfolio/" id="logo"><img src="/assets/images/bright-blue-logo.png" alt="My Logo" id="logo-img"/></a>
-		<% nav_items = ["portfolio",  
-						"resume", 
-						"about"
-						#{ }"other work"
-						] 
-		%>
-		<div id="nav">
-			<ul>
-			<% for nav_item in nav_items %>
-				<% 
-				itemhref = 'portfolio/'
-				unless (nav_item == "home")
-					itemhref = nav_item + '/'
-				end
-				capitalized_item = nav_item.split(" ").each{|word| word.capitalize!}.join(" ");
+
+  	<div class="header-wrapper wrapper">
+	  	<div id="page-header" class="group">
+				<a href="/portfolio/" id="logo">Julia Teitelbaum</a>
+				<% nav_items = ["portfolio",
+								"resume",
+								"about"
+								#{ }"other work"
+								]
 				%>
-				<li><a href="/<%= itemhref.gsub(/ /,'-') %>" 
-					<% if @item.identifier.downcase == '/' + nav_item + '/' %>
-						class = "selected"
-					<% elsif (@item.identifier == '' && (nav_item == 'portfolio')) %>
-						class = "selected"
+				<div id="nav">
+					<ul>
+					<% for nav_item in nav_items %>
+						<%
+						itemhref = 'portfolio/'
+						unless (nav_item == "home")
+							itemhref = nav_item + '/'
+						end
+						capitalized_item = nav_item.split(" ").each{|word| word.capitalize!}.join(" ");
+						%>
+						<li><a href="/<%= itemhref.gsub(/ /,'-') %>"
+							<% if @item.identifier.downcase == '/' + nav_item + '/' %>
+								class = "selected"
+							<% elsif (@item.identifier == '' && (nav_item == 'portfolio')) %>
+								class = "selected"
+							<% end %>
+						>
+						<%= capitalized_item %></a></li>
 					<% end %>
-				>
-				<%= capitalized_item %></a></li>
-			<% end %>
-		</ul>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>
-  	<div id="page-wrapper">
-		<a name="main"></a>
-		<div id='main-content'>
+		<div class="page-wrapper wrapper">
+	  	<div id="page">
+				<a name="main"></a>
+				<div id='main-content'>

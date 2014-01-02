@@ -1,25 +1,31 @@
 ---
 title: Portfolio
 ---
-<% children = @item.children  
+
+<p>Hi! I'm Julia Teitelbaum, a senior studying Human-Computer Interaction, Information Systems, and Design at Carnegie Mellon University. I am a designer and sometimes-engineer. This is my portfolio.</p>
+
+<% children = @item.children
    children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
 %>
-   
+
 <% children.each do |item| %>
 	<article class="homepage-portfolio-item group">
 		<div class="item-description">
 			<header>
-				<h3><a href="<%= item.identifier %>"><%= item.attributes[:title] %></a></h3>
+				<h3><%= item.attributes[:title] %></h3>
 			</header>
 			<p><%= item.attributes[:description] %> </p>
 		</div>
-		<a href="<%= item.identifier %>">
+		<%= item.compiled_content %>
+		<!-- <a href="<%= item.identifier %>">
 			<img src="<%= item.attributes[:image] %>"/>
-		</a>
+		</a> -->
 	</article>
 
-<% end %>  
+	<% if item.attributes[:case_study] == true %>
+		<a href="/case-studies/<%= item.identifier %>-case-study">Read Case Study</a>
+	<% end %>
+
+<% end %>
 
 </div>
-
-<p class="more-work"><a href="/other-work/">See other work I've done  &rarr; </a></p>

@@ -1,6 +1,10 @@
  //Executes your code when the DOM is ready.  Acts the same as $(document).ready().
 
 $(function() {
+
+  // allow photos to be zoomed
+  $('.images div').zoom();
+
   //Calls the tocify method on your HTML div.
   var toc = $("#toc").tocify({ selectors:"h2", extendPage: false }).data("tocify");
 
@@ -55,14 +59,14 @@ $(function() {
 
 		//Hide Animation
 		hide: {opacity: 'hide'},
-		hideDuration: 200	
+		hideDuration: 200
 	});
 
 	// Email obfuscator script 2.1 by Tim Williams, University of Arizona
 	// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
 	// This code is freeware provided these four comment lines remain intact
 	// A wizard to generate this code is at http://www.jottings.com/obfuscator/
-	(function(){ 
+	(function(){
 	  coded = "R4C76CS@JH67C.ILH"
 	  key = "WI9RYGKsMdklgXtyh8ra2pivEQAbCJFSmeUo6wu7qOB10VcnjHNDLPT4xf35zZ"
 	  shift=coded.length
@@ -72,7 +76,7 @@ $(function() {
 	      ltr = coded.charAt(i)
 	      link += (ltr)
 	    }
-	    else {     
+	    else {
 	      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
 	      link += (key.charAt(ltr))
 	    }

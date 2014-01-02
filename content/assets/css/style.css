@@ -5,7 +5,10 @@
 }
 
 body {
-  padding: 2em 2% 4em 2%;
+  background: #fffaff;
+}
+
+#page {
 }
 
 #nav li {
@@ -15,6 +18,8 @@ body {
 .homepage-portfolio-item {
   clear: both;
   margin-top: 6em;
+  padding: 2em 3% 8em 5%;
+  border-bottom: 1px solid #bbb;
 }
 
 /* clearfix */
@@ -26,9 +31,21 @@ body {
 
 .images {
     width: 61.875%;
-    float: left;
-    margin-right: 1.5%;
+    float: right;
+    padding-left: 4%;
 }
 .images img {
     max-width: 100%;
+    box-shadow: 0px 1px 3px rgba(128, 129, 133, 0.5);
+}
+.project-overview {
+    width: 38.175%;
+}
+.captioned-image p {
+    font-size: 0.9em;
+    padding-bottom: 1em;
+}
+.item-description {
+    float: left;
+    width: 38.1%;
 }

@@ -22,9 +22,9 @@ case_study: true
 </div>
 
 <div class="project-overview">
-  <p>One of my friends involved with the <a href="http://www.studentaffairs.cmu.edu/student-life/gender/mosaic/index.html">Mosaic Gender Conference at CMU</a> asked me to create a handout with a list of hotlines and emergency services related to domestic violence and sexual assualt to be distributed at the conference. My goal was to take the list and create a handout that would be useful in the context of an emergency, and desirable, so that people would keep it.</p>
+  <p>One of my friends involved with the <a href="http://www.studentaffairs.cmu.edu/student-life/gender/mosaic/index.html">Mosaic Gender Conference at CMU</a> asked me to design a handout with a list of hotlines and emergency services related to domestic violence and sexual assualt. My goal for the design was to make the list into a handout that would useful (in the context of an emergency) and desirable (so that people would keep it.)</p>
 
-  <p>I decided that the handout should be small, so that people could easily store it in their wallet (and be more likely to have it at hand in an emergency.) Since people wouldn't be likely to be familiar with all of the hotlines and services listed on the card, I wrote succinct descriptions of each one. This included information about hours, transit information, and confidentiality policies, so that a person looking at the card could quickly find the service they needed, when they needed it.</p>
+  <p>I decided that the handout should be small, wallet-sized, so that people would be likely to have it at hand in an emergency. Since most people wouldn't be familiar with the hotlines and services listed on the card, I wrote succinct descriptions of each one. The descriptions included information about hours, transit information, and confidentiality policies, so that a person looking at the card could quickly find the service they needed, when they needed it.</p>
 
   <p>Though the cards were originally designed for the conference, they were so positively received that Student Health Services plans to distribute them in the on-campus clinic.</p>
 </div>

@@ -9,8 +9,9 @@ case_study: true
 responsible_for: user experience design, interaction design, graphic design, information architecture, frontend development, backend development
 ---
 <div class="images">
-  <img alt="The old ChemCollective homepage design." src="/assets/images/chemcoll/old-homepage.png"/>
-
+  <div>
+    <img alt="The old ChemCollective homepage design." src="/assets/images/chemcoll/old-homepage.png"/>
+  </div>
   <div class="captioned-image">
     <img alt="An image of the new ChemCollective homepage." src="/assets/images/chemcoll/chemcollective-homepage.png"/>
     <p>The new ChemCollective homepage design. Here, the design clarifies the importance of and relationships between information on the page. For example, navigation to access the ChemCollective's resources is centralized in the left hand navigation. On the old site, users would access resources from lists on a few subpages linked to from the homepage.</p>
@@ -30,13 +31,11 @@ responsible_for: user experience design, interaction design, graphic design, inf
 </div>
 
 <div class="project-overview">
-  <p>The ChemCollective has provided free online resources for chemistry teachers and students since 2000. The ChemCollective had not updated the design of their logo or website significantly since they were founded, and the original designs for both the logo and website were not done professionally. My internship project was to modernize the design of the ChemCollective's logo and website.</p>
+  <p>The ChemCollective has provided free online resources for chemistry teachers and students since 2000. During my internship there in 2011, I redesigned the ChemCollective's logo and website, reengineered the backend of the site to use an MVC web framework, and consulted on the interface for their Virtual Lab.</p>
 
-  <p>I began by evaluating the usability and information architecture of the existing site. Working with staff at the ChemCollective, and using web log data, I created a new information architecture for the site. This new information architecture made the variety of resources offered by the ChemCollective more discoverable and navigable for both new and returning users.</p>
+  <p>I began by evaluating the usability and information architecture of the existing website. Working with staff at the ChemCollective and using web log data, I created a new information architecture for the site. The new information architecture made the various resources on the site more discoverable and navigable for new and returning users.</p>
 
-  <p>The ChemCollective's older visual identity did not effectively reflect its purpose or personality as an organization. My design work for the ChemCollective (logo, color scheme, typography, layout...) better communicates that the organization is modern, friendly, academic, and science-focused.</p>
-
-  <p>The existing ChemCollective website was primarily static, which meant that there was limited standardization across the hundreds of pages on their site. In order to implement the new structure and design I had created, I transitioned the website to a database-backed framework. This allowed for the separation of content from code, documentation of resource metadata, and use of consistent page templates.</p>
+  <p>The old ChemCollective website was a collection of static HTML and CSS pages from over the years. This meant that the hundreds of pages on their site were not standard in terms of layout or styling. To implement the new organzation scheme and design, I moved the website to a database-backed framework. This allowed for the separation of content from code, documentation of resource metadata, and use of consistent page templates.</p>
 
   <p>Lastly, I consulted on the usability and design of the ChemCollective's flagship Virtual Lab product. I evaluated issues with the current interface, researched competitors', and took inspiration from analogous modern interfaces. In the end, I created low-fidelity mockups of a new interface for the Virtual Lab.</p>
 </div>

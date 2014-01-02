@@ -29,12 +29,12 @@ kind: portfolio
   </div>
 </div>
 <div class="project-overview">
-  <p>In the capstone course for <a href="http://en.wikipedia.org/wiki/Information_systems">Information Systems</a> students, student teams are assigned clients. Teams work with their clients to build an application which addresses a need the client has identified. My team's client was a group of professors and researchers from <a href="http://www.cmu.edu/dietrich/sds/">Carnegie Mellon's Social and Decision Science department</a>. They came to us interested in creating a web application to present a data set they had compiled about active, potential, and opposed wind farms in the United States.</p>
+  <p>In the capstone course for <a href="http://en.wikipedia.org/wiki/Information_systems">Information Systems</a> majors, student teams are assigned clients. Teams work with their clients to build an technology solution which addresses a need the client has identified. My teammates were Drew Inglis, Rob Rua, Rupa Patel, and Rachel Miller. Our client was a group of professors and researchers from <a href="http://www.cmu.edu/dietrich/sds/">Carnegie Mellon's Social and Decision Science department</a>. They came to us interested in creating a web application to present a data set they had compiled about wind farms in the United States.</p>
 
-  <p>Our clients provided us with spreadsheets which linked demographic, economic, land use, and ecological data with individual wind farms and potential wind farm sites. We built an application that parses and presents that data in a dynamic map, configurable table, and custom visualization. The application is built on [Ember.js, a javascript model-view-controller framework](http://emberjs.com/). Because it does not depend on server side code, the application is highly scalable and easier to deploy.</p>
+  <p>Our clients provided us with spreadsheets which linked demographic, economic, land use, and ecological data with active wind farms and potential wind farm sites. Over the course of a semester, we built an application that parses and presents that data in a dynamic map, configurable table, and custom visualization.</p>
 
-  <p>The main purpose of our application is to allow wind farm developers to explore data about active, potential, and opposed sites. Access our unique dataset in a user-friendly format will help developers select sites to develop which are unlikely to be opposed by the surrounding community. As a free and openly accessible application, the Wind Farmer's Almanac also serves concerned citizens who want to explore data about wind farm developments.</p>
+  <p>By providing access to a unique dataset in a user-friendly format, our application helps wind developers select sites which are likely to be welcomed by the surrounding community. As a free and openly accessible application, the Wind Farmer's Almanac also serves concerned citizens who want to explore data about wind farm developments.</p>
 
-  <p><span class="responsible-for">Responsible for:</span> project management, user interface design, visualization design, front-end development</p>
-  <p><span class="technologies">Technologies:</span>HTML, CSS, javascript, SVG, ember.js, raphael.js, jQuery</p>
+  <p><span class="responsible-for">Worked on:</span> project management, user interface design, visualization design, front-end development</p>
+  <p><span class="technologies">Technologies used:</span>HTML, CSS, javascript, SVG, ember.js, raphael.js, jQuery</p>
 </div>

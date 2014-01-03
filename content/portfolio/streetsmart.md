@@ -7,7 +7,7 @@ case_study: true
 ---
 <div class="images">
   <div>
-    <img src="/assets/images/streetsmart/welcome-slide.png"/>
+    <a href="#" data-fluidbox><img src="/assets/images/streetsmart/welcome-slide.png"/></a>
   </div>
   <div>
    <img src="/assets/images/streetsmart/team.jpg"/>

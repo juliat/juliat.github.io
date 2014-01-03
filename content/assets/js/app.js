@@ -23,6 +23,11 @@ $(function() {
       unslider.data('unslider')[fn]();
   });
 
+  // lightboxing
+  $(function () {
+    $('.images a, a[rel="lightbox"]').fluidbox();
+	});
+
 
   //Calls the tocify method on your HTML div.
   var toc = $("#toc").tocify({ selectors:"h2", extendPage: false }).data("tocify");

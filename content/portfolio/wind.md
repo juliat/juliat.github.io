@@ -10,7 +10,7 @@ kind: portfolio
 <div class="images">
   <ul>
     <li class="captioned-image">
-      <img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac-screenshot-1.png"/>
+      <a href="#" data-fluidbox><img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac-screenshot-1.png"/></a>
       <p>Screenshot of the Wind Farmer's Almanac. Results are filtered to show only potential wind farms, and one wind farm is highlighted in the application.</p>
     </li>
 

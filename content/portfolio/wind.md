@@ -30,6 +30,7 @@ kind: portfolio
     </li>
   </ul>
 </div>
+
 <div class="project-overview">
   <p>In the capstone course for <a href="http://en.wikipedia.org/wiki/Information_systems">Information Systems</a> majors, student teams are assigned clients. Teams work with their clients to build an technology solution which addresses a need the client has identified. My teammates were Drew Inglis, Rob Rua, Rupa Patel, and Rachel Miller. Our client was a group of professors and researchers from <a href="http://www.cmu.edu/dietrich/sds/">Carnegie Mellon's Social and Decision Science department</a>. They came to us interested in creating a web application to present a data set they had compiled about wind farms in the United States.</p>
 

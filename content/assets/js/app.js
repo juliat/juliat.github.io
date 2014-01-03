@@ -2,8 +2,17 @@
 
 $(function() {
 
-  // allow photos to be zoomed
-  $('.images div').zoom();
+  // sliders
+  $('.images').unslider({
+		delay: 900000,              //  The delay between slide animations (in milliseconds)
+		dots: true,
+		fluid: true,
+		/* speed: 500,               //  The speed to animate each slide (in milliseconds)
+		complete: function() {},  //  A function that gets called after every slide animation
+		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+		dots: true,               //  Display dot navigation
+		fluid: false              //  Support responsive design. May break non-responsive designs*/
+	});
 
   //Calls the tocify method on your HTML div.
   var toc = $("#toc").tocify({ selectors:"h2", extendPage: false }).data("tocify");

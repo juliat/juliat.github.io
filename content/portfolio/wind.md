@@ -8,25 +8,27 @@ kind: portfolio
 ---
 
 <div class="images">
-  <div class="captioned-image">
-    <img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac-screenshot-1.png"/>
-    <p>Screenshot of the Wind Farmer's Almanac. Results are filtered to show only potential wind farms, and one wind farm is highlighted in the application.</p>
-  </div>
+  <ul>
+    <li class="captioned-image">
+      <img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac-screenshot-1.png"/>
+      <p>Screenshot of the Wind Farmer's Almanac. Results are filtered to show only potential wind farms, and one wind farm is highlighted in the application.</p>
+    </li>
 
-  <div class="captioned-image">
-    <img alt="A closeup of the 'range visualization' in the app. Each site is reperesented by a dot on a series of lines. Each line represents an attribute of the wind farm site. The dot's horizontal position indicates where this wind farm falls relative to all sites on that attribute." src="/assets/images/wind/range-visualization-closeup.png"/>
-    <p>Closeup of the custom 'range visualizaton'. The visualization is designed to allow users to see where a wind farm falls across a range of variables at a glance, relative to the other wind farms in our database.</p>
-  </div>
+    <li class="captioned-image">
+      <img alt="A closeup of the 'range visualization' in the app. Each site is reperesented by a dot on a series of lines. Each line represents an attribute of the wind farm site. The dot's horizontal position indicates where this wind farm falls relative to all sites on that attribute." src="/assets/images/wind/range-visualization-closeup.png"/>
+      <p>Closeup of the custom 'range visualizaton'. The visualization is designed to allow users to see where a wind farm falls across a range of variables at a glance, relative to the other wind farms in our database.</p>
+    </li>
 
-  <div class="captioned-image">
-    <img alt="A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right." src="/assets/images/wind/paper-prototype.jpg"/>
-    <p>A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right. When we presented it to our client, we learned that filtering and viewing results were not as separate of tasks as we originally thought. This led us to integrate popover-filters into the results table in our final application.</p>
-  </div>
+    <li class="captioned-image">
+      <img alt="A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right." src="/assets/images/wind/paper-prototype.jpg"/>
+      <p>A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right. When we presented it to our client, we learned that filtering and viewing results were not as separate of tasks as we originally thought. This led us to integrate popover-filters into the results table in our final application.</p>
+    </li>
 
-  <div class="captioned-image">
-    <img alt="A mockup of an infographic profile for a wind farm site on some variable. This shows 'Age Data from 2010 Census' for a hypothetical wind farm as a pie chart with more detailed bar graphs underneath." src="/assets/images/wind/profile-visualization-draft.png"/>
-    <p>At one point in the project, we thought we would need profiles for each wind farm. I created these rough designs for how we might visualize data within such a profile.</p>
-  </div>
+    <li class="captioned-image">
+      <img alt="A mockup of an infographic profile for a wind farm site on some variable. This shows 'Age Data from 2010 Census' for a hypothetical wind farm as a pie chart with more detailed bar graphs underneath." src="/assets/images/wind/profile-visualization-draft.png"/>
+      <p>At one point in the project, we thought we would need profiles for each wind farm. I created these rough designs for how we might visualize data within such a profile.</p>
+    </li>
+  </ul>
 </div>
 <div class="project-overview">
   <p>In the capstone course for <a href="http://en.wikipedia.org/wiki/Information_systems">Information Systems</a> majors, student teams are assigned clients. Teams work with their clients to build an technology solution which addresses a need the client has identified. My teammates were Drew Inglis, Rob Rua, Rupa Patel, and Rachel Miller. Our client was a group of professors and researchers from <a href="http://www.cmu.edu/dietrich/sds/">Carnegie Mellon's Social and Decision Science department</a>. They came to us interested in creating a web application to present a data set they had compiled about wind farms in the United States.</p>

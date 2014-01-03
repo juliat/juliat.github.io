@@ -7,18 +7,20 @@ kind: portfolio
 case_study: true
 ---
 <div class="images">
-  <div class="captioned-image">
-    <img src="/assets/images/mosaic-cards/testprint.jpg"/>
-    <p>To make sure the card was an appropriate size, I printed out copies as I worked on the design.</p>
-  </div>
-  <div class="captioned-image">
-    <img src="/assets/images/mosaic-cards/outside-hires.png"/>
-    <p>The front of the card is decorative, enticing people to keep it for its aesthetic value. The back of the card includes less sensitive emergency information. I placed more general information on the back, since the back might be overseen by a stranger.</p>
-  </div>
-  <div class="captioned-image">
-    <img src="/assets/images/mosaic-cards/inside-hires.png"/>
-    <p>The inside of the card includes information for more sensitive emergency services, which are specifically for victims of sexual assault or domestic violence. The typography is designed to be highly readable, to feel calm, and to use space effectively.</p>
-  </div>
+  <ul>
+    <li class="captioned-image">
+      <img src="/assets/images/mosaic-cards/testprint.jpg"/>
+      <p>To make sure the card was an appropriate size, I printed out copies as I worked on the design.</p>
+    </li>
+    <li class="captioned-image">
+      <img src="/assets/images/mosaic-cards/outside-hires.png"/>
+      <p>The front of the card is decorative, enticing people to keep it for its aesthetic value. The back of the card includes less sensitive emergency information. I placed more general information on the back, since the back might be overseen by a stranger.</p>
+    </li>
+    <li class="captioned-image">
+      <img src="/assets/images/mosaic-cards/inside-hires.png"/>
+      <p>The inside of the card includes information for more sensitive emergency services, which are specifically for victims of sexual assault or domestic violence. The typography is designed to be highly readable, to feel calm, and to use space effectively.</p>
+    </li>
+  </ul>
 </div>
 
 <div class="project-overview">

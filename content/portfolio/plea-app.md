@@ -1,35 +1,41 @@
 ---
 title: Lilypad
 number: 7
-image: /assets/images/plea-app/new-scc.png
 description: Helping a special-needs school collect and analyze their data
 date: September 2013
+context: Research project for which I am a Research Assistant at the HCII
+worked_on: User research, user testing, paper prototyping, UI design, database design, front-end web development
+technologies_used: [HTML, CSS, Javascript, raphael.js, hammer.js]
+team: Shruti Kataria, Greg Nicholas, Arthur Hong
 case_study: false
+code: https://github.com/gregarious/lilypad-plea
 ---
 <div class="images">
   <div class="captioned-image">
-    <img src="/assets/images/plea-app/scc-chart.jpg"/>
-    <p>The paper chart that teachers use to track student's academic performance on individual skills.</p>
+    <img alt="Photo of a filled-out paper version of the standard celeration chart." src="/assets/images/plea-app/scc-original-chart.jpg"/>
+    <p>The paper version of the standard celeration chart that teachers use to track student's academic performance on individual skills. It captures and visualizes data simultaneously, and can be used extremely efficiently by experts. However, the paper format limits possible uses of the data (e.g., other visualizations, comparing to historical data)</p>
   </div>
   <div class="captioned-image">
-    <img src="/assets/images/plea-app/scc-sketch-1a.jpg"/>
-    <p>A sketch of a concept for an iPad UI for the chart.</p>
+    <img alt="The digital version of the standard celeration chart, on an iPad." src="/assets/images/plea-app/scc-edit.png"/>
+    <p>The digital version of the standard celeration chart which we have been developing. Teachers can input data points either by tapping the chart, or by typing in values in the sidebar on the right.</p>
   </div>
   <div class="captioned-image">
-    <img src="/assets/images/plea-app/behavior-chart.png"/>
-    <p>A prototpye of the front-end for a digital version of the scatterplot teachers use to track students' behaviors of concern.</p>
+    <img alt="The navigation UI for the Lilypad app." src="/assets/images/plea-app/scc-nav.png"/>
+    <p>Currently, teachers keep a binder of charts for each student. In our app, all of a teacher's students are listed in the main navigation. Once a student is selected, a teacher sees a list of all of their charts.</p>
   </div>
   <div class="captioned-image">
-    <img src="/assets/images/plea-app/plea-ui-sketches.jpg"/>
+    <img alt="A photo of a partially filled out paper version of the behavior scatterplot." src="behavior-orig-2.JPG"/>
+    <p>Teachers use to track skill development, but they also keep a behavior scatterplot chart for their students to track occurrences of  “behaviors of concern.”</p>
+  </div>
+  <div class="captioned-image">
+    <img alt="The UI which we are developing for the digital version of the behavior scatterplot." src="/assets/images/plea-app/behavior-new-2.png"/>
+    <p>In the digital version of the behavior scatterplot, we prioritized ease of data entry and reading (color-coding each behavior.)</p>
   </div>
 </div>
 
 <div class="project-overview">
-  <p>Lilypad is an iPad app for teachers at a hybrid school and mental hospital in Pittsburgh. The app aids teachers in collecting information about trends in childrens' behavior and academic performance.</p>
-
-  <p>As a Research Assistant on the project, I've conducted weekly user tests, iteratively prototyped the app at increasing levels of fidelity, and helped to develop the actual app. This project is ongoing.</p>
-
-  <p>Currently, teachers have a binder of charts for each student. These are screenshots of a front-end prototype for a way to navigate between students, and access and create charts in a digital version of this student-tracking system.</p>
+  <p>Lilypad is a mobile web application for iPad. Its users are teachers at a school and partial hospital in Pittsburgh. The app aids teachers in collecting information about trends in childrens’ behavior and academic performance.</p>
+  <p>As a Research Assistant on the project, I have conducted weekly user tests, iteratively prototyped the application at increasing levels of fidelity, and helped to develop the actual application. </p>
 </div>
 
 

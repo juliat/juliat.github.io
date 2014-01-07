@@ -3,22 +3,33 @@ title: Typesetting
 number: 4
 description: Sweating the details with Dan Boyarski
 date: Fall 2012
+context: Independent study course in typography
+worked_on: Type selection, typesetting, layout
+tools_used: Adobe Illustrator, Adobe InDesign
 ---
 
 <div class="images">
   <ul>
-    <li>
-      <img src="/assets/images/typography/aq-crop.png"/>
+    <li class="captioned-image">
+      <img alt="Four book covers for the Vision+Value series, side by side." src="/assets/images/typography/BookSeriesCoversAll.png"/>
+      <p>The Vision+Value series features essays by well known designers on design practice and philosophy. In my designs, I strove to communicate the theme of each book through variations in color, graphic, and the typography of the title. Using a standard layout, typeface, and style of graphics I related the covers to one another as a series.</p>
     </li>
+    <li class="captioned-image">
+      <img alt="A cropped image of a title and two paragraphs of text from a commencement speech by Anna Quindlen" src="aq-crop.png"/>
+      <p>I typeset a commencement speech given my Anna Quindlen at Mount Holyoke College. In the speech, Quindlen urges her audience to give up on the idea of being perfect, and be true to themselves rather than please others.</p>
+      <p>The typeface Swift, as a serif, is more traditional and intimate. Its forms have a bright feel and distinctive personality. These characteristics made it the right choice for this personal, earnest, and inspiring speech.</p>
     <li>
       <img src="/assets/images/typography/terry-pratchett.png"/>
+      <p>In this interview transcript, American author Neil Gaiman interviews the British author Terry Pratchett. Gaiman and Pratchett are two of my favorite authors, and have also collaborated as writers.</p>
+      <p>My design for this piece uses type identify each author throughout the interview.  The typefaces I chose for each author are meant to reflect their personality (ITC Legacy Sans for Neil Gaiman, and Goudy  Bookletter for Pratchett.)</p>
     </li>
-    <li>
+    <li class="captioned-image">
       <img src="/assets/images/typography/recipe1.png"/>
+      <p>I created an experimental design for a recipe book. The book uses layout and images  to add meaning to the text of the recipe—separating ingredients, preparation, and cooking into parallel columns. The images on the left are numbered to correspond with the preparation and cooking steps (rather than only showing the final product.)</p>
     </li>
   </ul>
 </div>
 <div class="project-overview">
-  <p>During Fall 2012, I did an independent study in typography with Professor Dan Boyarski. The course projects included creating a book covers for the "Vision+Value" series, and typesetting an essay, interview, and a few recipes.</p>
-  <p>For the book series</p>
+  <p>During Fall 2012, I did an independent study in typography with Professor Dan Boyarski. The course projects included creating a book covers for the “Vision+Value” series, and typesetting an essay, interview, and a few recipes.</p>
+  <p>The course focused on reinforcing meaning using type by selecting typefaces that fit the content’s message, setting type readably (varying size, line length, leading, etc.), and   considering the relationship between type and image.</p>
 </div>

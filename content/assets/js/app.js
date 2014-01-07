@@ -2,26 +2,27 @@
 
 $(function() {
 
+  /*
   // sliders
   var unslider = $('.images').unslider({
 		autoplay: false,
 		delay: 9000000,
 		dots: true,
 		arrows: true,
-		fluid: true,
+		fluid: true,*/
 		/* speed: 500,               //  The speed to animate each slide (in milliseconds)
 		complete: function() {},  //  A function that gets called after every slide animation
 		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
 		dots: true,               //  Display dot navigation
 		fluid: false              //  Support responsive design. May break non-responsive designs*/
-	});
+	// });
 	// next and previous links for slider
-  $('.unslider-arrow').click(function() {
+  /*$('.unslider-arrow').click(function() {
       var fn = this.className.split(' ')[1];
 
       //  Either do unslider.data('unslider').next() or .prev() depending on the className
       unslider.data('unslider')[fn]();
-  });
+  });*/
 
   // lightboxing
   $(function () {

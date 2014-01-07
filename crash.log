@@ -1,4 +1,4 @@
-Crashlog created at 2014-01-06 20:31:55 -0700
+Crashlog created at 2014-01-06 20:57:38 -0700
 
 ===== MESSAGE:
 
@@ -10,8 +10,8 @@ TypeError: no implicit conversion of nil into String
 
 ===== STACK TRACE:
 
-  0. ./Rules:64:in `+'
-  1. ./Rules:64:in `block in load'
+  0. ./Rules:65:in `+'
+  1. ./Rules:65:in `block in load'
   2. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
   3. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
   4. /Users/julia/.rvm/gems/ruby-2.0.0-p247/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:239:in `block (2 levels) in route_reps'

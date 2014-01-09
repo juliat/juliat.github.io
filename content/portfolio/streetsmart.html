@@ -31,7 +31,7 @@ code: https://github.com/miriammelnick/dont-get-mugged
   </div>
   <div class="links">
     <ul>
-      <li><a href="/case-studies/<%= item.identifier %>-case-study">Read the case study</a></li>
+      <li><a href="/case-studies/streetsmart-case-study/">Read case study</a></li>
       <li><a href="<%= @item[:code] %>">See the code behind StreetSmart</a></li>
       <li><a href="<%= @item[:pdf] %>">View presentation slides</a></li>
     </ul>
@@ -39,12 +39,12 @@ code: https://github.com/miriammelnick/dont-get-mugged
 </div>
 <div class="images">
   <ul>
-    <li class="captioned-image streetsmart-spotcrime">
+    <li class="captioned-image streetsmart-main tall">
       <div class="image-wrapper small-image">
-        <img src="/assets/images/streetsmart/spotcrime.png"/>
+        <a href="#" data-fluidbox><img src="/assets/images/streetsmart/streetsmart-logo.png"/></a>
       </div>
       <div class="caption">
-        <p>We used the SpotCrime API to get crime data for a location. When you visit the SpotCrime website, you see icons on a map indicating recent crimes nearby. We wanted to take this data and condense it to higher-level information to be used for navigation.</p>
+        <p>We tried to make our design give hints about function of the app. For example, we picked Kabel Heavy for our logotype because the shape of the characters was similar to the way roads look on a map (for example, the shapes of the ‘s’ looks like a curvey road, and the ‘e’ could be a traffic circle with some imagination.)</p>
       </div>
     </li>
     <li class="captioned-image streetsmart-main tall">
@@ -61,6 +61,14 @@ code: https://github.com/miriammelnick/dont-get-mugged
       </div>
       <div class="caption">
         <p>Since this is a mobile web application, rather than native, it cannot access GPS data without permission. StreetSmart prompts the user for permission to geolocate them. If they refuse, the app asks for a street address instead.</p>
+      </div>
+    </li>
+    <li class="captioned-image streetsmart-spotcrime">
+      <div class="image-wrapper small-image">
+        <img src="/assets/images/streetsmart/spotcrime.png"/>
+      </div>
+      <div class="caption">
+        <p>We used the SpotCrime API to get crime data for a location. When you visit the SpotCrime website, you see icons on a map indicating recent crimes nearby. We wanted to take this data and condense it to higher-level information to be used for navigation.</p>
       </div>
     </li>
   </ul>

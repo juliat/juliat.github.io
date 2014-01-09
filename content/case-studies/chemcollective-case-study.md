@@ -6,6 +6,7 @@ title: ChemCollective Case Study
 
 The ChemCollective was founded in 2000 as the IrYdium project. The ChemCollective's primary resource in 2000 was [the Virtual Lab](http://chemcollective.org/vlab/vlab.php). However, over the years, the teaching resources offered by the ChemCollective grew in variety and scope. This growth overwhelmed the original site's design, making it difficult to understand and to navigate, especially for first-time users.
 ![The ChemCollective Homepage prior to this redesign project.](/assets/images/chemcoll/old-homepage.png)
+
 ## Effective Communication on the Homepage
 
 ![My initial evaluation of the homepage (an annotated screenshot)](/assets/images/chemcoll/1-initial-homepage-eval.png)
@@ -100,7 +101,7 @@ To start, I conducted a digital card-sort of all of pages and resources on the C
 
 One major decision at this stage was to separate out 'meta' pages about the ChemCollective from resource/activity pages. In the final design, this decision shows up in the navigation. In the header of the site, there is 'meta' navigation, linking to the 'About', 'Teachers', 'Help', and 'Feedback' pages. The left navigation solely provides access to resources and activities.
 
-![A sitemap I created while developing the new information architecture for the site. Though the structure for organizing resources changed, the division between meta pages and resource pages did not.](/assets/images/chemcoll/8-sitemap.png)
+![A site map I created while developing the new information architecture for the site. Though the structure for organizing resources changed, the division between meta pages and resource pages did not.](/assets/images/chemcoll/8-sitemap.png)
 
 #### Topics and Types
 
@@ -147,7 +148,7 @@ I chose the typeface [Lubalin Graph](http://typedia.com/explore/typeface/itc-lub
 
 ##### Iconography
 
-The graduated cylinder incorporated into the wordmark communicates the first part of the ChemCollective's name. The image of a graduted cylinder associates strongly with the concept of chemistry (the 'Chem' in ChemCollective).
+The graduated cylinder incorporated into the wordmark communicates the first part of the ChemCollective's name. The image of a graduated cylinder associates strongly with the concept of chemistry (the 'Chem' in ChemCollective).
 
 The equilibrium symbol which frames the new logo communicates the second part of the ChemCollective's name. The ChemCollective provides resources for teachers, but it's mission extends to enabling teachers to give feedback, share classroom experiences, discuss instruction, and author their own resources. The equilibrium symbol communicates the 'Collective' in ChemCollective, indicating an exchange between the project and those it serves.
 
@@ -165,7 +166,7 @@ The color scheme of the website reinforces the main impressions we wanted the si
 
 ![The ChemCollective website uses Gill Sans for its typeface.](/assets/images/chemcoll/typography.png)
 
-The typeface used on the site is Gill Sans. I chose Gill Sans because it functions well for both headings and body text, and is websafe. Moreover, Gill Sans is a humanist sans-serif; it is modern, but more friendly than transitional sans-serifs (like Helvetica).
+The typeface used on the site is Gill Sans. I chose Gill Sans because it functions well for both headings and body text, and is web-safe. Moreover, Gill Sans is a humanist sans-serif; it is modern, but more friendly than transitional sans-serifs (like Helvetica).
 
 #### Header
 
@@ -205,7 +206,7 @@ With the help of the internet, I taught myself about database design and normali
 
 ![Querying the database using vanilla PHP and SQL turned out to be a bad plan.](/assets/images/chemcoll/14-handwritten-php.png)
 
-Codeigniter is relatively database agnostic. At first, I tried writing queries to the database in raw SQL using the [PHP Data Objects library](http://www.php.net/manual/en/book.pdo.php). I was worried about hardcoding cryptic queries, especially since the ChemCollective might not have another SQL literate person on the team for years. So, I switched to using the Codeigniter [ORM](http://en.wikipedia.org/wiki/Object-relational_mapping) to handle the queries instead (I also considered using [Doctrine](http://www.doctrine-project.org/projects/orm.html), but it seemed like overkill).
+Codeigniter is relatively database agnostic. At first, I tried writing queries to the database in raw SQL using the [PHP Data Objects library](http://www.php.net/manual/en/book.pdo.php). I was worried about hard-coding cryptic queries, especially since the ChemCollective might not have another SQL literate person on the team for years. So, I switched to using the Codeigniter [ORM](http://en.wikipedia.org/wiki/Object-relational_mapping) to handle the queries instead (I also considered using [Doctrine](http://www.doctrine-project.org/projects/orm.html), but it seemed like overkill).
 
 ## Envisioning a New Virtual Lab
 
@@ -233,14 +234,14 @@ Based on my evaluation of the current Virtual Lab and research on alternative UI
 
 The most important changes to the interface in the new design included:
 
-- having a collapsible area to contain chemicals and equipment to reduce clutter onscreen while users conduct experiments
+- having a collapsible area to contain chemicals and equipment to reduce clutter on-screen while users conduct experiments
 - centralizing all information about the currently selected chemical or solution in one panel in the upper left corner so that it's easier to monitor changes
 - moving actions like pouring into a popover/context menu, so that they are near the on-screen objects that they are related to
 - moving the problem/lab description text out of a tab and into a separate screen so it's more separate
 - removing the top menu bar and tabs to reduce UI clutter (that did not provide access to important functionality)
 - suggesting somewhat more realistic graphics to provide better affordances
 
-![A sketch of a new design for the main work area for the Virtual Lab.](/assets/images/chemcoll/20-vlab-sketch-2.png)
+![A sketch of a new design for the main work area for the Virtual Lab.](/assets/images/chemcoll/vlab.png)
 
 The main work area for the Virtual Lab (shown above) was the focus of my redesign. However, I also created a concept for a new entry sequence and lab selection interface.
 

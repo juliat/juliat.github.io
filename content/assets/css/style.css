@@ -47,7 +47,10 @@ body {
    font-size: 0.85em;
    font-weight: 500;
    margin-bottom: 0.8em;
-   color: #888;
+   color: #858585;
+   font-family: 'freight-text-pro';
+   font-style: italic;
+   line-height: 1.5;
 }
 #nav a {
     text-decoration: none;
@@ -275,8 +278,9 @@ a:hover {
     }
     .metadata dl {
       margin-top: 0;
+
       margin-left: 3%;
-    }
+}
     .project-overview {
       margin-top: 3em;
     }
@@ -382,12 +386,11 @@ a:hover {
     clear: both;
   }
   .tall .caption {
-    width: 40%;
+    width: 41%;
     display: inline-block;
-
     float: left;
     padding-left: 1.5em;
-}
+  }
   .tall .caption img, .tall p {
     float: left;
   }

@@ -43,7 +43,7 @@ compile '/portfolio/*/' do
   filter :relativize_paths, :type => :html
 end
 
-compile '/other-work/*/' do
+compile '/case-studies/*/' do
   filter :erb
   if (item[:extension] == 'md')
     filter :kramdown

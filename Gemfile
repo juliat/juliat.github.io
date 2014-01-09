@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+gem "adsf"
+gem "rainpress"
+gem "uglifier"
+gem "kramdown"
+gem "fastimage"
+gem "nokogiri"
+gem "rubypants"
+gem "nanoc-image-compressor"
+gem "mime-types"
+gem "nanoc"

@@ -14,6 +14,13 @@
 #   because “*” matches zero or more characters.
 
 
+compile 'assets/images/*/' do
+  if item.binary?
+    # we don't have pngout on our system
+    # uncomment to optimize images
+    # filter :image_compressor, :pngout => false
+  end
+end
 compile '/assets/*/' do
   # don’t filter or layout
 end
@@ -31,6 +38,7 @@ compile '/portfolio/*/' do
   if (item[:extension] == 'md')
     filter :kramdown
   end
+  filter :rubypants #typography!
   layout 'portfolio-piece'
   filter :relativize_paths, :type => :html
 end

@@ -2,7 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+  <!--
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+  -->
     <title><%= item.attributes[:title] %> | Julia Teitelbaum</title>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/base.css"></link>
@@ -24,6 +26,32 @@
       })();
 
     </script>
+
+    <script type="text/javascript" src="/assets/js/blazy.js"></script>
+    <script>
+    document.onload = function(){
+      // image lazy loading
+      var bLazy = new Blazy({
+        selector: 'img' // all images
+      , success: function(ele){
+            // Image has loaded
+            // Do your business here
+            console.log(':)');
+        }
+      , error: function(ele, msg){
+          console.log(':(');
+            if(msg === 'missing'){
+                // Data-src is missing
+            }
+            else if(msg === 'invalid'){
+                // Data-src is invalid
+            }
+        }
+      });
+      console.log('blazy is go');
+    }
+    </script>
+
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
   </head>

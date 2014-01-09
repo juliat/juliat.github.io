@@ -2,34 +2,12 @@
 
 $(function() {
 
-  /*
-  // sliders
-  var unslider = $('.images').unslider({
-		autoplay: false,
-		delay: 9000000,
-		dots: true,
-		arrows: true,
-		fluid: true,*/
-		/* speed: 500,               //  The speed to animate each slide (in milliseconds)
-		complete: function() {},  //  A function that gets called after every slide animation
-		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-		dots: true,               //  Display dot navigation
-		fluid: false              //  Support responsive design. May break non-responsive designs*/
-	// });
-	// next and previous links for slider
-  /*$('.unslider-arrow').click(function() {
-      var fn = this.className.split(' ')[1];
-
-      //  Either do unslider.data('unslider').next() or .prev() depending on the className
-      unslider.data('unslider')[fn]();
-  });*/
-
   // lightboxing
   $(function () {
     $('.images a, a[rel="lightbox"]').fluidbox();
 	});
 
-
+/*
   //Calls the tocify method on your HTML div.
   var toc = $("#toc").tocify({ selectors:"h2", extendPage: false }).data("tocify");
 
@@ -40,6 +18,7 @@ $(function() {
         nav.toggleClass('sticky', direction=='down');
     }
   });
+
 
   $('.case-study img').jcaption({
 		//Element to wrap the image and caption in
@@ -86,7 +65,7 @@ $(function() {
 		hide: {opacity: 'hide'},
 		hideDuration: 200
 	});
-
+*/
 	// Email obfuscator script 2.1 by Tim Williams, University of Arizona
 	// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
 	// This code is freeware provided these four comment lines remain intact

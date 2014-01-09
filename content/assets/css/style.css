@@ -21,7 +21,7 @@ body {
 .homepage-portfolio-item {
   clear: both;
   margin-top: 1em;
-  padding: 2em 0% 8em 0%;
+  padding: 4em 0% 8em 0%;
   border-top: 1px solid #bbb;
 }
 
@@ -37,40 +37,6 @@ body {
   box-shadow: 0px 1px 2px rgba(159, 160, 165, 0.3);
   background: #fff;
 }
-
-/* for unslider */
-.images { position: relative; overflow: auto; }
-    .images li { list-style: none; }
-        .images ul li { float: left; }
-  .images .dots {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-  }
-    .images .dots li {
-      display: inline-block;
-      width: 10px;
-      height: 10px;
-      margin: 0 4px;
-
-      text-indent: -999em;
-
-      border: 2px solid #000;
-      border-radius: 6px;
-
-      cursor: pointer;
-      opacity: .4;
-
-      -webkit-transition: background .5s, opacity .5s;
-      -moz-transition: background .5s, opacity .5s;
-      transition: background .5s, opacity .5s;
-    }
-      .images .dots li.active {
-        background: #000;
-        opacity: 1;
-      }
-
-
 .captioned-image {
   padding-bottom: 2.66em;
 }
@@ -81,7 +47,7 @@ body {
    font-size: 0.85em;
    font-weight: 500;
    margin-bottom: 0.8em;
-   color: #777;
+   color: #888;
 }
 #nav a {
     text-decoration: none;
@@ -277,7 +243,7 @@ a:hover {
     float: none;
     margin-right: 0;
   }
-  .mosaic-front, .mosaic-back, .streetsmart-main, .streetsmart-geo, .chemcoll-new-colors, .chemcoll-listing {
+  .mosaic-front, .mosaic-back, .streetsmart-main, .streetsmart-geo {
       width: 48%;
       margin-right: 4%;
   }
@@ -288,46 +254,149 @@ a:hover {
     padding-left: 8%;
     padding-right: 9%;
   }
+  .mosaic-test-print-images img {
+    width: 33.33%;
+
+    margin-right: 0;
+}
 }
 @media screen and (min-width: 740px) {
     #page-header, .projects-list, .item-description, .metadata, .project-overview, .links {
-      padding: 0 24% 0 5%
-    }
+      padding: 0 24% 0 5%;}
 }
 @media screen and (min-width:840px) {
     #page-header, .projects-list, .item-description, .metadata, .project-overview, .links {
-      padding: 0 35% 0 5%
+      padding: 0 35% 0 6%;
     }
     .metadata {
-      padding: 0 5% 0 3%;
-      width: 33%;
+      padding: 0 7% 0 3%;
+      width: 38.5%;
       float: right;
     }
     .metadata dl {
       margin-top: 0;
+      margin-left: 3%;
     }
     .project-overview {
-      margin-top: 2em;
+      margin-top: 3em;
     }
     .project-info:after {
       content: "";
       display: table;
       clear: both;
     }
-    .images img {
-      max-width: 66%;
+    .images {
+      padding-top: 2em;
+      padding-right: 5%;
+      padding-left: 6%;
     }
-    .mosaic-front img,
-    .mosaic-back img,
-    .streetsmart-main img,
-    .streetsmart-geo img,
-    .chemcoll-new-colors img,
-    .chemcoll-listing img {
-      max-width: 100%;
+    .captioned-image {
+      padding-bottom: 3em;
     }
-    .images p {
-      //float: right;
+    .images .image-wrapper, .mosaic-test-print-images {
+      width: 66%;
+      float: left;
+      padding-right: 1em;
+    }
+    .images .image-wrapper img {
+      float: right;
+      margin-right: 0;
+    }
+    .images .caption,
+    .streetsmart-main .caption,
+    .streetsmart-geo .caption {
+      width: 33%;
+      float: right;
+    }
+    .mosaic-front,
+    .mosaic-back,
+    .streetsmart-main,
+    .streetsmart-geo {
+      width: 100%
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1020px) {
+    #page-header, .projects-list, .item-description, .project-overview, .links {
+      padding: 0 35% 0 8%;
+    }
+    .images {
+      padding-left: 8%;
+    }
+    .images img, .mosaic-test-print-images {
+    }
+    .caption p {
+      max-width: 35em;
+    }
+}
+@media screen and (min-width: 1110px) {
+  .project-info {
+    width: 41%;
+    float: left;
+  }
+  .project-info, .item-description {
+    padding-left: 5%;
+  }
+  .images {
+    width: 59%;
+    float: left;
+    padding-right: 5%;
+  }
+  .images .image-wrapper, .mosaic-test-print-images {
+    float: none;
+    padding-right: 0;
+    width: 100%;
+  }
+  .images .image-wrapper img {
+    display: inline-block;
+
+    float: left;
+}
+  .captioned-image .caption{
+    padding-bottom: 2.66em;
+  }
+  #page-header, .projects-list, .project-overview, .links {
+    padding: 0;
+    margin-top: 2em;
+  }
+  .metadata {
+    width: 100%;
+    padding: 0;
+  }
+  .metadata dl {
+    margin: 2em 0;
+  }
+  .captioned-image {
+    width: 100%;
+  }
+  .images img, .mosaic-test-print-images {
+    /* width: 100%; */
+    max-width: 100%;
+  }
+  .images .caption {
+    width: 100%;
+  }
+  /* clearfix */
+  .tall {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tall .caption {
+    width: 40%;
+    display: inline-block;
+
+    float: left;
+    padding-left: 1.5em;
+}
+  .tall .caption img, .tall p {
+    float: left;
+  }
+}
+@media screen and (min-width: 1130px) {
+  .project-info {
+    width: 34%;
+  }
+  .images {
+    width: 66%;
+  }
 }

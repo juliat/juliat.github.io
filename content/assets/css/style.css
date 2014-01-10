@@ -162,9 +162,6 @@ a.fluidbox-closed {
 }
 #fluidbox-overlay {
   background-color: rgba(255,255,255, 0.85);
-  cursor: pointer;
-  cursor: -webkit-zoom-out;
-  cursor: -moz-zoom-out;
   display: none;
   position: fixed;
   top: 0;
@@ -173,6 +170,10 @@ a.fluidbox-closed {
   right: 0;
   z-index: 500;
 }
+  a[data-fluidbox].fluidbox-opened {
+      cursor: -webkit-zoom-out;
+      cursor: -moz-zoom-out;
+  }
 .fluidbox-wrap {
   background-position: center center;
   background-size: cover;

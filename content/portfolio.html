@@ -4,7 +4,6 @@ title: Portfolio
 
 <% children = @item.children
    children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
-   children = children[0,1];
 %>
 
 <div class="projects-list">

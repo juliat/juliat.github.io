@@ -2,27 +2,6 @@
 
 $(function() {
 
-  // image lazy loading
-  var bLazy = new Blazy({
-    selector: 'img', // all images
-    success: function(ele){
-        // Image has loaded
-        // Do your business here
-        console.log(':)');
-    }
-  , error: function(ele, msg){
-      console.log(':(');
-        if(msg === 'missing'){
-            // Data-src is missing
-        }
-        else if(msg === 'invalid'){
-            // Data-src is invalid
-        }
-    }
-  });
-  console.log('blazy is go');
-
-
   // lightboxing
   $(function () {
     $('.images a, a[rel="lightbox"]').fluidbox();

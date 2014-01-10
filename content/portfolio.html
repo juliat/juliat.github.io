@@ -18,10 +18,10 @@ title: Portfolio
 	</ul>
 </div>
 <% children.each do |item| %>
-	<article class="homepage-portfolio-item group">
+	<article class="homepage-portfolio-item group <%= item.identifier.gsub(/\/portfolio\//, '').gsub(/\//, '') %>">
 		<div class="item-description">
-			<h3><%= item.attributes[:title] %></h3>
-			<p><%= item.attributes[:description] %> </p>
+			<h3><span><%= item.attributes[:title] %></span></h3>
+			<p><span><%= item.attributes[:description] %></span></p>
 		</div>
 		<%= item.compiled_content %>
 	</article>

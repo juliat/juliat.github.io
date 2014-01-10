@@ -5,7 +5,7 @@ title: Portfolio
 <% children = @item.children
    children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
 %>
-
+<!--
 <div class="projects-list">
 	<h2>Projects</h2>
 	<ul>
@@ -17,6 +17,7 @@ title: Portfolio
 	<% end %>
 	</ul>
 </div>
+-->
 <% children.each do |item| %>
 	<article class="homepage-portfolio-item group <%= item.identifier.gsub(/\/portfolio\//, '').gsub(/\//, '') %>">
 		<div class="item-description">

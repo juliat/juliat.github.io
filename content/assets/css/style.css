@@ -87,12 +87,12 @@ body {
 }
 .captioned-image p {
    font-size: 0.9em;
-   font-weight: 500;
+   font-weight: 600;
    margin-bottom: 0.8em;
-   color: #858585;
+   color: #8D8D8D;
    font-family: 'freight-text-pro';
    font-style: italic;
-   line-height: 1.5;
+   line-height: 1.45;
 }
 #nav a {
     text-decoration: none;
@@ -454,6 +454,11 @@ a:hover {
     }
     .header-wrapper, .item-description {
       padding-left: 8%;
+    }
+    .metadata {
+      padding: 0 5% 0 2.5%;
+      width: 37%;
+      float: right;
     }
     .images {
       padding-left: 8%;

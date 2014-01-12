@@ -158,7 +158,22 @@ body {
   padding-bottom: 3em;
   background-size: cover;
   background-position: center center;
-  margin-bottom: 3em;
+  margin-bottom: 3.75em;
+  position: relative;
+}
+.image-attribution {
+    position: absolute;
+    bottom: -3em;
+    right: 0.6em;
+    font-size: 0.66em;
+    color: #B8B8B8;
+    font-weight: 400;
+}
+.image-attribution a {
+    color: #B8B8B8;
+}
+.image-attribution a:hover {
+   color: #09f;
 }
 .item-description h3 span, .item-description p span {
     background: #fdfdfd;
@@ -180,14 +195,16 @@ body {
     margin-top: 0.6em;
 }
 .wind .item-description {
-  background-image: url('../images/styling/turbines.jpg');
+  background-image: url('http://24.media.tumblr.com/61e1f6d73861cfad6e320c6d5dcecc6e/tumblr_mx3trrzUOJ1st5lhmo1_1280.jpg');
   background-position: center 20%;
+}
+.wind .item-description:after {
+  content: "Photo by Andrea Boldizsar";
 }
 .mosaic-cards .item-description {
     background-image: url('http://farm3.staticflickr.com/2381/5766995388_1579a71572_b_d.jpg');
     background-position: center center;
 }
-
 .chemcollective .item-description {
   background-image: url('http://farm9.staticflickr.com/8391/8610015445_31dfe88150_h.jpg');
   background-position: right 99%;
@@ -266,7 +283,7 @@ a.fluidbox-closed {
     margin-bottom: 3em;
     padding-top: 0.4em;
 }
-.header-wrapper, .projects-list, .item-description, .metadata, .project-overview, .links, .captioned-image p {
+.header-wrapper, .footer-wrapper, .projects-list, .item-description, .metadata, .project-overview, .links, .captioned-image p {
     padding-left: 4%;
     padding-right: 4%;
 }
@@ -280,8 +297,15 @@ a.fluidbox-closed {
 }
 
 #page-header {
-    padding-top: 3em;
-    padding-bottom: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.footer-wrapper {
+  font-size: 0.85em;
+  color: #ACAAAA;
+  background-color: #222;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 #nav {
     float: right;
@@ -302,7 +326,7 @@ a.fluidbox-closed {
 }
 a {
     text-decoration: none;
-    color: #09c;
+    color: #09f;
 }
 a:hover {
     text-decoration: underline;
@@ -337,6 +361,9 @@ a:hover {
   .homepage-portfolio-item .item-description {
     padding-top: 27em;
   }
+  .image-attribution {
+    bottom: -4.5em;
+  }
 }
 @media screen and (min-width:500px) {
   .captioned-image p {
@@ -370,7 +397,7 @@ a:hover {
   .mosaic-back, .streetsmart-geo, .chemcoll-new-colors {
       margin-right: 0;
   }
-  .header-wrapper, .projects-list, .item-description, .metadata, .project-overview, .links {
+  .header-wrapper, .footer-wrapper, .projects-list, .item-description, .metadata, .project-overview, .links {
     padding-left: 8%;
     padding-right: 9%;
   }
@@ -392,7 +419,7 @@ a:hover {
     .projects-list, .metadata, .project-overview, .links {
       padding: 0 35% 0 6%;
     }
-    .header-wrapper, .item-description {
+    .header-wrapper, .footer-wrapper, .item-description {
       padding-left: 6%;
     }
     .metadata {
@@ -452,7 +479,7 @@ a:hover {
     .projects-list, .project-overview, .links {
       padding: 0 35% 0 8%;
     }
-    .header-wrapper, .item-description {
+    .header-wrapper, .footer-wrapper, .item-description {
       padding-left: 8%;
     }
     .metadata {
@@ -480,7 +507,7 @@ a:hover {
     width: 41%;
     float: left;
   }
-  .header-wrapper, .project-info, .item-description {
+  .header-wrapper, .footer-wrapper, .project-info, .item-description {
     padding-left: 5%;
   }
   .header-wrapper {
@@ -507,7 +534,7 @@ a:hover {
     padding: 0;
     margin-top: 2em;
   }
-  .header-wrapper, .projects-list {
+  .header-wrapper, .footer-wrapper, .projects-list {
     padding-left: 5%;
     padding-right: 5%;
   }

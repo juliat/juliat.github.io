@@ -23,9 +23,22 @@ title: Portfolio
 		<div class="item-description">
 			<h3><span><%= item.attributes[:title] %></span></h3>
 			<p><span><%= item.attributes[:description] %></span></p>
+			<p class="image-attribution">
+				<% if item.attributes[:cover_image_title] %>
+					 <a href="<%= item.attributes[:cover_image_link] %>">
+						“<%= item.attributes[:cover_image_title] %>”
+					 </a> by
+					 <a href="<%= item.attributes[:cover_image_author_link] %>">
+					 	<%= item.attributes[:cover_image_author] %>
+					 </a> made available under
+					 <a href="<%= item.attributes[:cover_image_license_link] %>">
+					 	<%= item.attributes[:cover_image_license] %>
+					 </a>.
+				<% else %>
+					Image via Shruti Kataria, other information unknown.
+				<% end %>
+			</p>
 		</div>
 		<%= item.compiled_content %>
 	</article>
 <% end %>
-
-</div>

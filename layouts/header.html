@@ -1,0 +1,32 @@
+    <div class="header-wrapper wrapper">
+      <div id="page-header" class="group">
+        <a href="/portfolio/" id="logo">Julia Teitelbaum</a>
+        <% nav_items = ["portfolio",
+                "resume",
+                "about"
+                #{ }"other work"
+                ]
+        %>
+        <div id="nav">
+          <ul>
+          <% for nav_item in nav_items %>
+            <%
+            itemhref = 'portfolio/'
+            unless (nav_item == "home")
+              itemhref = nav_item + '/'
+            end
+            capitalized_item = nav_item.split(" ").each{|word| word.capitalize!}.join(" ");
+            %>
+            <li><a href="/<%= itemhref.gsub(/ /,'-') %>"
+              <% if @item.identifier.downcase == '/' + nav_item + '/' %>
+                class = "selected"
+              <% elsif (@item.identifier == '' && (nav_item == 'portfolio')) %>
+                class = "selected"
+              <% end %>
+            >
+            <%= capitalized_item %></a></li>
+          <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>

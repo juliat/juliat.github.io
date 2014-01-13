@@ -19,7 +19,8 @@ title: Portfolio
 </div>
 -->
 <% children.each do |item| %>
-	<article class="homepage-portfolio-item group <%= item.identifier.gsub(/\/portfolio\//, '').gsub(/\//, '') %>">
+	<% computerFriendlyName = computerFriendlyName(item.identifier) %>
+	<article class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
 		<div class="item-description">
 			<h3><span><%= item.attributes[:title] %></span></h3>
 			<p><span><%= item.attributes[:description] %></span></p>
@@ -42,3 +43,14 @@ title: Portfolio
 		<%= item.compiled_content %>
 	</article>
 <% end %>
+
+<!--
+<div class="navControls">
+	<a class="next hidden" id="next">
+		Next
+	</a>
+	<a class="previous hidden" id ="previous">
+		Previous
+	</a>
+</div>
+-->

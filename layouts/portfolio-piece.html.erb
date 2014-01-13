@@ -1,36 +1,41 @@
 <%= render 'head' %>
 <%= render 'top' %>
 
-<div class="lead">
-	<div class="item-meta">
-		<h1><%= item.attributes[:title] %></h1>
-		<p class="subtitle"><%= item.attributes[:description] %></p>
-		<% if (item.attributes[:code] || item.attributes[:link]) %>
-			<div class="project-links">
-				<% if (item.attributes[:link]) %>
-					<a href="<%= item.attributes[:link] %>">See It Live</a>
-				<% end %>
-				<% if (item.attributes[:code]) %>
-					<a href="<%= item.attributes[:code] %>">Read the Code</a>
-				<% end %>
-			</div>
-		<% end %>
+<% computerFriendlyName = computerFriendlyName(item.identifier) %>
+<article class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
+	<div class="item-description">
+		<h3><span><%= item.attributes[:title] %></span></h3>
+		<p><span><%= item.attributes[:description] %></span></p>
+		<p class="image-attribution">
+			<% if item.attributes[:cover_image_title] %>
+				 <a href="<%= item.attributes[:cover_image_link] %>">
+					“<%= item.attributes[:cover_image_title] %>”
+				 </a> by
+				 <a href="<%= item.attributes[:cover_image_author_link] %>">
+				 	<%= item.attributes[:cover_image_author] %>
+				 </a> made available under
+				 <a href="<%= item.attributes[:cover_image_license_link] %>">
+				 	<%= item.attributes[:cover_image_license] %>
+				 </a>.
+			<% else %>
+				Image via Shruti Kataria, other information unknown.
+			<% end %>
+		</p>
 	</div>
-	<div class="image">
-		<img src="<%= item.attributes[:image]%>"/>
-	</div>
-</div>
-
-<div id="more-proj-content" class="group">
-	<div id="toc"></div>
-	<div class="case-study">
 	<%= yield %>
-	</div>
+</article>
+
+<div class="navControls">
+	<a class="next" id="next">
+		Next
+	</a>
+	<a class="previous" id ="previous">
+		Previous
+	</a>
 </div>
 
 <% if item.attributes[:kind] == 'portfolio' %>
-	<%= previous_link %>
-	<%= next_link %>
+
 <% end %>
 
 <%= render 'bottom' %>

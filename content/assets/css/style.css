@@ -198,9 +198,6 @@ body {
   background-image: url('http://24.media.tumblr.com/61e1f6d73861cfad6e320c6d5dcecc6e/tumblr_mx3trrzUOJ1st5lhmo1_1280.jpg');
   background-position: center 20%;
 }
-.wind .item-description:after {
-  content: "Photo by Andrea Boldizsar";
-}
 .mosaic-cards .item-description {
     background-image: url('http://farm3.staticflickr.com/2381/5766995388_1579a71572_b_d.jpg');
     background-position: center center;
@@ -341,6 +338,41 @@ a:hover {
 .links li {
   display: inline;
 }
+/*
+.navControls .next {
+    position: fixed;
+    bottom: 0;
+    background: #111 url(../images/styling/icon-arrow-down.png) no-repeat 7% top;
+    padding: 0.5em 2em 0.5em 3em;
+    border-top-left-radius: 3px;
+    margin-right: -4.75em;
+    right: 0;
+}
+.navControls .previous {
+    position: fixed;
+    top: 0;
+    background: #111 url(../images/styling/icon-arrow-up.png) no-repeat 7% bottom;
+    padding: 0.5em 2.2em 0.5em 3em;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-right: -7em;
+    right: 0;
+}
+.navControls a {
+    opacity: 0.2;
+    font-size: 0.75em;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 100;
+}
+.navControls a:hover {
+  opacity: 1;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+}
+*/
 @media screen and (min-width: 360px) {
   .homepage-portfolio-item .item-description {
     padding-top: 23em;

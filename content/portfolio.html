@@ -1,48 +1,42 @@
 ---
 title: Portfolio
 ---
-
-<% children = @item.children
-   children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
-%>
-<!--
-<div class="projects-list">
-	<h2>Projects</h2>
-	<ul>
-	<% children.each do |item| %>
-		<li>
-			<p><%= item.attributes[:title] %></p>
-			<p><%= item.attributes[:description] %></p>
-		</li>
-	<% end %>
-	</ul>
+<div class="intro">
+	<hgroup>
+		<h1>Portfolio</h1>
+		<h2>Selected Works</h2>
+	</hgroup>
 </div>
--->
-<% children.each do |item| %>
-	<% computerFriendlyName = computerFriendlyName(item.identifier) %>
-	<article class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
-		<div class="item-description">
-			<h3><span><%= item.attributes[:title] %></span></h3>
-			<p><span><%= item.attributes[:description] %></span></p>
-			<p class="image-attribution">
-				<% if item.attributes[:cover_image_title] %>
-					 <a href="<%= item.attributes[:cover_image_link] %>">
-						“<%= item.attributes[:cover_image_title] %>”
-					 </a> by
-					 <a href="<%= item.attributes[:cover_image_author_link] %>">
-					 	<%= item.attributes[:cover_image_author] %>
-					 </a> made available under
-					 <a href="<%= item.attributes[:cover_image_license_link] %>">
-					 	<%= item.attributes[:cover_image_license] %>
-					 </a>.
-				<% else %>
-					Image via Shruti Kataria, other information unknown.
-				<% end %>
-			</p>
-		</div>
-		<%= item.compiled_content %>
-	</article>
-<% end %>
+<div class="selected-works">
+	<% children = @item.children
+	   children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
+	%>
+	<% children.each do |item| %>
+		<% computerFriendlyName = computerFriendlyName(item.identifier) %>
+		<article class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
+			<div class="item-description">
+				<h3><span><%= item.attributes[:title] %></span></h3>
+				<p><span><%= item.attributes[:description] %></span></p>
+				<p class="image-attribution">
+					<% if item.attributes[:cover_image_title] %>
+						 <a href="<%= item.attributes[:cover_image_link] %>">
+							“<%= item.attributes[:cover_image_title] %>”
+						 </a> by
+						 <a href="<%= item.attributes[:cover_image_author_link] %>">
+						 	<%= item.attributes[:cover_image_author] %>
+						 </a> made available under
+						 <a href="<%= item.attributes[:cover_image_license_link] %>">
+						 	<%= item.attributes[:cover_image_license] %>
+						 </a>.
+					<% else %>
+						Image via Shruti Kataria, other information unknown.
+					<% end %>
+				</p>
+			</div>
+			<%= item.compiled_content %>
+		</article>
+	<% end %>
+</div>
 
 <!--
 <div class="navControls">

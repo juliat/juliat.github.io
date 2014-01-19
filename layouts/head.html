@@ -1,14 +1,21 @@
 <!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html lang="en">
   <head>
     <meta charset="utf-8">
-  <!--
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
-  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
     <title><%= item.attributes[:title] %> | Julia Teitelbaum</title>
 
     <link rel="stylesheet" type="text/css" href="/assets/css/base.css"></link>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css"></link>
+
 
     <script type="text/javascript" src="//use.typekit.net/yoa3uif.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -29,4 +36,9 @@
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+
+   <!--[if lt IE 9]>
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+      <![endif]-->
   </head>

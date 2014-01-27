@@ -49,7 +49,7 @@
 body {
   background:#fdfdfd;
   font-family: "freight-sans-pro", 'Myriad Pro', 'Helvetica', 'Arial', sans-serif;
-  font-size: 1.4em;
+  font-size: 1em;
   color: #333;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -59,7 +59,7 @@ body {
     margin: 0 auto;
 }
 .intro hgroup {
-  padding: 9em 0 14em 0;
+  padding: 6em 4% 9em 0;
 }
 .intro hr {
   border: solid #f0f0f0;
@@ -71,7 +71,7 @@ body {
     text-align: right;
 }
 .intro h1 {
-    font-size: 7em;
+    font-size: 2.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 0em;
@@ -84,6 +84,8 @@ body {
     color: #09c;
     font-weight: 500;
     padding-right: 0.33em;
+    margin-top: 0em;
+    font-size: 1.5em;
 }
 .selected-works {
     margin: 0;
@@ -139,14 +141,14 @@ body {
 .header-wrapper #nav li {
     display: inline-block;
     padding: 0 0.25em;
-    font-size: 0.9em;
+    font-size: 1.05em;
     float: left;
 }
 #logo {
     font-size: 1.5em;
     text-align: center;
     margin-bottom: 0.25em;
-    /* text-transform: uppercase; */
+    display: block;
     font-weight: 500;
     float: left;
     text-decoration: none;
@@ -154,6 +156,8 @@ body {
     font-family: 'freight-text-pro', 'Georgia', serif;
     font-style: italic;
     margin-top: -0.25em;
+    width: 100%;
+    padding-left: 1%;
 }
 .homepage-portfolio-item:first-child {
     margin-top: 0;
@@ -189,20 +193,21 @@ body {
 
 .homepage-portfolio-item .item-description {
   background: #73AEC2;
-  padding-top: 18em;
-  padding-bottom: 3em;
+  padding-top: 13em;
+  padding-bottom: 1em;
   background-size: cover;
   background-position: center center;
-  margin-bottom: 3.75em;
+  margin-bottom: 2.75em;
   position: relative;
 }
 .image-attribution {
     position: absolute;
-    bottom: -3em;
+    bottom: -4em;
     right: 0.6em;
-    font-size: 0.66em;
+    font-size: 0.6em;
     color: #B8B8B8;
     font-weight: 400;
+    padding-left: 4%;
 }
 .image-attribution a {
     color: #B8B8B8;
@@ -216,11 +221,12 @@ body {
     color: #222;
 }
 .item-description h3 span {
-    font-size: 1.2em;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    padding: 0.3em 0.6em;
+    padding: 0.4em 0.6em;
+    font-size: 1.1em;
+    line-height: 1.1;
 }
 .item-description p span {
     font-size: 1em;
@@ -228,6 +234,7 @@ body {
     padding: 0.66em 1em;
     font-family: 'freight-text-pro', 'Georgia', serif;
     margin-top: 0.6em;
+    line-height: 1.2;
 }
 .wind .item-description {
   background-image: url('http://24.media.tumblr.com/61e1f6d73861cfad6e320c6d5dcecc6e/tumblr_mx3trrzUOJ1st5lhmo1_1280.jpg');
@@ -329,7 +336,7 @@ a.fluidbox-closed {
 }
 
 #page-header {
-  padding-top: 2.5em;
+  padding-top: 1em;
   padding-bottom: 2.5em;
 }
 .footer-wrapper {
@@ -340,8 +347,7 @@ a.fluidbox-closed {
   padding-bottom: 1.5em;
 }
 #nav {
-    float: right;
-    display: inline-block;
+    display: block;
 }
 .header-wrapper li:after {
     content: "/";
@@ -353,8 +359,7 @@ a.fluidbox-closed {
     padding: 0;
 }
 #nav ul {
-    display: inline-block;
-    width: 100%;
+    padding-left: 14%;
 }
 a {
     text-decoration: none;
@@ -423,6 +428,14 @@ a:hover {
   .item-description p span {
     font-size: 1.1em;
   }
+  #logo {
+    text-align: left;
+    font-size: 1.6em;
+    padding-left: 0;
+  }
+  #nav ul {
+    padding-left: 0;
+  }
 }
 @media screen and (min-width: 460px) {
   .tall img {
@@ -432,17 +445,42 @@ a:hover {
   }
   .homepage-portfolio-item .item-description {
     padding-top: 24em;
+    padding-bottom: 2em;
   }
   .image-attribution {
     bottom: -3.75em;
+  }
+  .intro hgroup {
+    padding-top: 8em;
+    padding-bottom: 12em;
+  }
+  .intro hgroup {
+    padding-right: 0;
   }
 }
 @media screen and (min-width:500px) {
   .captioned-image p {
     max-width: 34em;
   }
-  .tall p {
-    max-width: none;
+  .intro hgroup {
+    padding-top: 9em;
+    padding-bottom: 14em;
+  }
+  .intro h1 {
+     font-size: 3.75em;
+  }
+  .intro h2 {
+    font-size: 1.5em;
+  }
+  .item-description h3 {
+    font-size: 1.75em;
+  }
+  .item-description p span {
+    font-size: 1.15em;
+  }
+  .homepage-portfolio-item .item-description {
+    padding-top: 28em;
+    padding-bottom: 3em;
   }
 }
 @media screen and (min-width: 535px) {
@@ -462,32 +500,72 @@ a:hover {
     float: none;
     margin-right: 0;
   }
-  .mosaic-front, .mosaic-back, .streetsmart-main, .streetsmart-geo {
-      width: 48%;
-      margin-right: 4%;
-  }
-  .mosaic-back, .streetsmart-geo, .chemcoll-new-colors {
-      margin-right: 0;
-  }
   .header-wrapper, .footer-wrapper, .projects-list, .item-description, .metadata, .project-overview, .links, .intro {
-    padding-left: 8%;
-    padding-right: 9%;
+    padding-left: 7%;
+    padding-right: 8%;
+  }
+  .header-wrapper {
+    padding-top: 2em;
   }
   .mosaic-test-print-images img {
     width: 33.33%;
     margin-right: 0;
   }
+
+}
+@media screen and (min-width: 600px) {
+  .header-wrapper {
+    padding-top: 2.5em;
+
+    padding-bottom: 2.5em;
+}
+  .intro h1 {
+     font-size: 4.5em;
+  }
+  .intro h2 {
+    font-size: 1.75em;
+  }
+  .homepage-portfolio-item {
+    padding-bottom: 8em;
+  }
+  #logo {
+    float: left;
+    display: inline-block;
+
+    width: auto;
+}
+  #nav {
+    float: right;
+    display: inline-block;
+
+    padding-top: 0.16em;
+}
 }
 @media screen and (min-width: 740px) {
-    .projects-list, .metadata, .project-overview, .links {
-      padding: 0 24% 0 5%;
-     }
-     .item-description {
-       padding-left: 5%;
-     }
+  .projects-list, .metadata, .project-overview, .links {
+    padding: 0 24% 0 5%;
+   }
+   .item-description {
+     padding-left: 5%;
+   }
+  .intro h1 {
+     font-size: 5.25em;
+  }
+  .intro h2 {
+    font-size: 2em;
+  }
+  .homepage-portfolio-item {
+    padding-bottom: 12em;
+  }
 }
 
 @media screen and (min-width:840px) {
+  .intro h1 {
+     font-size: 5.5em;
+  }
+  .intro h2 {
+    font-size: 2.5em;
+  }
     .projects-list, .metadata, .project-overview, .links {
       padding: 0 35% 0 6%;
     }
@@ -504,7 +582,7 @@ a:hover {
       margin-left: 3%;
     }
     .project-overview {
-      margin-top: 3em;
+      margin-top: 3.25em;
     }
     .project-info:after {
       content: "";
@@ -513,7 +591,7 @@ a:hover {
     }
     .images {
       padding-top: 2em;
-      padding-right: 5%;
+      /* padding-right: 5%; */
       padding-left: 6%;
     }
     .captioned-image {
@@ -533,7 +611,9 @@ a:hover {
     .streetsmart-geo .caption {
       width: 33%;
       float: right;
-    }
+
+      padding-left: 1%;
+}
     .mosaic-front,
     .mosaic-back,
     .streetsmart-main,
@@ -542,25 +622,33 @@ a:hover {
     }
     .homepage-portfolio-item .item-description {
       padding-top: 30em;
-    }
+
+      margin-bottom: 3.75em;
+}
     .item-description p span {
       font-weight: 400;
+    }
+    p.image-attribution {
+      bottom: -3.9em;
+      font-size: 0.7em;
     }
 }
 @media screen and (min-width: 1020px) {
     .projects-list, .project-overview, .links {
-      padding: 0 35% 0 8%;
+      padding: 0 37% 0 6%;
     }
     .header-wrapper, .footer-wrapper, .item-description, .intro {
-      padding-left: 8%;
-    }
+      padding-left: 6%;
+
+      padding-right: 6%;
+}
     .metadata {
-      padding: 0 5% 0 2.5%;
-      width: 37%;
+      padding: 0 5% 0 1.5%;
+      width: 36%;
       float: right;
     }
     .images {
-      padding-left: 8%;
+      /* padding-left: 8%; */
     }
     .images img, .mosaic-test-print-images {
     }
@@ -568,11 +656,25 @@ a:hover {
       max-width: 35em;
     }
     .item-description h3 span {
-      font-size: 1.75em;
+      font-size: 1.66em;
     }
     .item-description p span {
-      font-size: 1.125em;
+      font-size: 1.33em;
     }
+    .intro hgroup {
+      padding-top: 7em;
+      padding-bottom: 14em;
+    }
+   .intro h1 {
+     font-size: 7em;
+  }
+  .intro h2 {
+    font-size: 3em;
+  }
+  p.image-attribution {
+   font-size: 0.8em;
+   bottom: -3em;
+  }
 }
 @media screen and (min-width: 1110px) {
   .project-info {
@@ -645,6 +747,9 @@ a:hover {
   .homepage-portfolio-item .item-description {
       padding-bottom: 4em;
    }
+   .homepage-portfolio-item {
+     padding-bottom: 17em;
+   }
 }
 @media screen and (min-width: 1130px) {
   .project-info {
@@ -652,5 +757,8 @@ a:hover {
   }
   .images {
     width: 66%;
+  }
+  .homepage-portfolio-item {
+    padding-bottom: 18em;
   }
 }

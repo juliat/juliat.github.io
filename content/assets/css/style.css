@@ -255,23 +255,23 @@ body {
   background-position: center 20%;
 }
 .mosaic-cards .item-description {
-    background-image: url('http://farm3.staticflickr.com/2381/5766995388_1579a71572_b_d.jpg');
+    background-image: url('../images/styling/mosaic.jpg');
     background-position: center center;
 }
 .chemcollective .item-description {
-  background-image: url('http://farm9.staticflickr.com/8391/8610015445_31dfe88150_h.jpg');
+  background-image: url('../images/styling/chemcoll.jpg');
   background-position: right 99%;
 }
 .typesetting .item-description {
-  background-image: url('http://farm5.staticflickr.com/4020/4462520710_cf4b790248_b.jpg');
+  background-image: url('../images/styling/typesetting-l.jpg');
   background-position: center center;
 }
 .streetsmart .item-description {
-  background-image: url('http://farm4.staticflickr.com/3723/9050588837_56ae44f2a9_h.jpg');
+  background-image: url('../images/styling/streetsmart.jpg');
   background-position: center bottom;
 }
 .medical-history .item-description {
-  background-image: url('http://farm3.staticflickr.com/2595/4075802935_1df3c4350f_o.jpg');
+  background-image: url('../images/styling/lilypad.jpg');
   background-position: center 40%;
 }
 .plea-app .item-description {
@@ -408,6 +408,9 @@ a:hover {
     font-size: 0.9em;
     text-transform: uppercase;
 }
+.personal.metadata dl a {
+    color:  inherit;
+}
 .about-current-projects {
     list-style: disc;
     margin-left: 1.2em;
@@ -434,6 +437,9 @@ a:hover {
     font-size: 0.9em;
     font-weight: 500;
     margin-bottom: 0.4em;
+}
+.about-main-text h2 {
+    margin-top: 1em;
 }
 /*
 .navControls .next {

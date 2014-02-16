@@ -8,29 +8,32 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: 'fontello';
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: 0.2em;
+  margin-right: .2em;
   text-align: center;
-  opacity: 0.8;
-/* fix buttons height, for twitter bootstrap */
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
-/* Animation center compensation - magrins should be symmetric */
-/* remove if not needed */
-  margin-left: 0.2em;
-/* you can be more comfortable with increased icons size */
-/* font-size: 120%; */
-/* Uncomment for 3D effect */
-/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
 }
 
 .icon-quora:before { content: '\e803'; }
@@ -60,7 +63,7 @@ body {
 #main {
   padding-bottom: 4em;
 }
-.intro {
+.full-width, .intro {
     margin: 0 auto;
 }
 .intro hgroup {
@@ -255,7 +258,7 @@ body {
   background-position: center 20%;
 }
 .mosaic-cards .item-description {
-    background-image: url('../images/styling/mosaic.jpg');
+    background-image: url('../images/styling/mosaic.png');
     background-position: center center;
 }
 .chemcollective .item-description {
@@ -336,7 +339,9 @@ a.fluidbox-closed {
     margin-bottom: 3em;
     padding-top: 0.4em;
 }
-.header-wrapper, .footer-wrapper, .projects-list, .item-description, .metadata, .project-overview, .about-main-text, .links, .captioned-image p, .intro {
+.header-wrapper, .footer-wrapper, .projects-list,
+.item-description, .metadata, .project-overview,
+.main-text, .links, .captioned-image p, .full-width {
     padding-left: 4%;
     padding-right: 4%;
 }
@@ -359,6 +364,10 @@ a.fluidbox-closed {
   background-color: #222;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+}
+.footer-wrapper li {
+  display: inline-block;
+  padding: 0 0.5em;
 }
 #nav {
     display: block;
@@ -411,21 +420,24 @@ a:hover {
 .personal.metadata dl a {
     color:  inherit;
 }
-.about-current-projects {
+.bulleted {
     list-style: disc;
     margin-left: 1.2em;
 }
-.about-current-projects li{
+.bulleted li{
     margin-bottom: 0.75em;
 }
-.about-current-projects li li {
+.bulleted li li {
     margin-bottom: 0.5em;
 }
-.about-current-projects ul {
+.bulleted ul {
     list-style: circle;
     margin-left: 1em;
     margin-top: 0.25em;
     font-size: 0.95em;
+}
+.libraries {
+  padding-bottom: 6.75em;
 }
 .social-list a {
     color: #333;
@@ -437,9 +449,6 @@ a:hover {
     font-size: 0.9em;
     font-weight: 500;
     margin-bottom: 0.4em;
-}
-.about-main-text h2 {
-    margin-top: 1em;
 }
 /*
 .navControls .next {
@@ -545,7 +554,7 @@ a:hover {
   body {
     font-size: 1.1em;
   }
-  .images, .about-main-text {
+  .images, .main-text {
     padding: 0 5% 0 5%;
   }
   .captioned-image p {
@@ -558,7 +567,9 @@ a:hover {
     float: none;
     margin-right: 0;
   }
-  .header-wrapper, .footer-wrapper, .projects-list, .item-description, .metadata, .project-overview, .about-main-text, .links, .intro {
+  .header-wrapper, .footer-wrapper, .projects-list,
+  .item-description, .metadata, .project-overview,
+  .main-text, .links, .full-width {
     padding-left: 7%;
     padding-right: 8%;
   }
@@ -612,7 +623,7 @@ a:hover {
   }
 }
 @media screen and (min-width: 740px) {
-  .projects-list, .metadata, .project-overview, .about-main-text, .links {
+  .projects-list, .metadata, .project-overview, .main-text, .links {
     padding: 0 24% 0 5%;
    }
    .item-description {
@@ -636,10 +647,10 @@ a:hover {
   .intro h2 {
     font-size: 2.25em;
   }
-    .projects-list, .metadata, .project-overview, .about-main-text, .links {
+    .projects-list, .metadata, .project-overview, .main-text, .links {
       padding: 0 35% 0 6%;
     }
-    .header-wrapper, .footer-wrapper, .item-description, .intro {
+    .header-wrapper, .footer-wrapper, .item-description, .full-width {
       padding-left: 6%;
     }
     .metadata {
@@ -659,12 +670,12 @@ a:hover {
       display: table;
       clear: both;
     }
-    .images, .about-main-text {
+    .images, .main-text {
       padding-top: 2em;
       /* padding-right: 5%; */
       padding-left: 6%;
     }
-    .about-main-text {
+    .main-text {
       padding-top: 0;
     }
     .captioned-image {
@@ -707,10 +718,10 @@ a:hover {
     }
 }
 @media screen and (min-width: 1020px) {
-    .projects-list, .project-overview, .about-main-text, .links {
+    .projects-list, .project-overview, .main-text, .links {
       padding: 0 37% 0 6%;
     }
-    .header-wrapper, .footer-wrapper, .item-description, .intro {
+    .header-wrapper, .footer-wrapper, .item-description, .full-width {
       padding-left: 6%;
       padding-right: 6%;
     }
@@ -747,13 +758,13 @@ a:hover {
     width: 41%;
     float: left;
   }
-  .header-wrapper, .footer-wrapper, .project-info, .personal.metadata , .item-description, .intro {
+  .header-wrapper, .footer-wrapper, .project-info, .personal.metadata , .item-description, .full-width {
     padding-left: 5%;
   }
   .header-wrapper {
     padding-right: 5%;
   }
-  .images, .about-main-text {
+  .images, .main-text {
     width: 59%;
     float: left;
     padding-right: 6%;
@@ -774,7 +785,7 @@ a:hover {
     padding: 0;
     margin-top: 2em;
   }
-  .header-wrapper, .footer-wrapper, .projects-list,.intro {
+  .header-wrapper, .footer-wrapper, .projects-list,.full-width {
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -821,10 +832,10 @@ a:hover {
   .project-info, .personal.metadata {
     width: 34%;
   }
-  .images, .about-main-text {
+  .images, .main-text {
     width: 66%;
   }
-  .about-main-text {
+  .main-text {
     width: 58%;
   }
   .homepage-portfolio-item {

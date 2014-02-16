@@ -7,6 +7,16 @@ $(function() {
     $('.images a, a[rel="lightbox"]').fluidbox();
 	});
 
+  //Calls the tocify method on your HTML div.
+  var toc = $("#toc").tocify({ selectors:"h3", extendPage: false }).data("tocify");
+
+  var nav_container = $("#selected-works");
+  var nav = $("#toc");
+  nav_container.waypoint({
+    handler: function(event, direction) {
+        nav.toggleClass('sticky', direction=='down');
+    }
+  });
 
 
 	// Email obfuscator script 2.1 by Tim Williams, University of Arizona

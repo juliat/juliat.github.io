@@ -8,13 +8,15 @@ title: Portfolio
 	</hgroup>
 	<p class="scroll-down">Scroll down</p>
 </div>
-<div class="selected-works">
+<div class="selected-works" id="selected-works">
+	<div class="projects-nav tocify" id="toc">
+	</div>
 	<% children = @item.children
 	   children = children.sort { |a,b| a.attributes[:number] <=> b.attributes[:number]  }
 	%>
 	<% children.each do |item| %>
 		<% computerFriendlyName = computerFriendlyName(item.identifier) %>
-		<article class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
+		<div class="homepage-portfolio-item group <%= computerFriendlyName %>" id="<%= item.attributes[:number] %>">
 			<div class="item-description">
 				<h3><span><%= item.attributes[:title] %></span></h3>
 				<p><span><%= item.attributes[:description] %></span></p>
@@ -35,7 +37,7 @@ title: Portfolio
 				</p>
 			</div>
 			<%= item.compiled_content %>
-		</article>
+		</div>
 	<% end %>
 </div>
 

@@ -152,6 +152,11 @@ body {
     font-size: 1.05em;
     float: left;
 }
+/* hide toc on small screens */
+#toc {
+  display: none;
+  visibility: hidden;
+}
 #logo {
     font-size: 1.5em;
     text-align: center;
@@ -210,12 +215,14 @@ body {
 }
 .homepage-portfolio-item .item-description {
   background: #73AEC2;
-  padding-top: 13em;
   padding-bottom: 1em;
   background-size: cover;
   background-position: center center;
   margin-bottom: 2.75em;
   position: relative;
+}
+.item-description h3 {
+  padding-top: 11em;
 }
 .image-attribution {
     position: absolute;
@@ -306,7 +313,7 @@ a.fluidbox-closed {
   background-size: cover;
   margin: 0 auto;
   position: relative;
-  z-index: 400;
+  z-index: 0;
   transition: all .25s ease-in-out;
 }
   .fluidbox-opened .fluidbox-wrap {
@@ -485,8 +492,8 @@ a:hover {
 }
 */
 @media screen and (min-width: 360px) {
-  .homepage-portfolio-item .item-description {
-    padding-top: 23em;
+  .homepage-portfolio-item .item-description h3{
+    padding-top: 8em;
   }
   .item-description h3 span {
     font-size: 1.4em;
@@ -510,8 +517,10 @@ a:hover {
     margin-left: 0;
   }
   .homepage-portfolio-item .item-description {
-    padding-top: 24em;
     padding-bottom: 2em;
+  }
+  .homepage-portfolio-item .item-description h3 {
+    padding-top: 13em;
   }
   .image-attribution {
     bottom: -3.75em;
@@ -545,8 +554,10 @@ a:hover {
     font-size: 1.15em;
   }
   .homepage-portfolio-item .item-description {
-    padding-top: 28em;
     padding-bottom: 3em;
+  }
+  .homepage-portfolio-item .item-description h3 {
+    padding-top: 13em;
   }
 }
 @media screen and (min-width: 535px) {
@@ -704,10 +715,11 @@ a:hover {
       width: 100%
     }
     .homepage-portfolio-item .item-description {
-      padding-top: 30em;
-
       margin-bottom: 3.75em;
-}
+    }
+    .homepage-portfolio-item .item-description h3 {
+      padding-top: 16em;
+    }
     .item-description p span {
       font-weight: 400;
     }
@@ -742,7 +754,7 @@ a:hover {
     }
     .intro hgroup {
       padding-top: 8em;
-      padding-bottom: 12em;
+      padding-bottom: 13.5em;
     }
    .intro h1 {
      font-size: 7em;
@@ -784,7 +796,7 @@ a:hover {
     padding: 0;
     margin-top: 2em;
   }
-  .header-wrapper, .footer-wrapper, .projects-list,.full-width {
+  .header-wrapper, .footer-wrapper, .projects-list, .full-width {
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -839,5 +851,94 @@ a:hover {
   }
   .homepage-portfolio-item {
     padding-bottom: 18em;
+  }
+
+  /* desktop nav */
+  .header-wrapper, .footer-wrapper, .projects-list, .full-width {
+    padding-right: 7%;
+  }
+  #toc {
+    display: block;
+    visibility: visible;
+  }
+  .projects-nav {
+    position: fixed;
+    z-index: 11;
+    bottom: 2em;
+    right: 1.5%;
+    padding: 0 10px 0 0;
+    -webkit-transition: opacity .3s 0s linear;
+    -moz-transition: opacity .3s 0s linear;
+    -ms-transition: opacity .3s 0s linear;
+    -o-transition: opacity .3s 0s linear;
+    transition: opacity .3s 0s linear;
+  }
+  .projects-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .projects-nav ul li {
+    margin: 0;
+    padding: 10px 0 10px 15px;
+    cursor: pointer;
+  }
+  .projects-nav li a,
+  .projects-nav li a:visited {
+    color: inherit;
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background-color .1s linear, border-color .1s linear;
+    -moz-transition: background-color .1s linear, border-color .1s linear;
+    -ms-transition: background-color .1s linear, border-color .1s linear;
+    -o-transition: background-color .1s linear, border-color .1s linear;
+    transition: background-color .1s linear, border-color .1s linear;
+  }
+  .projects-nav ul li.active a {
+    width: 11px;
+    height: 11px;
+    margin-left: -1px;
+  }
+  .projects-nav ul li.active a {
+      background-color: transparent;
+      border: solid 2px #000;
+  }
+  .hide-parallax-nav .projects-nav,
+  .ie8 .projects-nav,
+  .ie9 .projects-nav {
+    display: none;
+  }
+  .projects-nav span {
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: -11px;
+    padding: 0 0 5px 0;
+    -webkit-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    -moz-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    -ms-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    -o-transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    transition: all .3s cubic-bezier(.23, 1, .32, 1);
+    line-height: 32px;
+    visibility: hidden;
+  }
+  .projects-nav li:hover span {
+    right: 20px;
+    opacity: 1;
+    z-index: 10000;
+    padding-right: 0.66em;
+    visibility: visible;
   }
 }

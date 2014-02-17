@@ -174,6 +174,7 @@
                 // Add the created unordered list element to the HTML element calling the plugin
                 self.element.append(ul);
 
+
                 // Finds all of the HTML tags between the header and subheader elements
                 $(this).nextUntil(this.nodeName.toLowerCase()).each(function() {
 
@@ -280,11 +281,7 @@
 
                 "data-unique": (!arr.length ? self.text() : self.text() + index).replace(/\s/g, "")
 
-            }).append($("<a/>", {
-
-                "text": self.text()
-
-            }));
+            }).append($("<a><span>"+self.text()+"</span></a>"));
 
             // Adds an HTML anchor tag before the currently traversed HTML element
             self.before($("<div/>", {
@@ -571,7 +568,7 @@
 
                     //Uses the jQuery `slideDown` special effect
                     case "slideDown":
-        
+
                         elem.slideDown(self.options.showEffectSpeed);
 
                     break;
@@ -770,7 +767,7 @@
 
                 // Sets the jQuery `scrollTop` to the top offset of the HTML div tag that matches the current list item's `data-unique` tag
                 "scrollTop": $('div[data-unique="' + elem.attr("data-unique") + '"]').offset().top - self.options.scrollTo + "px"
-                        
+
             }, {
 
                 // Sets the smoothScroll animation time duration to the smoothScrollSpeed option

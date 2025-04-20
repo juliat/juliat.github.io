@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{% assign computerFriendlyName = page.url | computer_friendly_name %}
+<article class="homepage-portfolio-item group {{ computerFriendlyName }}" id="{{ page.number }}">
+    <div class="item-description">
+        <h3><span>{{ page.title }}</span></h3>
+        <p><span>{{ page.description }}</span></p>
+        <p class="image-attribution">
+            {% if page.cover_image_title %}
+                <a href="{{ page.cover_image_link }}">
+                    "{{ page.cover_image_title }}"
+                </a> by
+                <a href="{{ page.cover_image_author_link }}">
+                    {{ page.cover_image_author }}
+                </a> made available under
+                <a href="{{ page.cover_image_license_link }}">
+                    {{ page.cover_image_license }}
+                </a>.
+            {% else %}
+                Image via Shruti Kataria, other information unknown.
+            {% endif %}
+        </p>
+    </div>
+    {{ content }}
+</article>
+
+{% if page.kind == 'portfolio' %}
+<div class="navControls">
+    {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="previous" title="{{ page.previous.title }}">
+            &larr; Previous
+        </a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ page.next.url }}" class="next" title="{{ page.next.title }}">
+            Next &rarr;
+        </a>
+    {% endif %}
+</div>
+{% endif %} 

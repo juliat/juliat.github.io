@@ -1,0 +1,25 @@
+<div class="header-wrapper wrapper">
+  <div id="page-header" class="group">
+    <a href="/portfolio/" id="logo">Julia Teitelbaum</a>
+    <div id="nav">
+      <ul>
+        {% assign nav_items = "portfolio,resume,about" | split: "," %}
+        {% for nav_item in nav_items %}
+          {% assign itemhref = nav_item | append: "/" %}
+          {% assign capitalized_item = nav_item | capitalize %}
+          <li>
+            <a href="/{{ itemhref }}"
+              {% if page.url contains nav_item %}
+                class="selected"
+              {% elsif page.url == "/" and nav_item == "portfolio" %}
+                class="selected"
+              {% endif %}
+            >
+              {{ capitalized_item }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div> 

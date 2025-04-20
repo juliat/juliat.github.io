@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Portfolio and case studies">
+
+  <title>Portfolio | Julia Teitelbaum</title>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <script type="text/javascript" src="//use.typekit.net/yoa3uif.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34742237-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="/assets/js/imagesloadedpkgd.js"></script>
+  <script type="text/javascript" src="/assets/js/jqueryfluidbox.js"></script>
+  <script type="text/javascript" src="/assets/js/jquerytocify.js"></script>
+  <script type="text/javascript" src="/assets/js/app.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+</head> 
+  <body>
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <a href="#main" id="skip-nav">Skip Navigation</a>
+
+  <div class="header-wrapper wrapper">
+  <div id="page-header" class="group">
+    <a href="/portfolio/" id="logo">Julia Teitelbaum</a>
+    <div id="nav">
+      <ul>
+        
+        
+          
+          
+          <li>
+            <a href="/portfolio/"
+              
+                class="selected"
+              
+            >
+              Portfolio
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="/resume/"
+              
+            >
+              Resume
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="/about/"
+              
+            >
+              About
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+  <div class="page-wrapper wrapper">
+    <div id="page">
+      <a id="main"></a>
+    </div>
+  </div>
+</body> 
+
+  <div id="main">
+    <div class="full-width intro">
+	<hgroup>
+		<h1>Portfolio</h1>
+		<h2><a href="#1">Selected Works</a></h2>
+	</hgroup>
+	<!-- <p class="scroll-down">Scroll down</p> -->
+</div>
+<div class="selected-works" id="selected-works">
+	<div class="projects-nav tocify" id="toc">
+	</div>
+	
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/wind/" id="1">
+			<div class="item-description">
+				<h3><span>The Wind Farmer's Almanac</span></h3>
+				<p><span>A tool to explore data about wind farms</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_528e297be299b_1.JPG">
+							"Untitled"
+						</a> by
+						<a href="http://500px.com/andreaboldizsar">
+							Andrea Boldizsar
+						</a> made available under
+						<a href="http://creativecommons.org/choose/zero/">
+							CC0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Responsibilities</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Technologies used</dt>
+      <dd><%= @item[:technologies_used] %></dd>
+      <dt>Team members</dt>
+      <dd><%= @item[:team] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>In the capstone course for Information Systems majors, student teams are assigned clients. My team's client was a group of professors and researchers from Carnegie Mellon's Social and Decision Science department. The project was to create a web application to present the data set they had compiled about wind farms in the United States.</p>
+    <p>Our clients provided us with spreadsheets of demographic, economic, and ecological data for active wind farms and potential wind farm sites. Over the course of a semester, my team built an application that parses and presents that data in a dynamic map, configurable table, and custom visualization.</p>
+    <p>By providing access to a unique dataset in a user-friendly format, our application helps wind developers select sites which are likely to be welcomed by the surrounding community. The Wind Farmer's Almanac also serves concerned citizens who want to explore data about wind farm developments.</p>
+  </div>
+  <div class="links">
+    <a href="<%= @item[:link] %>">Visit the Wind Farmer's Almanac Website</a>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group full-screenshot wind-screenshot">
+      <div class="image-wrapper">
+        <a href="/assets/images/wind/wind-farmers-almanac.png" data-fluidbox>
+          <img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>When a user selects a wind farm site from the list, it is highlighted on the map and comparison visualization with a turbine icon.</p>
+      </div>
+    </li>
+    <li class="captioned-image group rangeviz-closeup">
+      <div class="image-wrapper small-image">
+        <img alt="A closeup of the 'range visualization' in the app. Each site is reperesented by a dot on a series of lines. Each line represents an attribute of the wind farm site. The dot's horizontal position indicates where this wind farm falls relative to all sites on that attribute." src="/assets/images/wind/range-visualization-closeup.png"/>
+      </div>
+      <div class="caption">
+        <p>The comparison visualization shows how a site compares to the others in the results set across a range of variables at a glance.</p>
+      </div>
+    </li>
+    <li class="captioned-image group popover-closeup">
+      <div class="image-wrapper small-image">
+        <img alt="An example of a popover in the results table that allows a user to filter the results by the amount of Megawatts they produce." src="/assets/images/wind/filter-popover.png"/>
+      </div>
+      <div class="caption">
+        <p>Pop-up filtering controls let users easily switch between browsing results and refining them further. The filtering controls design had to be flexible enough to work for the 60 quantitative and qualitative attributes that can be displayed in the table.</p>
+      </div>
+    </li>
+    <li class="captioned-image group wind-sketch">
+      <div class="image-wrapper">
+        <img alt="A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right." src="/assets/images/wind/paper-prototype.jpg"/>
+      </div>
+      <div class="caption">
+        <p>A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right. When my team presented it to our client, we learned that filtering and viewing results were not as separate of tasks as we originally thought. This led us to integrate popover-filters into the results table in our final application.</p>
+      </div>
+    </li>
+    <li class="captioned-image group wind-infographic-mock">
+      <div class="image-wrapper">
+        <a href="/assets/images/wind/profile-visualization-draft.png" data-fluidbox>
+          <img alt="A mockup of an infographic profile for a wind farm site on some variable. This shows 'Age Data from 2010 Census' for a hypothetical wind farm as a pie chart with more detailed bar graphs underneath." src="/assets/images/wind/profile-visualization-draft.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>At one point in the project, we thought we would need profiles for each wind farm. I created these rough designs for how we might visualize data within such a profile.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/chemcollective/" id="2">
+			<div class="item-description">
+				<h3><span>ChemCollective</span></h3>
+				<p><span>Making online chemistry learning resources more navigable</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://www.flickr.com/photos/ncssm/8610015445/">
+							"NCSSM_Display_Photos_Collection_0319"
+						</a> by
+						<a href="http://www.flickr.com/photos/ncssm/">
+							NCSSM
+						</a> made available under
+						<a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+							CC BY-NC-SA 2.0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd>July 2011</dd>
+      <dt>Context</dt>
+      <dd>Internship project(s)</dd>
+      <dt>Responsibilities</dt>
+      <dd>Usability evaluation, information architecture, graphic design (logo, color scheme, layout, typography), user interface design, front-end web development, back-end web development, database design</dd>
+      <dt>Tools and technologies used</dt>
+      <dd>Adobe Illustrator, HTML, CSS, Javascript, PHP, Codeigniter, SQL</dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>The ChemCollective has provided free online resources for chemistry teachers and students since 2000. During my internship there in 2011, I redesigned the ChemCollective’s logo and website, reengineered the backend of the site to use an MVC web framework, and consulted on the interface for their Virtual Lab.</p>
+    <p>The overarching goal for the redesign was to give the site a more modern, friendly feel, while better communicating what it offered to users: academic resources for teaching and learning chemistry.</p>
+  </div>
+  <div class="links">
+    <a href="http://chemcollective.org">Visit the ChemCollective website</a>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group chemcoll-logo">
+      <div class="image-wrapper">
+        <img alt="The new logo ChemCollective logo." src="/assets/images/chemcoll/logo.jpg"/>
+      </div>
+      <div class="caption long-caption">
+        <p>For the new logo, I chose the typeface Lubalin Graph because its geometric forms and slab serifs gave it a scientific and academic feel, while its rounded shapes made it friendly. Scientific, academic, friendly—all fitting adjectives for the ChemCollective.</p>
+        <p>The graduated cylinder incorporated into the wordmark relates the first part of the ChemCollective’s name. The image of a graduted cylinder associates strongly with the concept of chemistry (the ‘Chem’ in ChemCollective).</p>
+        <p>The ChemCollective provides resources for teachers, but it’s mission extends to enabling teachers to give feedback, share classroom experiences, discuss instruction, and author their own resources. The equilibrium symbol (⇌), and a retrosynthetic arrow (⇒) in addition to the regular reaction arrow in MarvinSketch?) communicates the ‘Collective’ in ChemCollective, indicating an exchange between the project and those it serves.</p>
+      </div>
+    </li>
+
+    <li class="captioned-image group chemcoll-old-home-screenshot">
+      <div class="image-wrapper">
+        <a href="/assets/images/chemcoll/old-homepage.png" data-fluidbox>
+          <img alt="The old ChemCollective homepage design." src="/assets/images/chemcoll/old-homepage.png"/>
+        </a>
+      </div>
+      <div class="caption long-caption">
+        <p>The old home page had weak visual hierarchy, felt stuffy and out of date, and did not offer convenient access to most of the content on the site.</p>
+        <p>The vast majority of visitors to the homepage immediately clicked the “Find Activities” link.  However, its placement and styling do not reflect its importance.</p>
+      </div>
+    </li>
+    <li class="captioned-image group chemcoll-new-home-screenshot">
+      <div class="image-wrapper">
+        <a href="/assets/images/chemcoll/new-homepage.png" data-fluidbox>
+         <img alt="An image of the new ChemCollective homepage." src="/assets/images/chemcoll/new-homepage.png"/>
+        </a>
+      </div>
+      <div class="caption long-caption">
+        <p>Clear hierarchy and copy better communicate what the site offers to new visitors</p>
+        <p>Left navigation and quick links provide quick and prominent access to activities and resources that were previously listed only on the “Find Activities” page.</p>
+        <p>Navigation for non-educational content is clearly separated.</p>
+      </div>
+    </li>
+    <li class="captioned-image group chemcoll-listing">
+      <div class="image-wrapper">
+        <img alt="A screenshot of a page on the new ChemCollective website which lists activities hierarchically by type and then topic." src="/assets/images/chemcoll/expanded-autograded-listing.png"/>
+      </div>
+      <div class="caption">
+        <p>Transitioning the ChemCollective site to be database-driven allowed for activities to be automatically organized based on metadata like their type and topic.</p>
+      </div>
+    </li>
+    <li class="captioned-image group chemcoll-new-colors wide">
+      <div class="image-wrapper">
+        <img alt="The new color scheme: blue-grey, bright green, light green, dark blue, and bright blue." src="/assets/images/chemcoll/color-scheme.png"/>
+      </div>
+      <div class="caption">
+        <p>The new color scheme feels fresh, modern, academic, friendly, and “sciencey”</p>
+      </div>
+    </li>
+    <li class="captioned-image group chemcoll-vlab-sketch">
+      <div class="image-wrapper">
+        <a href="/assets/images/chemcoll/vlab.png" data-fluidbox>
+          <img alt="A low fidelity mockup of a computer interface for a virtual chemistry lab. Chemicals available for use are listed in the upper left corner. A workspace takes up the bottom portion of the screen. A panel of information about the currently selected chemical is in the upper right. Surrounding the sketch are smaller drawings of pop-ups that would appear when a user interacts with UI elements." src="/assets/images/chemcoll/vlab.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>After evaluating issues with the current interface and researching competitors’ interfaces and interfaces for analogous tasks. I created this a new design for the Virtual Lab. This mockup is of the main work area. One key change here was grouping all of the information about the currently selected chemical in one place, so that it would be simpler to monitor.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/typesetting/" id="3">
+			<div class="item-description">
+				<h3><span>Typesetting</span></h3>
+				<p><span>Sweating the details with Dan Boyarski</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://www.flickr.com/photos/queen_of_subtle/4462520710/">
+							"typesetting"
+						</a> by
+						<a href="http://www.flickr.com/photos/queen_of_subtle/">
+							Jenni Konrad
+						</a> made available under
+						<a href="http://creativecommons.org/licenses/by-nc/2.0/">
+							CC BY-NC 2.0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Worked on</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Tools used</dt>
+      <dd><%= @item[:tools_used] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>During Fall 2012, I did an independent study in typography with Professor Dan Boyarski. The course projects included creating a book covers for the "Vision+Value" series, and typesetting an essay, interview, and a few recipes.</p>
+    <p>The course focused on reinforcing meaning using type by selecting typefaces that fit the content's message, setting type readably (varying size, line length, leading, etc.), and   considering the relationship between type and image.</p>
+  </div>
+  <div class="links">
+    <p>PDFs for Typography Projects:</p>
+    <ul>
+      <li><a href="/assets/pdf/typography-vv-covers.pdf">Vision+Value Series Covers</a></li>
+      <li><a href="/assets/pdf/typography-anna-quindlen.pdf">Anna Quindlen Commencement Speech</a></li>
+      <li><a href="/assets/pdf/typography-terry-pratchett.pdf">Terry Pratchett Interview</a></li>
+      <li><a href="/assets/pdf/typography-recipes.pdf">Recipes</a></li>
+    </ul>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group type-book-covers wide">
+      <div class="image-wrapper">
+        <a href="/assets/images/typography/BookSeriesCoversAll.png" data-fluidbox>
+          <img alt="Four book covers for the Vision+Value series, side by side." src="/assets/images/typography/BookSeriesCoversAll.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>The Vision+Value series features essays by well known designers on design practice and philosophy. In my designs, I strove to communicate the theme of each book through variations in color, graphic, and the typography of the title. Using a standard layout, typeface, and style of graphics I related the covers to one another as a series.</p>
+      </div>
+    </li>
+    <li class="captioned-image group type-aq-crop">
+      <div class="image-wrapper">
+        <a href="/assets/images/typography/aq-crop.png" data-fluidbox>
+          <img alt="A cropped image of a title and two paragraphs of text from a commencement speech by Anna Quindlen" src="/assets/images/typography/aq-crop.png"/>
+        </a>
+      </div>
+      <div class="caption long-caption">
+        <p>I typeset a commencement speech given my Anna Quindlen at Mount Holyoke College. In the speech, Quindlen urges her audience to give up on the idea of being perfect, and be true to themselves rather than please others.</p>
+        <p>The typeface Swift, as a serif, is more traditional and intimate. Its forms have a bright feel and distinctive personality. These characteristics made it the right choice for this personal, earnest, and inspiring speech.</p>
+      </div>
+    <li class="captioned-image group type-terryprattchet">
+      <div class="image-wrapper">
+        <a href="/assets/images/typography/terry-pratchett.png" data-fluidbox>
+          <img src="/assets/images/typography/terry-pratchett.png"/>
+        </a>
+      </div>
+      <div class="caption long-caption">
+        <p>In this interview transcript, American author Neil Gaiman interviews the British author Terry Pratchett. Gaiman and Pratchett are two of my favorite authors, and have also collaborated as writers.</p>
+        <p>My design for this piece uses type identify each author throughout the interview.  The typefaces I chose for each author are meant to reflect their personality (ITC Legacy Sans for Neil Gaiman, and Goudy  Bookletter for Pratchett.)</p>
+      </div>
+    </li>
+    <li class="captioned-image group type-recipe">
+      <div class="image-wrapper">
+        <a href="/assets/images/typography/recipe1.png" data-fluidbox>
+          <img src="/assets/images/typography/recipe1.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>I created an experimental design for a recipe book. The book uses layout and images  to add meaning to the text of the recipe—separating ingredients, preparation, and cooking into parallel columns. The images on the left are numbered to correspond with the preparation and cooking steps (rather than only showing the final product.)</p>
+      </div>
+    </li>
+  </ul>
+</div>
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/streetsmart/" id="4">
+			<div class="item-description">
+				<h3><span>StreetSmart</span></h3>
+				<p><span>Hackathon project to tell you what streets are safe</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://www.flickr.com/photos/thelotuscarroll/9050588837/">
+							"If You Love Me Again Someday"
+						</a> by
+						<a href="http://www.flickr.com/photos/thelotuscarroll/">
+							Lotus Carroll
+						</a> made available under
+						<a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+							CC BY-NC-SA 2.0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Responsibilities</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Technologies used</dt>
+      <dd><%= @item[:technologies_used] %></dd>
+      <dt>Team members</dt>
+      <dd><%= @item[:team] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>StreetSmart is a mobile web application that helps you know what streets are safe to travel. My team designed and prototyped StreetSmart in a day at the Hack ‘n’ Jill hackathon, and we won first place.</p>
+  </div>
+  <div class="links">
+    <ul>
+      <li><a href="<%= @item[:code] %>">See the code behind StreetSmart</a></li>
+      <li><a href="<%= @item[:pdf] %>">View presentation slides</a></li>
+    </ul>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group streetsmart-main tall">
+      <div class="image-wrapper small-image">
+        <a href="#" data-fluidbox><img src="/assets/images/streetsmart/streetsmart-logo.png"/></a>
+      </div>
+      <div class="caption">
+        <p>We tried to make our design give hints about function of the app. For example, we picked Kabel Heavy for our logotype because the shape of the characters was similar to the way roads look on a map (for example, the shapes of the ‘s’ looks like a curvey road, and the ‘e’ could be a traffic circle with some imagination.)</p>
+      </div>
+    </li>
+    <li class="captioned-image group streetsmart-main tall">
+      <div class="image-wrapper small-image">
+        <a href="#" data-fluidbox><img src="/assets/images/streetsmart/streetsmart-main.png"/></a>
+      </div>
+      <div class="caption">
+        <p>The user’s location is shown with a blue dot, and streets around them are color-coded based on crime data.</p>
+      </div>
+    </li>
+    <li class="captioned-image group streetsmart-geo tall">
+      <div class="image-wrapper small-image">
+        <img src="/assets/images/streetsmart/streetsmart-geo.png"/>
+      </div>
+      <div class="caption">
+        <p>Since this is a mobile web application, rather than native, it cannot access GPS data without permission. StreetSmart prompts the user for permission to geolocate them. If they refuse, the app asks for a street address instead.</p>
+      </div>
+    </li>
+    <li class="captioned-image group streetsmart-spotcrime">
+      <div class="image-wrapper small-image">
+        <img src="/assets/images/streetsmart/spotcrime.png"/>
+      </div>
+      <div class="caption">
+        <p>We used the SpotCrime API to get crime data for a location. When you visit the SpotCrime website, you see icons on a map indicating recent crimes nearby. We wanted to take this data and condense it to higher-level information to be used for navigation.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/medical-history/" id="5">
+			<div class="item-description">
+				<h3><span>Medical History Form</span></h3>
+				<p><span>Data entry interface for a patient's medical history</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://www.flickr.com/photos/triciawang/4076554796/">
+							"observations of a doctor's use of mobile tech with a patient"
+						</a> by
+						<a href="http://www.flickr.com/photos/triciawang/">
+							Tricia Wang
+						</a> made available under
+						<a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">
+							CC BY-NC-SA 2.0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Worked on</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Tools used</dt>
+      <dd><%= @item[:tools_used] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>In this exercise, I created a desktop interface for entering data about a person's medical history. The medical history was required to have three types of data: a health questionnaire, personal medical history, and family medical history for the patient.</p>
+    <p>Given the data required for the medical history, I was free to organize the collection in any order. The two other constraints were that the interface should be modular—allowing addition or removal of data collection sections—and that the interface should support recognition of relationships between the patient's medical history and their family medical history.</p>
+  </div>
+</div>
+<div class="images">
+  <div>
+    <a href="/assets/images/medical-history/01-mhf.png" data-fluidbox>
+      <img src="/assets/images/medical-history/01-mhf.png"/>
+    </a>
+  </div>
+  <div>
+    <a href="/assets/images/medical-history/02-mhf.png" data-fluidbox>
+      <img src="/assets/images/medical-history/02-mhf.png"/>
+    </a>
+  </div>
+  <div>
+    <a href="/assets/images/medical-history/03-mhf.png" data-fluidbox>
+      <img src="/assets/images/medical-history/03-mhf.png"/>
+    </a>
+  </div>
+  <div>
+    <a href="/assets/images/medical-history/04-mhf.png" data-fluidbox>
+     <img src="/assets/images/medical-history/04-mhf.png"/>
+    </a>
+   </div>
+  <div>
+    <a href="/assets/images/medical-history/05-mhf.png" data-fluidbox>
+      <img src="/assets/images/medical-history/05-mhf.png"/>
+    </a>
+  </div>
+</div>
+
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/plea-app/" id="6">
+			<div class="item-description">
+				<h3><span>Lilypad</span></h3>
+				<p><span>Helping a special-needs school collect and analyze their data</span></p>
+				<p class="image-attribution">
+					
+						Image via Shruti Kataria, other information unknown.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Worked on</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Technologies used</dt>
+      <dd><%= @item[:technologies_used] %></dd>
+      <dt>Primary collaborators (it's a large research team)</dt>
+      <dd><%= @item[:team] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>Lilypad is a mobile web application for iPad. Its users are teachers at a school and partial hospital in Pittsburgh. The app aids teachers in collecting information about trends in childrens’ behavior and academic performance.</p>
+    <p>As a Research Assistant on the project, I have conducted weekly user tests, iteratively prototyped the application at increasing levels of fidelity, and helped to develop the actual application. </p>
+  </div>
+  <div class="links">
+    <a href="<%= @item[:date] %>">See the code for Lilypad on Github</a>
+  </div>
+</div>
+<div class="images">
+  <div class="captioned-image group plea-paper-scc">
+    <div class="image-wrapper">
+      <a href="/assets/images/plea-app/scc-original-chart.jpg" data-fluidbox>
+        <img alt="Photo of a filled-out paper version of the standard celeration chart." src="/assets/images/plea-app/scc-original-chart.jpg"/>
+      </a>
+    </div>
+    <div class="caption">
+      <p>The paper version of the standard celeration chart that teachers use to track student's academic performance on individual skills. It captures and visualizes data simultaneously, and can be used extremely efficiently by experts. However, the paper format limits possible uses of the data (e.g., other visualizations, comparing to historical data)</p>
+    </div>
+  </div>
+  <div class="captioned-image group plea-digital-scc-screenshot">
+    <div class="image-wrapper">
+      <a href="/assets/images/plea-app/scc-edit.png" data-fluidbox>
+        <img alt="The digital version of the standard celeration chart, on an iPad." src="/assets/images/plea-app/scc-edit.png"/>
+      </a>
+    </div>
+    <div class="caption">
+      <p>The digital version of the standard celeration chart which we have been developing. Teachers can input data points either by tapping the chart, or by typing in values in the sidebar on the right.</p>
+    </div>
+  </div>
+  <div class="captioned-image group plea-nav-screenshot">
+    <div class="image-wrapper">
+      <a href="/assets/images/plea-app/scc-nav.png" data-fluidbox>
+        <img alt="The navigation UI for the Lilypad app." src="/assets/images/plea-app/scc-nav.png"/>
+      </a>
+    </div>
+    <div class="caption">
+      <p>Currently, teachers keep a binder of charts for each student. In our app, all of a teacher's students are listed in the main navigation. Once a student is selected, a teacher sees a list of all of their charts.</p>
+    </div>
+  </div>
+  <div class="captioned-image group plea-paper-behavior">
+    <div class="image-wrapper">
+      <a href="/assets/images/plea-app/behavior-orig-2.JPG" data-fluidbox>
+        <img alt="A photo of a partially filled out paper version of the behavior scatterplot." src="/assets/images/plea-app/behavior-orig-2.JPG"/>
+      </a>
+    </div>
+    <div class="caption">
+      <p>Teachers use to track skill development, but they also keep a behavior scatterplot chart for their students to track occurrences of  “behaviors of concern.”</p>
+    </div>
+  </div>
+  <div class="captioned-image group plea-digital-behavior">
+    <div class="image-wrapper">
+      <a href="/assets/images/plea-app/behavior--new-2.png" data-fluidbox>
+       <img alt="The UI which we are developing for the digital version of the behavior scatterplot." src="/assets/images/plea-app/behavior-new-2.png"/>
+      </a>
+    </div>
+    <div class="caption">
+      <p>In the digital version of the behavior scatterplot, we prioritized ease of data entry and reading (color-coding each behavior.)</p>
+    </div>
+  </div>
+</div>
+
+
+
+		</div>
+	
+		
+		<div class="homepage-portfolio-item group /portfolio/mosaic-cards/" id="7">
+			<div class="item-description">
+				<h3><span>Emergency Numbers Card</span></h3>
+				<p><span>Providing emergency information for women at wallet-scale</span></p>
+				<p class="image-attribution">
+					
+						<a href="http://www.flickr.com/photos/gabrielap93/5766995388/">
+							"231/365 - 5/27/2011"
+						</a> by
+						<a href="http://www.flickr.com/photos/gabrielap93/">
+							Gabriela Pinto
+						</a> made available under
+						<a href="http://creativecommons.org/licenses/by/2.0/">
+							CC BY 2.0
+						</a>.
+					
+				</p>
+			</div>
+			<div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Worked on</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Tools used</dt>
+      <dd><%= @item[:tools_used] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>One of my friends involved with the <a href="http://www.studentaffairs.cmu.edu/student-life/gender/mosaic/index.html">Mosaic Gender Conference at CMU</a> asked me to design a handout with a list of hotlines and emergency services related to domestic violence and sexual assualt. My goal for the design was to make the list into a handout that would useful (in the context of an emergency) and desirable (so that people would keep it.)</p>
+    <p>Though the cards were originally designed for the conference, they were so positively received that Student Health Services plans to distribute them in the on-campus clinic.</p>
+  </div>
+  <div class="links">
+    <a href="<%= @item[:pdf] %>">View PDF of Mosaic Conference Cards</a>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group mosaic-test-print">
+      <span class="mosaic-test-print-images image-wrapper">
+        <img alt="Test print of the front of the card." src="/assets/images/mosaic-cards/testprint-front.jpg"/>
+        <img alt="Test print of the inside of the card."  src="/assets/images/mosaic-cards/testprint-center.jpg"/>
+        <img alt="Test print of the back of the card." src="/assets/images/mosaic-cards/testprint-back.jpg"/>
+      </span>
+      <div class="caption">
+        <p>I decided that the handout should be small, wallet-sized, so that people would be likely to have it at hand in an emergency. To make sure the card was an appropriate size, I printed out copies as I worked on the design.</p>
+      </div>
+    </li>
+    <li class="captioned-image group mosaic-front">
+      <div class="image-wrapper">
+       <a href="/assets/images/mosaic-cards/outside-hires.png" data-fluidbox>
+        <img src="/assets/images/mosaic-cards/outside-hires.png"/>
+       </a>
+      </div>
+      <div class="caption">
+        <p>The front of the card is decorative, to make it inconspicuous when tucked into a wallet, and to make it aesthetically appealing (so that people would be more likely to keep it.)</p>
+        <p>The back of the card has more general resources listed—ones which would not be uncomfortable for a stranger to oversee.</p>
+      </div>
+    </li>
+    <li class="captioned-image group mosaic-center">
+      <div class="image-wrapper small-image">
+      <a href="/assets/images/mosaic-cards/center-hires.png" data-fluidbox>
+        <img src="/assets/images/mosaic-cards/center-hires.png"/>
+      </a>
+      </div>
+      <div class="caption long-caption">
+        <p>The inside of the card includes information for more sensitive emergency services, which are specifically for victims of sexual assault or domestic violence. The typography is designed to be highly readable, to feel calm, and to use space effectively.</p>
+        <p>Since most people wouldn't be familiar with the hotlines and services listed on the card, I wrote succinct descriptions of each one. The descriptions included information about hours, transit information, and confidentiality policies, so that a person looking at the card can quickly find the service they need, when they need it.</p>
+        <p>To write the two internal headings, I researched communication with survivors of sexual assault and domestic violence. Both phrases were chosen to encourage survivors to seek help.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+
+		</div>
+	
+</div>
+
+<!--
+<div class="navControls">
+	<a class="next hidden" id="next">
+		Next
+	</a>
+	<a class="previous hidden" id ="previous">
+		Previous
+	</a>
+</div>
+-->
+  </div>
+
+      </div><!-- end #page div -->
+  </div><!-- end .page-wrapper div -->
+  <div class="footer-wrapper wrapper">
+    <div id="footer" class="group">
+      <ul>
+        <li>© {{ 'now' | date: "%Y" }} Julia Teitelbaum</li>
+        <li><a href="/colophon/">Colophon</a></li>
+      </ul>
+    </div>
+  </div>
+</body> 
+</html> 

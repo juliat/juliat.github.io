@@ -1,0 +1,50 @@
+title: Julia T. - Portfolio
+description: Portfolio and case studies
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+  case-studies:
+    output: true
+    permalink: /case-studies/:path/
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio-piece"
+  -
+    scope:
+      path: ""
+      type: "case-studies"
+    values:
+      layout: "portfolio-piece"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README.md
+  - other-work
+  - temp
+  - Rules
+  - nano.save
+  - convert_content.rb
+  - Guardfile
+  - config.yaml
+  - .DS_Store 

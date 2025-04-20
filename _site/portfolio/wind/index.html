@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Portfolio and case studies">
+
+  <title>The Wind Farmer's Almanac | Julia Teitelbaum</title>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+  <script type="text/javascript" src="//use.typekit.net/yoa3uif.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34742237-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="/assets/js/imagesloadedpkgd.js"></script>
+  <script type="text/javascript" src="/assets/js/jqueryfluidbox.js"></script>
+  <script type="text/javascript" src="/assets/js/jquerytocify.js"></script>
+  <script type="text/javascript" src="/assets/js/app.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+</head> 
+  <body>
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <a href="#main" id="skip-nav">Skip Navigation</a>
+
+  <div class="header-wrapper wrapper">
+  <div id="page-header" class="group">
+    <a href="/portfolio/" id="logo">Julia Teitelbaum</a>
+    <div id="nav">
+      <ul>
+        
+        
+          
+          
+          <li>
+            <a href="/portfolio/"
+              
+                class="selected"
+              
+            >
+              Portfolio
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="/resume/"
+              
+            >
+              Resume
+            </a>
+          </li>
+        
+          
+          
+          <li>
+            <a href="/about/"
+              
+            >
+              About
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div> 
+
+  <div class="page-wrapper wrapper">
+    <div id="page">
+      <a id="main"></a>
+    </div>
+  </div>
+</body> 
+
+  <div id="main">
+    
+<article class="homepage-portfolio-item group /portfolio/wind/" id="1">
+    <div class="item-description">
+        <h3><span>The Wind Farmer's Almanac</span></h3>
+        <p><span>A tool to explore data about wind farms</span></p>
+        <p class="image-attribution">
+            
+                <a href="http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_528e297be299b_1.JPG">
+                    "Untitled"
+                </a> by
+                <a href="http://500px.com/andreaboldizsar">
+                    Andrea Boldizsar
+                </a> made available under
+                <a href="http://creativecommons.org/choose/zero/">
+                    CC0
+                </a>.
+            
+        </p>
+    </div>
+    <div class="project-info">
+  <div class="metadata">
+    <dl>
+      <dt>Date</dt>
+      <dd><%= @item[:date] %></dd>
+      <dt>Context</dt>
+      <dd><%= @item[:context] %></dd>
+      <dt>Responsibilities</dt>
+      <dd><%= @item[:worked_on] %></dd>
+      <dt>Technologies used</dt>
+      <dd><%= @item[:technologies_used] %></dd>
+      <dt>Team members</dt>
+      <dd><%= @item[:team] %></dd>
+    </dl>
+  </div>
+  <div class="project-overview">
+    <p>In the capstone course for Information Systems majors, student teams are assigned clients. My team's client was a group of professors and researchers from Carnegie Mellon's Social and Decision Science department. The project was to create a web application to present the data set they had compiled about wind farms in the United States.</p>
+    <p>Our clients provided us with spreadsheets of demographic, economic, and ecological data for active wind farms and potential wind farm sites. Over the course of a semester, my team built an application that parses and presents that data in a dynamic map, configurable table, and custom visualization.</p>
+    <p>By providing access to a unique dataset in a user-friendly format, our application helps wind developers select sites which are likely to be welcomed by the surrounding community. The Wind Farmer's Almanac also serves concerned citizens who want to explore data about wind farm developments.</p>
+  </div>
+  <div class="links">
+    <a href="<%= @item[:link] %>">Visit the Wind Farmer's Almanac Website</a>
+  </div>
+</div>
+<div class="images">
+  <ul>
+    <li class="captioned-image group full-screenshot wind-screenshot">
+      <div class="image-wrapper">
+        <a href="/assets/images/wind/wind-farmers-almanac.png" data-fluidbox>
+          <img alt="A screenshot of the Wind Farmer's Almanac application in use, with one wind farm highlighted in the table, map, and visualization." src="/assets/images/wind/wind-farmers-almanac.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>When a user selects a wind farm site from the list, it is highlighted on the map and comparison visualization with a turbine icon.</p>
+      </div>
+    </li>
+    <li class="captioned-image group rangeviz-closeup">
+      <div class="image-wrapper small-image">
+        <img alt="A closeup of the 'range visualization' in the app. Each site is reperesented by a dot on a series of lines. Each line represents an attribute of the wind farm site. The dot's horizontal position indicates where this wind farm falls relative to all sites on that attribute." src="/assets/images/wind/range-visualization-closeup.png"/>
+      </div>
+      <div class="caption">
+        <p>The comparison visualization shows how a site compares to the others in the results set across a range of variables at a glance.</p>
+      </div>
+    </li>
+    <li class="captioned-image group popover-closeup">
+      <div class="image-wrapper small-image">
+        <img alt="An example of a popover in the results table that allows a user to filter the results by the amount of Megawatts they produce." src="/assets/images/wind/filter-popover.png"/>
+      </div>
+      <div class="caption">
+        <p>Pop-up filtering controls let users easily switch between browsing results and refining them further. The filtering controls design had to be flexible enough to work for the 60 quantitative and qualitative attributes that can be displayed in the table.</p>
+      </div>
+    </li>
+    <li class="captioned-image group wind-sketch">
+      <div class="image-wrapper">
+        <img alt="A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right." src="/assets/images/wind/paper-prototype.jpg"/>
+      </div>
+      <div class="caption">
+        <p>A sketch of an alternate interface for the Wind Farmer's Almanac, with a filter column on the far left, map in the middle, and results table on the right. When my team presented it to our client, we learned that filtering and viewing results were not as separate of tasks as we originally thought. This led us to integrate popover-filters into the results table in our final application.</p>
+      </div>
+    </li>
+    <li class="captioned-image group wind-infographic-mock">
+      <div class="image-wrapper">
+        <a href="/assets/images/wind/profile-visualization-draft.png" data-fluidbox>
+          <img alt="A mockup of an infographic profile for a wind farm site on some variable. This shows 'Age Data from 2010 Census' for a hypothetical wind farm as a pie chart with more detailed bar graphs underneath." src="/assets/images/wind/profile-visualization-draft.png"/>
+        </a>
+      </div>
+      <div class="caption">
+        <p>At one point in the project, we thought we would need profiles for each wind farm. I created these rough designs for how we might visualize data within such a profile.</p>
+      </div>
+    </li>
+  </ul>
+</div>
+
+</article>
+
+
+<div class="navControls">
+    
+        <a href="/portfolio/medical-history/" class="previous" title="Medical History Form">
+            &larr; Previous
+        </a>
+    
+    
+</div>
+ 
+  </div>
+
+      </div><!-- end #page div -->
+  </div><!-- end .page-wrapper div -->
+  <div class="footer-wrapper wrapper">
+    <div id="footer" class="group">
+      <ul>
+        <li>© {{ 'now' | date: "%Y" }} Julia Teitelbaum</li>
+        <li><a href="/colophon/">Colophon</a></li>
+      </ul>
+    </div>
+  </div>
+</body> 
+</html> 

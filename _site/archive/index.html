@@ -1,0 +1,17 @@
+<% @item.children.each do |item| %>
+
+	<article class="homepage-portfolio-item group">
+		<div class="item-description">
+			<header>
+				<h3><a href="<%= item.identifier %>"><%= item.attributes[:title] %></a></h3>
+			</header>
+			<p><%= item.attributes[:description] %> </p>
+		</div>
+		<a href="<%= item.identifier %>">
+			<img src="<%= item.attributes[:image] %>"/>
+		</a>
+	</article>
+
+<% end %>
+
+</div>

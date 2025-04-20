@@ -1,0 +1,40 @@
+---
+title: Portfolio
+permalink: /portfolio/
+---
+<div class="full-width intro">
+    <hgroup>
+        <h1>Portfolio</h1>
+        <h2><a href="#1">Selected Works</a></h2>
+    </hgroup>
+</div>
+<div class="selected-works" id="selected-works">
+    <div class="projects-nav tocify" id="toc">
+    </div>
+    {% assign sorted_portfolio = site.portfolio | sort: "number" %}
+    {% for item in sorted_portfolio %}
+        {% assign computerFriendlyName = item.url | computer_friendly_name %}
+        <div class="homepage-portfolio-item group {{ computerFriendlyName }}" id="{{ item.number }}">
+            <div class="item-description">
+                <h3><span>{{ item.title }}</span></h3>
+                <p><span>{{ item.description }}</span></p>
+                <p class="image-attribution">
+                    {% if item.cover_image_title %}
+                        <a href="{{ item.cover_image_link }}">
+                            "{{ item.cover_image_title }}"
+                        </a> by
+                        <a href="{{ item.cover_image_author_link }}">
+                            {{ item.cover_image_author }}
+                        </a> made available under
+                        <a href="{{ item.cover_image_license_link }}">
+                            {{ item.cover_image_license }}
+                        </a>.
+                    {% else %}
+                        Image via Shruti Kataria, other information unknown.
+                    {% endif %}
+                </p>
+            </div>
+            {{ item.content }}
+        </div>
+    {% endfor %}
+</div> 

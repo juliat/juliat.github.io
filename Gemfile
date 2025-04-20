@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
-gem "adsf"
-gem "rainpress"
-gem "uglifier"
-gem "kramdown"
-gem "fastimage"
-gem "nokogiri"
-gem "rubypants"
-gem "nanoc-image-compressor"
-gem "mime-types"
-gem "nanoc"
+
+gem 'github-pages', group: :jekyll_plugins
+gem 'webrick'  # Required for Ruby 3.0+
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-feed'
+  gem 'jekyll-seo-tag'
+end

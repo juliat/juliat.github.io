@@ -21,15 +21,15 @@ cover_image_license_link: http://creativecommons.org/choose/zero/
   <div class="metadata">
     <dl>
       <dt>Date</dt>
-      <dd><%= @item[:date] %></dd>
+      <dd>{{ page.date | date: "%B %Y" }}</dd>
       <dt>Context</dt>
-      <dd><%= @item[:context] %></dd>
+      <dd>{{ page.context }}</dd>
       <dt>Responsibilities</dt>
-      <dd><%= @item[:worked_on] %></dd>
+      <dd>{{ page.worked_on }}</dd>
       <dt>Technologies used</dt>
-      <dd><%= @item[:technologies_used] %></dd>
+      <dd>{{ page.technologies_used }}</dd>
       <dt>Team members</dt>
-      <dd><%= @item[:team] %></dd>
+      <dd>{{ page.team }}</dd>
     </dl>
   </div>
   <div class="project-overview">
@@ -38,7 +38,7 @@ cover_image_license_link: http://creativecommons.org/choose/zero/
     <p>By providing access to a unique dataset in a user-friendly format, our application helps wind developers select sites which are likely to be welcomed by the surrounding community. The Wind Farmer's Almanac also serves concerned citizens who want to explore data about wind farm developments.</p>
   </div>
   <div class="links">
-    <a href="<%= @item[:link] %>">Visit the Wind Farmer's Almanac Website</a>
+    <a href="{{ page.link }}">Visit the Wind Farmer's Almanac Website</a>
   </div>
 </div>
 <div class="images">

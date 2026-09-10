@@ -19,13 +19,13 @@ cover_image_license_link: http://creativecommons.org/licenses/by-nc-sa/2.0/
   <div class="metadata">
     <dl>
       <dt>Date</dt>
-      <dd><%= @item[:date] %></dd>
+      <dd>{{ page.date | date: "%B %Y" }}</dd>
       <dt>Context</dt>
-      <dd><%= @item[:context] %></dd>
+      <dd>{{ page.context }}</dd>
       <dt>Worked on</dt>
-      <dd><%= @item[:worked_on] %></dd>
+      <dd>{{ page.worked_on }}</dd>
       <dt>Tools used</dt>
-      <dd><%= @item[:tools_used] %></dd>
+      <dd>{{ page.tools_used }}</dd>
     </dl>
   </div>
   <div class="project-overview">

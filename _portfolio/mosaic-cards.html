@@ -20,13 +20,13 @@ cover_image_license_link: http://creativecommons.org/licenses/by/2.0/
   <div class="metadata">
     <dl>
       <dt>Date</dt>
-      <dd><%= @item[:date] %></dd>
+      <dd>{{ page.date | date: "%B %Y" }}</dd>
       <dt>Context</dt>
-      <dd><%= @item[:context] %></dd>
+      <dd>{{ page.context }}</dd>
       <dt>Worked on</dt>
-      <dd><%= @item[:worked_on] %></dd>
+      <dd>{{ page.worked_on }}</dd>
       <dt>Tools used</dt>
-      <dd><%= @item[:tools_used] %></dd>
+      <dd>{{ page.tools_used }}</dd>
     </dl>
   </div>
   <div class="project-overview">
@@ -34,7 +34,7 @@ cover_image_license_link: http://creativecommons.org/licenses/by/2.0/
     <p>Though the cards were originally designed for the conference, they were so positively received that Student Health Services plans to distribute them in the on-campus clinic.</p>
   </div>
   <div class="links">
-    <a href="<%= @item[:pdf] %>">View PDF of Mosaic Conference Cards</a>
+    <a href="{{ page.pdf }}">View PDF of Mosaic Conference Cards</a>
   </div>
 </div>
 <div class="images">

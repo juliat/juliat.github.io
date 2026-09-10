@@ -14,15 +14,15 @@ code: https://github.com/gregarious/lilypad-plea
   <div class="metadata">
     <dl>
       <dt>Date</dt>
-      <dd><%= @item[:date] %></dd>
+      <dd>{{ page.date | date: "%B %Y" }}</dd>
       <dt>Context</dt>
-      <dd><%= @item[:context] %></dd>
+      <dd>{{ page.context }}</dd>
       <dt>Worked on</dt>
-      <dd><%= @item[:worked_on] %></dd>
+      <dd>{{ page.worked_on }}</dd>
       <dt>Technologies used</dt>
-      <dd><%= @item[:technologies_used] %></dd>
+      <dd>{{ page.technologies_used }}</dd>
       <dt>Primary collaborators (it's a large research team)</dt>
-      <dd><%= @item[:team] %></dd>
+      <dd>{{ page.team }}</dd>
     </dl>
   </div>
   <div class="project-overview">
@@ -30,7 +30,7 @@ code: https://github.com/gregarious/lilypad-plea
     <p>As a Research Assistant on the project, I have conducted weekly user tests, iteratively prototyped the application at increasing levels of fidelity, and helped to develop the actual application. </p>
   </div>
   <div class="links">
-    <a href="<%= @item[:date] %>">See the code for Lilypad on Github</a>
+    <a href="{{ page.code }}">See the code for Lilypad on Github</a>
   </div>
 </div>
 <div class="images">

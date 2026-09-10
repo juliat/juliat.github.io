@@ -21,15 +21,15 @@ cover_image_license_link: http://creativecommons.org/licenses/by-nc-sa/2.0/
   <div class="metadata">
     <dl>
       <dt>Date</dt>
-      <dd><%= @item[:date] %></dd>
+      <dd>{{ page.date | date: "%B %Y" }}</dd>
       <dt>Context</dt>
-      <dd><%= @item[:context] %></dd>
+      <dd>{{ page.context }}</dd>
       <dt>Responsibilities</dt>
-      <dd><%= @item[:worked_on] %></dd>
+      <dd>{{ page.worked_on }}</dd>
       <dt>Technologies used</dt>
-      <dd><%= @item[:technologies_used] %></dd>
+      <dd>{{ page.technologies_used }}</dd>
       <dt>Team members</dt>
-      <dd><%= @item[:team] %></dd>
+      <dd>{{ page.team }}</dd>
     </dl>
   </div>
   <div class="project-overview">
@@ -37,8 +37,8 @@ cover_image_license_link: http://creativecommons.org/licenses/by-nc-sa/2.0/
   </div>
   <div class="links">
     <ul>
-      <li><a href="<%= @item[:code] %>">See the code behind StreetSmart</a></li>
-      <li><a href="<%= @item[:pdf] %>">View presentation slides</a></li>
+      <li><a href="{{ page.code }}">See the code behind StreetSmart</a></li>
+      <li><a href="{{ page.pdf }}">View presentation slides</a></li>
     </ul>
   </div>
 </div>
